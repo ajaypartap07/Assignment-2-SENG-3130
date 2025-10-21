@@ -1,0 +1,763 @@
+{
+  "id": "SRS",
+  "guid": "35d8cd4f-daf8-4aff-91be-04f947645a25",
+  "name": "Software Requirements Specification",
+  "lastId": 127,
+  "createdOn": "2025-10-21T16:38:22.573Z",
+  "createdBy": {
+    "name": "Ajay Ludher",
+    "email": "ludhera17@mytru.ca",
+    "company": "Thompson Rivers University"
+  },
+  "lastChangedOn": "2025-10-21T16:38:35.212Z",
+  "lastChangedBy": {
+    "name": "Ajay Ludher",
+    "email": "ludhera17@mytru.ca",
+    "company": "Thompson Rivers University"
+  },
+  "data": [
+    {
+      "id": "1",
+      "guid": "57a6b05e-26fd-4dba-89bb-2420e2a1426b",
+      "history": [
+        {
+          "affectedNodeId": "#",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T16:38:23.014Z",
+          "docId": "SRS",
+          "structureAction": "Create"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "guid": "a2a3059a-ca89-4b14-a7eb-ff5d3eec4d56",
+      "text": "<p><span>Software Requirements Specification</span></p>"
+    },
+    {
+      "id": "3",
+      "guid": "a1467b5b-576e-4926-a9f6-2c098be2256a",
+      "text": "<p><span>for</span></p>"
+    },
+    {
+      "id": "4",
+      "guid": "8d2b32a4-2ac1-425b-812e-9c9f487478e0",
+      "text": "<p><span>&lt;Project&gt;</span></p>"
+    },
+    {
+      "id": "5",
+      "guid": "43b9abdd-c235-47dc-9001-b2a9afb5bdad",
+      "text": "<p><span>Version 1.0 approved</span></p>"
+    },
+    {
+      "id": "6",
+      "guid": "b8059fd8-2a89-42e0-919c-eb103887166c",
+      "text": "<p><span>Prepared by &lt;author&gt;</span></p>"
+    },
+    {
+      "id": "7",
+      "guid": "4dd0505a-7ed9-4d89-ac4e-0fc580a1758c",
+      "text": "<p><span>&lt;organization&gt;</span></p>"
+    },
+    {
+      "id": "8",
+      "guid": "fd0d42b6-ecb4-484c-8a98-e89f9bf3791e",
+      "text": "<p><span>&lt;date created&gt;</span></p>"
+    },
+    {
+      "id": "9",
+      "guid": "b7d86dda-58b3-4568-ab5a-6e4e501f0ff9",
+      "text": "<p><span><span>Table of Contents</span></span></p>"
+    },
+    {
+      "id": "10",
+      "guid": "79286b8a-a127-40a3-8c41-73af6ac47339",
+      "text": "<p><span>Table of Contents<span>.......................................................................................................................... </span></span><span>ii</span></p>"
+    },
+    {
+      "id": "11",
+      "guid": "79d2f8aa-4dc2-44b4-bac7-89e3775924eb",
+      "text": "<p><span>Revision History<span>........................................................................................................................... </span></span><span>iii</span></p>"
+    },
+    {
+      "id": "12",
+      "guid": "82456dc9-0176-4f22-9d98-44855a87870a",
+      "text": "<p><span>1.</span><span><span>&nbsp;&nbsp; </span></span><span>Introduction<span>............................................................................................................................. </span></span><span>1</span></p>"
+    },
+    {
+      "id": "13",
+      "guid": "5dd55e21-e5d2-4e58-8922-a45c679b68b0",
+      "text": "<p><span>1.1</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Document Purpose<span>............................................................................................................. </span></span><span>1</span></p>"
+    },
+    {
+      "id": "14",
+      "guid": "c7b6da88-84c1-48fa-acd5-2ac46e446409",
+      "text": "<p><span>1.2</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Document Conventions<span>....................................................................................................... </span></span><span>1</span></p>"
+    },
+    {
+      "id": "15",
+      "guid": "6cc281fb-abee-4da4-8e4f-fad87d6e1d43",
+      "text": "<p><span>1.3</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Project Scope<span>..................................................................................................................... </span></span><span>1</span></p>"
+    },
+    {
+      "id": "16",
+      "guid": "7e189fa4-db59-4a0a-b048-f396e08e1cec",
+      "text": "<p><span>1.4</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>References<span>......................................................................................................................... </span></span><span>1</span></p>"
+    },
+    {
+      "id": "17",
+      "guid": "f0129702-2e64-46f9-bef5-5624150250d7",
+      "text": "<p><span>2.</span><span><span>&nbsp;&nbsp; </span></span><span>Overall Description<span>................................................................................................................. </span></span><span>1</span></p>"
+    },
+    {
+      "id": "18",
+      "guid": "a90a36a6-dd41-479e-9b12-ad55979b2400",
+      "text": "<p><span>2.1</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Product Perspective<span>............................................................................................................ </span></span><span>1</span></p>"
+    },
+    {
+      "id": "19",
+      "guid": "07ba6356-8ea0-4511-89f3-66c21707725f",
+      "text": "<p><span>2.2</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>User Classes and Characteristics<span>......................................................................................... </span></span><span>2</span></p>"
+    },
+    {
+      "id": "20",
+      "guid": "ac2ec5cb-06d8-4297-a10b-72cd9680ba11",
+      "text": "<p><span>2.3</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Use Cases and Models<span>........................................................................................................ </span></span><span>2</span></p>"
+    },
+    {
+      "id": "21",
+      "guid": "886dde18-00f8-4309-8dec-a656dbda6332",
+      "text": "<p><span>2.4</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Operating Environment<span>....................................................................................................... </span></span><span>2</span></p>"
+    },
+    {
+      "id": "22",
+      "guid": "c0218984-c753-4055-bc31-eb6f8d76147c",
+      "text": "<p><span>2.5</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Design and Implementation Constraints<span>............................................................................... </span></span><span>2</span></p>"
+    },
+    {
+      "id": "23",
+      "guid": "54a68139-ac60-4413-a79e-317ebb104730",
+      "text": "<p><span>2.6</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Assumptions and Dependencies<span>.......................................................................................... </span></span><span>2</span></p>"
+    },
+    {
+      "id": "24",
+      "guid": "2c17bfd8-5140-43c1-9282-07103c19a14f",
+      "text": "<p><span>3.</span><span><span>&nbsp;&nbsp; </span></span><span>System Features<span>....................................................................................................................... </span></span><span>2</span></p>"
+    },
+    {
+      "id": "25",
+      "guid": "13065956-c8c3-41fd-85ad-3f30d99bb8e8",
+      "text": "<p><span>3.1</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>System Feature 1<span>................................................................................................................ </span></span><span>3</span></p>"
+    },
+    {
+      "id": "26",
+      "guid": "6cbd0f6e-3a37-4e1b-a16f-d0c4ab8ee58a",
+      "text": "<p><span>3.1.1</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Description<span>.................................................................................................................... </span></span><span>3</span></p>"
+    },
+    {
+      "id": "27",
+      "guid": "d96de6a2-41fe-4208-af99-8c1dfe4bcaea",
+      "text": "<p><span>&lt;Provide a short description of the feature and indicate whether it is of High, Medium, or Low priority.&gt;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>3</span></p>"
+    },
+    {
+      "id": "28",
+      "guid": "8f5be130-9e58-4995-b089-007d8390e0aa",
+      "text": "<p><span>3.1.2</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Stimulus/Response Sequences<span>......................................................................................... </span></span><span>3</span></p>"
+    },
+    {
+      "id": "29",
+      "guid": "9ff63f98-b7a4-4869-9b49-c11cc5a72b97",
+      "text": "<p><span>&lt;List the sequences of user actions and system responses that stimulate the behavior defined for this feature. These will correspond to the dialog elements associated with use cases.&gt;<span>......................................................................................................... </span></span><span>3</span></p>"
+    },
+    {
+      "id": "30",
+      "guid": "a3ff235a-1698-44c6-afb7-f064d2ab754b",
+      "text": "<p><span>3.1.3</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Functional Requirements<span>................................................................................................ </span></span><span>3</span></p>"
+    },
+    {
+      "id": "31",
+      "guid": "05495cad-22f5-4477-9ba4-e9d7ad32ddf7",
+      "text": "<p><span>&lt;Itemize the specific functional requirements associated with this feature. These are the software capabilities that must be implemented for the user to carry out the feature's services or to perform a use case. Describe how the product should respond to anticipated error conditions. Use “TBD” as a placeholder to indicate when necessary information is not yet available.&gt;<span>...................................... </span></span><span>3</span></p>"
+    },
+    {
+      "id": "32",
+      "guid": "b2029879-fac8-4bf3-a51c-05f99f090cc5",
+      "text": "<p><span>3.2</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>System Feature 2 (and so on)<span>.............................................................................................. </span></span><span>3</span></p>"
+    },
+    {
+      "id": "33",
+      "guid": "2412102e-4722-4ecf-b8e1-203dd2f5781b",
+      "text": "<p><span>4.</span><span><span>&nbsp;&nbsp; </span></span><span>Data Requirements<span>.................................................................................................................. </span></span><span>3</span></p>"
+    },
+    {
+      "id": "34",
+      "guid": "aae7e8f3-6896-4edc-9039-bec7d5828871",
+      "text": "<p><span>4.1</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Logical Data Model<span>............................................................................................................ </span></span><span>3</span></p>"
+    },
+    {
+      "id": "35",
+      "guid": "fe8f6c49-691d-458c-9136-0aec5f50da4f",
+      "text": "<p><span>4.2</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Data Dictionary<span>.................................................................................................................. </span></span><span>3</span></p>"
+    },
+    {
+      "id": "36",
+      "guid": "570d6008-7efb-4bf8-b18a-48a99f94ce1e",
+      "text": "<p><span>4.3</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Reports<span>.............................................................................................................................. </span></span><span>3</span></p>"
+    },
+    {
+      "id": "37",
+      "guid": "41a44997-f9a2-44f4-9f88-3f4cc790d1dc",
+      "text": "<p><span>4.4</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Data Acquisition, Integrity, Retention, and Disposal<span>............................................................. </span></span><span>4</span></p>"
+    },
+    {
+      "id": "38",
+      "guid": "18ce609c-1af4-4c4d-9e37-d61ea31e3102",
+      "text": "<p><span>5.</span><span><span>&nbsp;&nbsp; </span></span><span>External Interface Requirements<span>.......................................................................................... </span></span><span>4</span></p>"
+    },
+    {
+      "id": "39",
+      "guid": "81461c5c-17e2-4055-9457-8cc3d2b7e27f",
+      "text": "<p><span>5.1</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>User Interfaces<span>................................................................................................................... </span></span><span>4</span></p>"
+    },
+    {
+      "id": "40",
+      "guid": "fccd0142-0794-4539-ba97-9886d856e0d3",
+      "text": "<p><span>5.2</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Software Interfaces<span>............................................................................................................. </span></span><span>4</span></p>"
+    },
+    {
+      "id": "41",
+      "guid": "e5f2d927-d7b9-411f-aabc-29b8b550071b",
+      "text": "<p><span>5.3</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Hardware Interfaces<span>........................................................................................................... </span></span><span>4</span></p>"
+    },
+    {
+      "id": "42",
+      "guid": "37c93d3f-5712-430f-b300-5a29561b798d",
+      "text": "<p><span>5.4</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Communications Interfaces<span>................................................................................................. </span></span><span>5</span></p>"
+    },
+    {
+      "id": "43",
+      "guid": "f4e69dde-b344-4e0a-9976-f399148d8319",
+      "text": "<p><span>6.</span><span><span>&nbsp;&nbsp; </span></span><span>Quality Attributes<span>................................................................................................................... </span></span><span>5</span></p>"
+    },
+    {
+      "id": "44",
+      "guid": "5fee49b0-24c6-4fbb-878d-1faf48fc1230",
+      "text": "<p><span>6.1</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Usability<span>............................................................................................................................ </span></span><span>5</span></p>"
+    },
+    {
+      "id": "45",
+      "guid": "0e5e7198-5354-4e82-83d4-fd1b5a67d934",
+      "text": "<p><span>6.2</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Performance<span>....................................................................................................................... </span></span><span>5</span></p>"
+    },
+    {
+      "id": "46",
+      "guid": "138108a5-6b53-4824-87b9-a20243328a04",
+      "text": "<p><span>6.3</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Security<span>............................................................................................................................. </span></span><span>5</span></p>"
+    },
+    {
+      "id": "47",
+      "guid": "0abb5283-43c5-4c26-a873-1a3181d8cd57",
+      "text": "<p><span>6.4</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Safety<span>................................................................................................................................ </span></span><span>5</span></p>"
+    },
+    {
+      "id": "48",
+      "guid": "adac0630-2af2-4172-8276-e843650d7582",
+      "text": "<p><span>6.5</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>[Others as relevant]<span>............................................................................................................ </span></span><span>5</span></p>"
+    },
+    {
+      "id": "49",
+      "guid": "aac02b94-d545-48fd-8bd3-19af367c6949",
+      "text": "<p><span>7.</span><span><span>&nbsp;&nbsp; </span></span><span>Internationalization and Localization Requirements<span>.......................................................... </span></span><span>6</span></p>"
+    },
+    {
+      "id": "50",
+      "guid": "297652f3-7f3f-4205-bd34-b7e9fde1b512",
+      "text": "<p><span>8.</span><span><span>&nbsp;&nbsp; </span></span><span>Other Requirements<span>................................................................................................................ </span></span><span>6</span></p>"
+    },
+    {
+      "id": "51",
+      "guid": "691f134e-782d-41e0-9742-4ae28d83b1c4",
+      "text": "<p><span>9.</span><span><span>&nbsp;&nbsp; </span></span><span>Glossary<span>.................................................................................................................................... </span></span><span>6</span></p>"
+    },
+    {
+      "id": "52",
+      "guid": "833e1f67-987a-42ef-8564-f78b8f19dea3",
+      "text": "<p><span>10.</span><span><span> </span></span><span>Analysis Models<span>....................................................................................................................... </span></span><span>6</span></p>"
+    },
+    {
+      "id": "53",
+      "guid": "94569962-1b27-484c-b0bc-d576c889a9de",
+      "text": "<p><a><span>Revision History</span></a></p><table><tbody><tr><td style=\"width:108.0pt;\"><p><span>Name</span></p></td><td style=\"width:58.5pt;\"><p><span>Date</span></p></td><td style=\"width:247.7pt;\"><p><span>Reason For Changes</span></p></td><td style=\"width:79.2pt;\"><p><span>Version</span></p></td></tr><tr><td style=\"width:108.0pt;\"><p><span>&nbsp;</span></p></td><td style=\"width:58.5pt;\"><p><span>&nbsp;</span></p></td><td style=\"width:247.7pt;\"><p><span>&nbsp;</span></p></td><td style=\"width:79.2pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:108.0pt;\"><p><span>&nbsp;</span></p></td><td style=\"width:58.5pt;\"><p><span>&nbsp;</span></p></td><td style=\"width:247.7pt;\"><p><span>&nbsp;</span></p></td><td style=\"width:79.2pt;\"><p><span>&nbsp;</span></p></td></tr></tbody></table>"
+    },
+    {
+      "id": "54",
+      "guid": "42d92609-a6c4-4c84-b994-37b0837739f6",
+      "heading": "Introduction",
+      "children": [
+        {
+          "id": "55",
+          "guid": "42ada6e7-225b-4a80-a00f-3e979f828658",
+          "text": "<p><a><span>&lt;The introduction presents an overview to help the reader understand how the SRS is organized and how to use it.&gt;</span></a></p>"
+        },
+        {
+          "id": "56",
+          "guid": "76c004f4-bd9e-4ff3-bf07-d807a19dfd24",
+          "heading": "Document Purpose",
+          "children": [
+            {
+              "id": "57",
+              "guid": "07dd31a7-6c0b-4335-a3f4-43cbc2b134aa",
+              "text": "<p><span>&lt;Identify the product whose software requirements are specified in this document, including the revision or release number. Describe the different types of reader that the document is intended for, such as developers, project managers, marketing staff, users, testers, and documentation writers.&gt;</span></p>"
+            }
+          ]
+        },
+        {
+          "id": "58",
+          "guid": "4fc2b546-0f99-466b-b0d3-11b5391dd542",
+          "heading": "Document Conventions",
+          "children": [
+            {
+              "id": "59",
+              "guid": "440e7dd5-aa9d-4e42-a536-aec4030c1784",
+              "text": "<p><span>&lt;Describe any standards or typographical conventions used, including the meaning of specific text styles, highlighting, or notations. If you are manually labeling unique requirement identifiers, you might specify the format here for anyone who needs to add one later.&gt;</span></p>"
+            }
+          ]
+        },
+        {
+          "id": "60",
+          "guid": "01c65040-9e45-4b0b-a6fb-8db88d05ef74",
+          "heading": "Project Scope",
+          "children": [
+            {
+              "id": "61",
+              "guid": "7ad6f8f1-3db7-401b-a1bb-d81a5ec1e7ae",
+              "text": "<p><span>&lt;Provide a short description of the software being specified and its purpose. Relate the software to user or corporate goals and to business objectives and strategies. If a separate vision and scope or similar document is available, refer to it rather than duplicating its contents here. An SRS that specifies an incremental release of an evolving product should contain its own scope statement as a subset of the long-term strategic product vision. You might provide a high-level summary of the major features the release contains or the significant functions that it performs.&gt;</span></p>"
+            }
+          ]
+        },
+        {
+          "id": "62",
+          "guid": "8fd855fc-e0d4-4422-bef7-5221afa592d4",
+          "heading": "References",
+          "children": [
+            {
+              "id": "63",
+              "guid": "a28e9aa4-c42b-4292-a274-12279a7239f8",
+              "text": "<p><span>&lt;List any documents or other resources to which this SRS refers. Include hyperlinks to them if they are in a persistent location. These might include user interface style guides, contracts, standards, system requirements specifications, interface specifications, or the SRS for a related product. Provide enough information so that the reader can access each reference, including its title, author, version number, date, and source, storage location, or URL.&gt;</span></p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "guid": "2d7e2ac8-7e58-4d0f-9681-334cf8fd82bf",
+      "heading": "Overall Description",
+      "children": [
+        {
+          "id": "65",
+          "guid": "60dddc43-f131-4f04-811c-eb677449bfd9",
+          "text": "<p><span>&lt;This section presents a high-level overview of the product and the environment in which it will be used, the anticipated users, and known constraints, assumptions, and dependencies.&gt;</span></p>"
+        },
+        {
+          "id": "66",
+          "guid": "3b2fae23-5dfd-4154-8b64-d052b57f59dd",
+          "heading": "Product Perspective",
+          "children": [
+            {
+              "id": "67",
+              "guid": "4e18d6a8-8d7a-4833-b7c5-6f404c1bb2d5",
+              "text": "<p><span>&lt;Describe the product's context and origin. Is it the next member of a growing product line, the next version of a mature system, a replacement for an existing application, or an entirely new product? If this SRS defines a component of a larger system, state how this software relates to the overall system and identify major interfaces between the two. Consider including visual models such as a context diagram or ecosystem map to show the product's relationship to other systems.&gt;</span></p>"
+            }
+          ]
+        },
+        {
+          "id": "68",
+          "guid": "506883bd-2f01-47f0-ae32-d37a1ee1ad05",
+          "heading": "User Classes and Characteristics",
+          "children": [
+            {
+              "id": "69",
+              "guid": "b849dba3-cccd-4c40-acd4-45b5297c46e0",
+              "text": "<p><span>&lt;Identify the various user classes that you anticipate will use this product and describe their pertinent characteristics. Some requirements might pertain only to certain user classes. Identify the favored user classes. User classes represent a subset of the stakeholders described in the vision and scope document. User class descriptions are a reusable resource. If available, you can incorporate user class descriptions by simply pointing to them in a master user class catalog instead of duplicating information here.&gt;</span></p>"
+            }
+          ]
+        },
+        {
+          "id": "70",
+          "guid": "e0bc6e25-2481-4557-9c92-285c2ecd659c",
+          "heading": "Use Cases and Models",
+          "children": [
+            {
+              "id": "71",
+              "guid": "5dd7b26e-cd4a-4a94-9c12-57f44a21e0c5",
+              "text": "<p><span>&lt;Identify the main use cases of the system and report them following the template. Model the use cases by drawing the Use Case diagrams and Activity diagrams.&gt;</span></p>"
+            }
+          ]
+        },
+        {
+          "id": "72",
+          "guid": "fafb1bcc-7ba7-42b7-af41-f7c3b228c42d",
+          "heading": "Operating Environment",
+          "children": [
+            {
+              "id": "73",
+              "guid": "337b0074-3fbf-43f9-9700-ae7e0d21755c",
+              "text": "<p><span>&lt;Describe the environment in which the software will operate, including the hardware platform; operating systems and versions; geographical locations of users, servers, and databases; and organizations that host the related databases, servers, and websites. List any other software components or applications with which the system must peacefully coexist. If extensive technical infrastructure work needs to be performed in conjunction with developing the new system, consider creating a separate infrastructure requirements specification to detail that work.&gt;</span></p>"
+            }
+          ]
+        },
+        {
+          "id": "74",
+          "guid": "44019280-1e90-4cd3-b025-a8cbbe6547c7",
+          "heading": "Design and Implementation Constraints",
+          "children": [
+            {
+              "id": "75",
+              "guid": "68d986b8-171d-41f3-97b8-47470cdbfb32",
+              "text": "<p><span>&lt;Describe any factors that will limit the options available to the developers. These might include: corporate or regulatory policies; hardware limitations (timing or memory requirements); interfaces to other applications; specific technologies, tools, and databases to be used; programming language requirements or restrictions.&gt;</span></p>"
+            }
+          ]
+        },
+        {
+          "id": "76",
+          "guid": "94ae993f-625c-413c-9b91-63eded4b2e27",
+          "heading": "Assumptions and Dependencies",
+          "children": [
+            {
+              "id": "77",
+              "guid": "cdfde92c-3652-4a10-aee9-05ab961d3970",
+              "text": "<p><span>&lt;List any assumed factors (as opposed to known facts) that could affect the requirements stated in the SRS. These could include third-party or commercial components that you plan to use, reuse expectations, issues around the development or operating environment, or constraints. The project could be affected if these assumptions are incorrect, are not shared, or change. Also identify any dependencies the project has on external factors outside its control.&gt;</span></p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "guid": "f397ae22-be0d-408d-9586-a58413584900",
+      "heading": "System Features",
+      "children": [
+        {
+          "id": "79",
+          "guid": "32a7cc1d-0d70-461a-9607-3bccbdd37f08",
+          "text": "<p><span><span>&lt;This template illustrates organizing the functional requirements for the product by system features, the major services provided by the product. You may prefer to organize this section by use case, mode of operation, user class, object class, functional hierarchy, stimulus, response, or combinations of these, whatever makes the most logical sense for your product.&gt;</span></span></p>"
+        },
+        {
+          "id": "80",
+          "guid": "f4d293be-914f-447e-bc09-d81e4e875ec7",
+          "heading": "System Feature 1",
+          "children": [
+            {
+              "id": "81",
+              "guid": "2077d149-74b3-4c34-a3d0-046cf3a9d0a1",
+              "text": "<p><span><span>&lt;Don’t really say “System Feature 1.” State the feature name in just a few words.&gt;</span></span></p>"
+            },
+            {
+              "id": "82",
+              "guid": "9d423783-0aa6-4127-9136-d8cdd7ca6686",
+              "heading": "Description",
+              "children": [
+                {
+                  "id": "83",
+                  "guid": "b252b312-03dd-4415-834c-3526099edf37",
+                  "text": "<p><span><a><span>&lt;Provide a short description of the feature and indicate whether it is of High, Medium, or Low priority.&gt;</span></a></span></p>"
+                }
+              ]
+            },
+            {
+              "id": "84",
+              "guid": "1753109a-1879-4a21-87ab-283888cf81dd",
+              "heading": "Stimulus/Response Sequences",
+              "children": [
+                {
+                  "id": "85",
+                  "guid": "2a79c570-00b6-4dad-a8d5-be49f1f3751c",
+                  "text": "<p><span><a><span>&lt;List the sequences of user actions and system responses that stimulate the behavior defined for this feature. These will correspond to the dialog elements associated with use cases.&gt;</span></a></span></p>"
+                }
+              ]
+            },
+            {
+              "id": "86",
+              "guid": "e4aaa727-8388-487a-8fd8-011afe44061f",
+              "heading": "Functional Requirements",
+              "children": [
+                {
+                  "id": "87",
+                  "guid": "e71b38f1-ea87-451b-a0e3-193a79c98a9c",
+                  "text": "<p><span><a><span>&lt;Itemize the specific functional requirements associated with this feature. These are the software capabilities that must be implemented for the user to carry out the feature's services or to perform a use case. Describe how the product should respond to anticipated error conditions. Use “TBD” as a placeholder to indicate when&nbsp;</span></a><span><span><span>necessary</span></span></span><span><span> information is not yet available.&gt;</span></span></span></p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "88",
+          "guid": "ee3ae1d1-b5c9-4797-ab67-22b0b931a2fa",
+          "heading": "System Feature 2 (and so on)"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "guid": "a5c48c19-c784-4780-846b-e5bdde991f24",
+      "heading": "Data Requirements",
+      "children": [
+        {
+          "id": "90",
+          "guid": "1742f895-0a23-4734-bd3d-3b3f24f5e799",
+          "text": "<p><span><span>&lt;This section describes various aspects of the data that the system will consume as inputs, process in some fashion, or create as outputs.&gt;</span></span></p>"
+        },
+        {
+          "id": "91",
+          "guid": "a713e472-3133-4472-b1f5-e3f9f84d6477",
+          "heading": "Logical Data Model",
+          "children": [
+            {
+              "id": "92",
+              "guid": "52784aa7-73be-4aea-9eba-5822a4aa109a",
+              "text": "<p><span><span>&lt;A data model is a visual representation of the data objects and collections the system will process and the relationships between them. Include a data model for the business operations being addressed by the system, or a logical representation for the data that the system itself will manipulate. Data models are most commonly created as an entity-relationship diagram.&gt;</span></span></p>"
+            }
+          ]
+        },
+        {
+          "id": "93",
+          "guid": "6557f80a-a943-4544-9c9e-7c40f031fbfc",
+          "heading": "Data Dictionary",
+          "children": [
+            {
+              "id": "94",
+              "guid": "49706198-9046-4f2c-9591-6d7ed856f73e",
+              "text": "<p><span><span>&lt;The data dictionary defines the composition of data structures and the meaning, data type, length, format, and allowed values for the data elements that make up those structures. In many cases, you're better off storing the data dictionary as a separate artifact, rather than embedding it in the middle of an SRS. That also increases its reusability potential in other projects.&gt;</span></span></p>"
+            }
+          ]
+        },
+        {
+          "id": "95",
+          "guid": "afdb7d97-24d3-483b-af41-0e1b9cd0846e",
+          "heading": "Reports",
+          "children": [
+            {
+              "id": "96",
+              "guid": "7d776ccb-cffc-4dcd-be91-3fb9948b38be",
+              "text": "<p><span><span>&lt;If your application will generate any reports, identify them here and describe their characteristics. If a report must conform to a specific predefined <span>layout</span> you can specify that here as a constraint, perhaps with an example. Otherwise, focus on the logical descriptions of the report content, sort sequence, totaling levels, and so forth, deferring the detailed report layout to the design stage.&gt;</span></span></p>"
+            }
+          ]
+        },
+        {
+          "id": "97",
+          "guid": "421c2f26-5b94-4eb6-a654-d2e3e9a43021",
+          "heading": "Data Acquisition, Integrity, Retention, and Disposal",
+          "children": [
+            {
+              "id": "98",
+              "guid": "630293f0-85eb-4213-82fe-0b82a75ff642",
+              "text": "<p><span><span>&lt;If relevant, describe how data is acquired and maintained. State any requirements regarding the need to protect the integrity of the system's data. Identify any specific techniques that are necessary, such as backups, checkpointing, mirroring, or data accuracy verification. State policies the system must enforce for either retaining or disposing of data, including temporary data, metadata, residual data (such as deleted records), cached data, local copies, archives, and interim backups.&gt;</span></span></p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "guid": "f06c9cb8-62bf-4c4b-9377-a559a79a3f41",
+      "heading": "External Interface Requirements",
+      "children": [
+        {
+          "id": "100",
+          "guid": "aabf0bcd-58d8-4aa0-9eaf-fe829cd7e5ec",
+          "text": "<p><span>&lt;This section provides information to ensure that the system will communicate properly with users and with external hardware or software elements.&gt;</span></p>"
+        },
+        {
+          "id": "101",
+          "guid": "11e711e7-f283-41f2-a0d5-bec55cf5c099",
+          "heading": "User Interfaces",
+          "children": [
+            {
+              "id": "102",
+              "guid": "6e6a386b-3fa2-4ad2-b158-16c1926b17da",
+              "text": "<p><span>&lt;Describe the logical characteristics of each interface between the software product and the users. This may include sample screen images, any GUI standards or product family style guides that are to be followed, screen layout constraints, standard buttons and functions (e.g., help) that will appear on every screen, keyboard shortcuts, error message display standards, and so on. Define the software components for which a user interface is needed. Details of the user interface design should be documented in a separate user interface specification.&gt;</span></p>"
+            }
+          ]
+        },
+        {
+          "id": "103",
+          "guid": "59f2f637-d068-4185-84d9-8630b7233f6e",
+          "heading": "Software Interfaces",
+          "children": [
+            {
+              "id": "104",
+              "guid": "c49ed23c-d8c6-4b3e-8cab-29e42b566acc",
+              "text": "<p><span>&lt;Describe the connections between this product and other software components (identified by name and version), including other applications, databases, operating systems, tools, libraries, websites, and integrated commercial components. State the purpose, formats, and contents of the messages, data, and control values exchanged between the software components. Specify the mappings of input and output data between the systems and any translations that need to be made for the data to get from one system to the other. Describe the services needed by or from external software components and the nature of the intercomponent communications. Identify data that will be exchanged between or shared across software components. Specify nonfunctional requirements affecting the interface, such as service levels for responses times and frequencies, or security controls and restrictions.&gt;</span></p>"
+            }
+          ]
+        },
+        {
+          "id": "105",
+          "guid": "71fb7091-f1a5-47a4-90ec-4a1f62fd9ec4",
+          "heading": "Hardware Interfaces",
+          "children": [
+            {
+              "id": "106",
+              "guid": "018b325b-8866-42db-b26e-d2d9b50fcbd9",
+              "text": "<p><span><span>&lt;Describe the characteristics of each interface between the software and hardware (if any) components of the system. This description might include the supported device types, the data and control interactions between the software and the hardware, and the communication protocols to be used. List the inputs and outputs, their formats, their valid values or ranges, and any timing issues developers need to be aware of. If this information is extensive, consider creating a separate interface specification document.&gt;</span></span></p>"
+            }
+          ]
+        },
+        {
+          "id": "107",
+          "guid": "c2ca2661-dd2b-4857-8ffd-82fe50992a01",
+          "heading": "Communications Interfaces",
+          "children": [
+            {
+              "id": "108",
+              "guid": "42d1215e-00ac-435f-ae3e-977668a1029d",
+              "text": "<p><span>&lt;State the requirements for any communication functions the product will use, including e-mail, Web browser, network protocols, and electronic forms. Define any pertinent message formatting. Specify communication security or encryption issues, data transfer rates, handshaking, and synchronization mechanisms. State any constraints around these interfaces, such as whether e-mail attachments are acceptable or not.&gt;</span></p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "109",
+      "guid": "c080378b-7e33-4ca9-8063-64e27dab8ff4",
+      "heading": "Quality Attributes",
+      "children": [
+        {
+          "id": "110",
+          "guid": "3084e20e-c545-4f18-8041-cf96dfc5a261",
+          "heading": "Usability",
+          "children": [
+            {
+              "id": "111",
+              "guid": "13f629fd-66e0-4caf-8165-4af3d9aed830",
+              "text": "<p><span><span>&lt;Specify any requirements regarding characteristics that will make the software appear to be “user-friendly.” Usability encompasses ease of use, ease of learning; memorability; error avoidance, handling, and recovery; efficiency of interactions; accessibility; and ergonomics. Sometimes these can conflict with each other, as with ease of use over ease of learning. Indicate any user interface design standards or guidelines to which the application must conform.&gt;</span></span></p>"
+            }
+          ]
+        },
+        {
+          "id": "112",
+          "guid": "ce37c124-ff28-4a94-a681-696395db8d3d",
+          "heading": "Performance",
+          "children": [
+            {
+              "id": "113",
+              "guid": "7fd21461-df7d-42ac-8aa2-d8e8e77188b7",
+              "text": "<p><span>&lt;State specific performance requirements for various system operations. If different functional requirements or features have different performance requirements, it's appropriate to specify those performance goals right with the corresponding functional requirements, rather than collecting them in this section.&gt;</span></p>"
+            }
+          ]
+        },
+        {
+          "id": "114",
+          "guid": "51df54f6-32e3-4dd8-b78d-2cd25bc0cb27",
+          "heading": "Security",
+          "children": [
+            {
+              "id": "115",
+              "guid": "2f94f3ed-30d8-42d2-8a23-f9daf93c4c75",
+              "text": "<p><span>&lt;Specify any requirements regarding security or privacy issues that restrict access to or use of the product. These could refer to physical, data, or software security. Security requirements often originate in business rules, so identify any security or privacy policies or regulations to which the product must conform. If these are documented in a business rules repository, just refer to them.&gt;</span></p>"
+            }
+          ]
+        },
+        {
+          "id": "116",
+          "guid": "86c1c26c-d8cb-4cf5-958d-3c539165316f",
+          "heading": "Safety",
+          "children": [
+            {
+              "id": "117",
+              "guid": "dda765d3-2e5d-482b-882a-e79cd66d5f5c",
+              "text": "<p><span><span>&lt;Specify requirements that are concerned with possible loss, damage, or harm that could result from use of the product. Define any safeguards or actions that must be taken, as well as potentially dangerous actions that must be prevented. Identify any safety certifications, policies, or regulations to which the product must conform.&gt;</span></span></p>"
+            }
+          ]
+        },
+        {
+          "id": "118",
+          "guid": "55f2eceb-7f16-4888-83e2-6a429ca31504",
+          "heading": "[Others as relevant]",
+          "children": [
+            {
+              "id": "119",
+              "guid": "f76b4eba-75b8-4584-896f-f2fb6af7a5ca",
+              "text": "<p><span>&lt;Create a separate section in the SRS for each additional product quality attribute to describe characteristics that will be important to either customers or developers. Possibilities include availability, efficiency, <span>installability</span>, integrity, interoperability, modifiability, portability, reliability, reusability, robustness, scalability, and verifiability. Write these to be specific, quantitative, and verifiable. Clarify the relative priorities for various attributes, such as security over performance.&gt;</span></p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "120",
+      "guid": "e81c7145-5c12-46a1-9525-0a0edad04cc2",
+      "heading": "Internationalization and Localization Requirements",
+      "children": [
+        {
+          "id": "121",
+          "guid": "cba7d329-3a07-4076-b838-f3b91caa090b",
+          "text": "<p><span><span>&lt;Internationalization and localization requirements ensure that the product will be suitable for use in nations, cultures, and geographic locations other than those in which it was created. Such requirements might address differences in: currency; formatting of dates, numbers, addresses, and telephone numbers; language, including national spelling conventions within the same language (such as American versus British English), symbols used, and character sets; given name and family name order; time zones; international regulations and laws; cultural and political issues; paper sizes used; weights and measures; electrical voltages and plug shapes; and many others.&gt;</span></span></p>"
+        }
+      ]
+    },
+    {
+      "id": "122",
+      "guid": "5b64d19c-dcfe-44f9-8330-2e04d5b1c917",
+      "heading": "Other Requirements",
+      "children": [
+        {
+          "id": "123",
+          "guid": "115fc69a-90ec-45c5-baf4-dc62bf2c46c7",
+          "text": "<p><span>&lt;Examples are: legal, regulatory or financial compliance, and standards requirements; requirements for product installation, configuration, startup, and shutdown; and logging, monitoring and audit trail requirements. Instead of just combining these all under \"Other,\" add any new sections to the template that are pertinent to your project. Omit this section if all your requirements are accommodated in other sections. &gt;</span></p>"
+        }
+      ]
+    },
+    {
+      "id": "124",
+      "guid": "cc91b543-15a8-4c8e-bd8b-b672f5013206",
+      "heading": "Glossary",
+      "children": [
+        {
+          "id": "125",
+          "guid": "464a1657-5c41-48ff-8f5f-502f92182599",
+          "text": "<p><span>&lt;Define any specialized terms that a reader needs to know to understand the SRS, including acronyms and abbreviations. Spell out each acronym and provide its definition. Consider building a reusable enterprise-level glossary that spans multiple projects and incorporating by reference any terms that pertain to this project.&gt;</span></p>"
+        }
+      ]
+    },
+    {
+      "id": "126",
+      "guid": "79f18f0a-31d2-458a-935f-f66981eb9b23",
+      "heading": "Analysis Models",
+      "children": [
+        {
+          "id": "127",
+          "guid": "619cbb7a-9229-4690-8148-27eb8a910dbe",
+          "text": "<p><span>&lt;This optional section includes or points to pertinent analysis models such as data flow diagrams, feature trees, state-transition diagrams, or entity-relationship diagrams. You might prefer to insert certain models into the relevant sections of the specification instead of collecting them at the end.&gt;</span></p>"
+        }
+      ]
+    }
+  ],
+  "attributes": {
+  },
+  "templateColumns": {
+  },
+  "views": {
+    "Primary": {
+      "columns": [
+        {
+          "columnId": "id",
+          "width": 65
+        },
+        {
+          "columnId": "description",
+          "width": 500
+        }
+      ],
+      "default": true
+    }
+  },
+  "metadata": {
+    "format": "2.20"
+  }
+}

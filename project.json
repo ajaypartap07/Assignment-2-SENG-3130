@@ -1,0 +1,19 @@
+{
+  "id": "Assignment 2",
+  "description": "SENG 3130 - Assignment 2",
+  "documents": [
+    "SRS.json",
+    "UC.json"
+  ],
+  "traceability": {
+    "reference": {
+      "name": "Reference",
+      "source": "References",
+      "target": "Referenced by"
+    }
+  },
+  "metadata": {
+    "format": "2.20",
+    "saveHistory": true
+  }
+}
