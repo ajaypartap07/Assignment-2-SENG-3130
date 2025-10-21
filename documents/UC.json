@@ -2,20 +2,796 @@
   "id": "UC",
   "guid": "742df7d0-c149-4890-ab27-2296b4306d5c",
   "name": "Use Cases",
-  "lastId": 0,
+  "lastId": 149,
   "createdOn": "2025-10-21T17:21:12.987Z",
   "createdBy": {
     "name": "Ajay Ludher",
     "email": "ludhera17@mytru.ca",
     "company": "Thompson Rivers University"
   },
-  "lastChangedOn": "2025-10-21T17:21:12.987Z",
+  "lastChangedOn": "2025-10-21T17:42:06.950Z",
   "lastChangedBy": {
     "name": "Ajay Ludher",
     "email": "ludhera17@mytru.ca",
     "company": "Thompson Rivers University"
   },
-  "data": [],
+  "data": [
+    {
+      "id": "120",
+      "guid": "c1971477-af3a-44c8-badb-6e62fad2c3d7",
+      "heading": "Use Case ID and Name",
+      "history": [
+        {
+          "affectedNodeId": "119",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:37:06.919Z",
+          "docId": "UC",
+          "structureAction": "Promote"
+        },
+        {
+          "affectedNodeId": "122",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:38:37.697Z",
+          "docId": "UC",
+          "structureAction": "SwapUp"
+        },
+        {
+          "affectedNodeId": "146",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:39:12.568Z",
+          "docId": "UC",
+          "structureAction": "SwapUp"
+        },
+        {
+          "affectedNodeId": "144",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:39:44.207Z",
+          "docId": "UC",
+          "structureAction": "SwapUp"
+        },
+        {
+          "affectedNodeId": "142",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:39:44.601Z",
+          "docId": "UC",
+          "structureAction": "SwapUp"
+        },
+        {
+          "affectedNodeId": "140",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:39:45.093Z",
+          "docId": "UC",
+          "structureAction": "SwapUp"
+        },
+        {
+          "affectedNodeId": "138",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:39:45.550Z",
+          "docId": "UC",
+          "structureAction": "SwapUp"
+        },
+        {
+          "affectedNodeId": "136",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:39:45.882Z",
+          "docId": "UC",
+          "structureAction": "SwapUp"
+        },
+        {
+          "affectedNodeId": "134",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:39:46.061Z",
+          "docId": "UC",
+          "structureAction": "SwapUp"
+        },
+        {
+          "affectedNodeId": "132",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:39:46.209Z",
+          "docId": "UC",
+          "structureAction": "SwapUp"
+        },
+        {
+          "affectedNodeId": "130",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:39:46.361Z",
+          "docId": "UC",
+          "structureAction": "SwapUp"
+        },
+        {
+          "affectedNodeId": "128",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:39:46.525Z",
+          "docId": "UC",
+          "structureAction": "SwapUp"
+        },
+        {
+          "affectedNodeId": "126",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:39:46.690Z",
+          "docId": "UC",
+          "structureAction": "SwapUp"
+        },
+        {
+          "affectedNodeId": "124",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:39:46.849Z",
+          "docId": "UC",
+          "structureAction": "SwapUp"
+        },
+        {
+          "affectedNodeId": "119",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:39:47.001Z",
+          "docId": "UC",
+          "structureAction": "SwapUp"
+        },
+        {
+          "affectedNodeId": "118",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:39:47.161Z",
+          "docId": "UC",
+          "structureAction": "SwapUp"
+        },
+        {
+          "affectedNodeId": "118",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:39:47.653Z",
+          "docId": "UC",
+          "structureAction": "SwapDown"
+        },
+        {
+          "affectedNodeId": "119",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:39:49.474Z",
+          "docId": "UC",
+          "structureAction": "SwapDown"
+        }
+      ],
+      "children": [
+        {
+          "id": "121",
+          "guid": "ec4e64c3-4e79-47b3-853d-5af3ada88816",
+          "text": "<p><span>Give each use case a unique numeric identifier. State a concise name for the use case that indicates the value the use case would provide to some user. Begin with an action verb, followed by an object.</span></p>"
+        }
+      ]
+    },
+    {
+      "id": "122",
+      "guid": "df5d0f0a-3daa-4802-83b3-28aa7bdcff95",
+      "heading": "Author and Date Created",
+      "history": [
+        {
+          "affectedNodeId": "119",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:38:29.696Z",
+          "docId": "UC",
+          "structureAction": "Promote"
+        },
+        {
+          "affectedNodeId": "146",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:39:12.568Z",
+          "docId": "UC",
+          "structureAction": "SwapUp"
+        },
+        {
+          "affectedNodeId": "144",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:39:44.207Z",
+          "docId": "UC",
+          "structureAction": "SwapUp"
+        },
+        {
+          "affectedNodeId": "142",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:40:24.444Z",
+          "docId": "UC",
+          "structureAction": "SwapUp"
+        },
+        {
+          "affectedNodeId": "140",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:40:24.644Z",
+          "docId": "UC",
+          "structureAction": "SwapUp"
+        },
+        {
+          "affectedNodeId": "138",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:40:24.804Z",
+          "docId": "UC",
+          "structureAction": "SwapUp"
+        },
+        {
+          "affectedNodeId": "136",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:40:24.941Z",
+          "docId": "UC",
+          "structureAction": "SwapUp"
+        },
+        {
+          "affectedNodeId": "134",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:40:25.087Z",
+          "docId": "UC",
+          "structureAction": "SwapUp"
+        },
+        {
+          "affectedNodeId": "132",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:40:25.220Z",
+          "docId": "UC",
+          "structureAction": "SwapUp"
+        },
+        {
+          "affectedNodeId": "130",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:40:25.360Z",
+          "docId": "UC",
+          "structureAction": "SwapUp"
+        },
+        {
+          "affectedNodeId": "128",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:40:25.510Z",
+          "docId": "UC",
+          "structureAction": "SwapUp"
+        },
+        {
+          "affectedNodeId": "126",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:40:25.668Z",
+          "docId": "UC",
+          "structureAction": "SwapUp"
+        },
+        {
+          "affectedNodeId": "124",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:40:25.812Z",
+          "docId": "UC",
+          "structureAction": "SwapUp"
+        },
+        {
+          "affectedNodeId": "120",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:40:25.963Z",
+          "docId": "UC",
+          "structureAction": "SwapUp"
+        },
+        {
+          "affectedNodeId": "120",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:40:26.524Z",
+          "docId": "UC",
+          "structureAction": "SwapDown"
+        }
+      ],
+      "children": [
+        {
+          "id": "123",
+          "guid": "a9a6e36a-a767-4a2b-a324-1610d85fbbd7",
+          "text": "<p><span>Enter the name of the person who initially wrote this use case and the date it was written.</span></p>"
+        }
+      ]
+    },
+    {
+      "id": "124",
+      "guid": "10913d4f-52de-41b1-aa5e-b28b8248cd7b",
+      "heading": "Primary and Secondary Actors",
+      "history": [
+        {
+          "affectedNodeId": "119",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:39:01.135Z",
+          "docId": "UC",
+          "structureAction": "Promote"
+        }
+      ],
+      "children": [
+        {
+          "id": "125",
+          "guid": "aa6e11a5-c9aa-43ba-ba68-916235dfa443",
+          "text": "<p><span>An actor is a person or other entity external to the software system being specified who interacts with the system and performs use cases to accomplish something of value. Different actors often correspond to different user classes, or roles. Name the primary actor that will be initiating this use case and any other secondary actors (humans or systems) that will participate in the use case’s execution.</span></p>"
+        }
+      ]
+    },
+    {
+      "id": "126",
+      "guid": "1ebfaeae-9789-4326-a4ed-521aab9c7069",
+      "heading": "Description",
+      "history": [
+        {
+          "affectedNodeId": "119",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:39:01.135Z",
+          "docId": "UC",
+          "structureAction": "Promote"
+        }
+      ],
+      "children": [
+        {
+          "id": "127",
+          "guid": "6423acc1-fa86-49d5-a6e1-34a7888d6bb6",
+          "text": "<p><span>Provide a brief description of the reason for and outcome of this use case, or a high-level description of the sequence of actions and the outcome of executing the use case.</span></p>"
+        }
+      ]
+    },
+    {
+      "id": "128",
+      "guid": "07d36895-0c78-4025-a1f4-69a12b8ab191",
+      "heading": "Trigger",
+      "history": [
+        {
+          "affectedNodeId": "119",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:39:01.135Z",
+          "docId": "UC",
+          "structureAction": "Promote"
+        }
+      ],
+      "children": [
+        {
+          "id": "129",
+          "guid": "7d84300e-6c92-44a9-8954-d1a251580f22",
+          "text": "<p><span>Identify the event or user action that initiates the use case. This trigger alerts the system to test the preconditions so it can judge whether to proceed with execution.</span></p>"
+        }
+      ]
+    },
+    {
+      "id": "130",
+      "guid": "9ea2aacf-34a6-40f7-a076-9608fa0c6f82",
+      "heading": "Preconditions",
+      "history": [
+        {
+          "affectedNodeId": "119",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:39:01.135Z",
+          "docId": "UC",
+          "structureAction": "Promote"
+        }
+      ],
+      "children": [
+        {
+          "id": "131",
+          "guid": "7ee254b5-a4da-4565-ac31-9e4648757887",
+          "text": "<p><span>List any activities that must take place, or any conditions that must be true, before the use case can be started. The system must be able to test each precondition. Number each precondition. Example: PRE-1. User’s identity has been authenticated.</span></p>"
+        }
+      ]
+    },
+    {
+      "id": "132",
+      "guid": "60698471-78fa-48ca-b2b6-6ca257d30dc4",
+      "heading": "Postconditions",
+      "history": [
+        {
+          "affectedNodeId": "119",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:39:01.135Z",
+          "docId": "UC",
+          "structureAction": "Promote"
+        }
+      ],
+      "children": [
+        {
+          "id": "133",
+          "guid": "78a587da-4581-4cbd-8181-d8044b7e553c",
+          "text": "<p><span>Describe the state of the system at the successful conclusion of the use case execution. Label each postcondition in the form POST-X, where X is a sequence number. Example: POST-1. Price of item in the database has been updated with the new value.</span></p>"
+        }
+      ]
+    },
+    {
+      "id": "134",
+      "guid": "dad41c55-02b1-44e8-90f4-a6b5df749d32",
+      "heading": "Normal Flow",
+      "history": [
+        {
+          "affectedNodeId": "119",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:39:01.135Z",
+          "docId": "UC",
+          "structureAction": "Promote"
+        }
+      ],
+      "children": [
+        {
+          "id": "135",
+          "guid": "19aa0a8a-cb0a-4dde-92e2-107d35966fb9",
+          "text": "<p><span>Provide a description of the user actions and corresponding system responses that will take place during execution of the use case under normal, expected conditions. This dialogue sequence will lead to accomplishing the goal stated in the use case name and description. Show a numbered list of actions performed by the actor, alternating with responses provided by the system. The normal flow is numbered “X.0”, where “X” is the Use Case ID.</span></p>"
+        }
+      ]
+    },
+    {
+      "id": "136",
+      "guid": "fc7edaba-292e-4d17-bec0-6ad2cb43a620",
+      "heading": "Alternative Flows",
+      "history": [
+        {
+          "affectedNodeId": "119",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:39:01.135Z",
+          "docId": "UC",
+          "structureAction": "Promote"
+        }
+      ],
+      "children": [
+        {
+          "id": "137",
+          "guid": "d6ad4d19-8764-467d-8935-b8e11aa2a891",
+          "text": "<p><span>Document other successful usage scenarios that can take place within this use case. State the alternative flow, and describe any differences in the sequence of steps that take place. Number each alternative flow in the form “X.Y”, where “X” is the Use Case ID and Y is a sequence number for the alternative flow. For example, “5.3” would indicate the third alternative flow for use case number 5. Indicate where each alternative flow would branch off from the normal flow, and if pertinent, where it would rejoin the normal flow.</span></p>"
+        }
+      ]
+    },
+    {
+      "id": "138",
+      "guid": "91c70ab9-8c01-45ee-833f-5e9563c4fc4a",
+      "heading": "Exceptions",
+      "history": [
+        {
+          "affectedNodeId": "119",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:39:01.135Z",
+          "docId": "UC",
+          "structureAction": "Promote"
+        }
+      ],
+      "children": [
+        {
+          "id": "139",
+          "guid": "6a9046ea-0ace-4ca5-bc4f-48d129dcbd61",
+          "text": "<p><span>Describe any anticipated error conditions that could occur during execution of the use case and how the system is to respond to those conditions. Number each alternative flow in the form “X.<span>Y.EZ</span>”, where “X” is the Use Case ID, Y indicates the normal (0) or alternative (&gt;0) flow during which this exception could take place, “E” indicates an exception, and “Z” is a sequence number for the exceptions. For <span>example</span> “5.0.E2” would indicate the second exception for the normal flow for use case number 5. Indicate where in the normal (or an alternative) flow each exception could occur.</span></p>"
+        }
+      ]
+    },
+    {
+      "id": "140",
+      "guid": "747c8c8a-32b3-4e72-bab8-a0c5880ba373",
+      "heading": "Priority",
+      "history": [
+        {
+          "affectedNodeId": "119",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:39:01.135Z",
+          "docId": "UC",
+          "structureAction": "Promote"
+        }
+      ],
+      "children": [
+        {
+          "id": "141",
+          "guid": "082288b2-bbd2-439c-81e2-426fae71a324",
+          "text": "<p><span>Indicate the relative priority of implementing the functionality required to allow this use case to be executed. Use the same priority scheme as that used for other requirements.</span></p>"
+        }
+      ]
+    },
+    {
+      "id": "142",
+      "guid": "f7d00c30-df2f-41e4-8b0e-8df223f7d287",
+      "heading": "Business Rules",
+      "history": [
+        {
+          "affectedNodeId": "119",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:39:01.135Z",
+          "docId": "UC",
+          "structureAction": "Promote"
+        }
+      ],
+      "children": [
+        {
+          "id": "143",
+          "guid": "fe23258a-db4a-4f60-b1c7-c5323f9fb8f2",
+          "text": "<p><span>List any business rules that influence this use case. Don’t include the business rule text here, just its identifier so the reader can find it in another repository when needed.</span></p>"
+        }
+      ]
+    },
+    {
+      "id": "144",
+      "guid": "03f7bb41-264f-4d20-a527-a4b2a700fbc6",
+      "heading": "Assumptions",
+      "history": [
+        {
+          "affectedNodeId": "119",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:39:01.135Z",
+          "docId": "UC",
+          "structureAction": "Promote"
+        }
+      ],
+      "children": [
+        {
+          "id": "145",
+          "guid": "28f7dce0-be5b-42f9-85f5-5cdae57966d1",
+          "text": "<p><span>List any assumptions that were made regarding this use case or how it might execute.</span></p>"
+        }
+      ]
+    },
+    {
+      "id": "146",
+      "guid": "e82745ff-06cd-40ad-8d59-de956d3d688f",
+      "heading": "Other Information",
+      "history": [
+        {
+          "affectedNodeId": "119",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:39:01.135Z",
+          "docId": "UC",
+          "structureAction": "Promote"
+        }
+      ],
+      "children": [
+        {
+          "id": "147",
+          "guid": "dc6709f4-c4ff-4399-99f1-91c0e6da622a",
+          "text": "<p><span>Identify any additional pertinent requirements or constraints for the use case, such as quality attributes. Describe what should happen if the use case execution fails for some unanticipated or systemic reason (e.g., loss of network access, timeout). If the use case results in a durable state change in a database or the outside world, state whether the change is rolled back, completed correctly, partially completed with a known state, or left in an undetermined state as a result of the exception.</span></p>"
+        }
+      ]
+    },
+    {
+      "id": "148",
+      "guid": "0951f06f-881b-4981-a516-b9fd7278e045",
+      "heading": "Use Case List",
+      "text": "<table><tbody><tr><td style=\"width:122.4pt;\"><p><span>Primary Actor</span></p></td><td style=\"width:274.5pt;\"><p><span>Use Cases</span></p></td></tr><tr><td style=\"width:122.4pt;\"><p><span>&nbsp;</span></p></td><td style=\"width:274.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:122.4pt;\"><p><span>&nbsp;</span></p></td><td style=\"width:274.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:122.4pt;\"><p><span>&nbsp;</span></p></td><td style=\"width:274.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:122.4pt;\"><p><span>&nbsp;</span></p></td><td style=\"width:274.5pt;\"><p><span>&nbsp;</span></p></td></tr></tbody></table>",
+      "history": [
+        {
+          "attributesChanged": {
+            "heading": null,
+            "text": "<p><span>Use Case List</span></p><table><tbody><tr><td style=\"width:122.4pt;\"><p><span>Primary Actor</span></p></td><td style=\"width:274.5pt;\"><p><span>Use Cases</span></p></td></tr><tr><td style=\"width:122.4pt;\"><p><span>&nbsp;</span></p></td><td style=\"width:274.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:122.4pt;\"><p><span>&nbsp;</span></p></td><td style=\"width:274.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:122.4pt;\"><p><span>&nbsp;</span></p></td><td style=\"width:274.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:122.4pt;\"><p><span>&nbsp;</span></p></td><td style=\"width:274.5pt;\"><p><span>&nbsp;</span></p></td></tr></tbody></table>"
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:41:35.832Z"
+        },
+        {
+          "affectedNodeId": "146",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:41:48.811Z",
+          "docId": "UC",
+          "structureAction": "Promote"
+        },
+        {
+          "affectedNodeId": "149",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:42:06.950Z",
+          "docId": "UC",
+          "structureAction": "SwapUp"
+        }
+      ]
+    },
+    {
+      "id": "149",
+      "guid": "54473812-19d1-47da-90b3-5995ab748350",
+      "heading": "Use Case Template",
+      "text": "<table><tbody><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>ID and Name:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Author:</span></p></td><td style=\"width:121.5pt;\"><p><span>&nbsp;</span></p></td><td style=\"width:94.5pt;\"><p style=\"text-align:right;\"><span>Date Created:</span></p></td><td style=\"width:157.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Primary Actor:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Secondary Actors:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Description:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Trigger:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Preconditions:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span><span>PRE-1.<span>&nbsp;&nbsp;&nbsp;&nbsp;</span></span></span><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Postconditions:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span><span>POST-1.<span>&nbsp;&nbsp;&nbsp;</span></span></span><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Normal Flow:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span><span>1.<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span></span><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Alternative Flows:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Exceptions:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Priority:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Business Rules:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Assumptions:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Other Information:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr></tbody></table>",
+      "history": [
+        {
+          "attributesChanged": {
+            "heading": null,
+            "text": "<p><span>Use Case Template</span></p><table><tbody><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>ID and Name:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Author:</span></p></td><td style=\"width:121.5pt;\"><p><span>&nbsp;</span></p></td><td style=\"width:94.5pt;\"><p style=\"text-align:right;\"><span>Date Created:</span></p></td><td style=\"width:157.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Primary Actor:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Secondary Actors:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Description:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Trigger:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Preconditions:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span><span>PRE-1.<span>&nbsp;&nbsp;&nbsp;&nbsp;</span></span></span><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Postconditions:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span><span>POST-1.<span>&nbsp;&nbsp;&nbsp;</span></span></span><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Normal Flow:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span><span>1.<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span></span><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Alternative Flows:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Exceptions:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Priority:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Business Rules:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Assumptions:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Other Information:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr></tbody></table>"
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:40:43.165Z"
+        },
+        {
+          "attributesChanged": {
+            "text": "<p><br></p><table><tbody><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>ID and Name:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Author:</span></p></td><td style=\"width:121.5pt;\"><p><span>&nbsp;</span></p></td><td style=\"width:94.5pt;\"><p style=\"text-align:right;\"><span>Date Created:</span></p></td><td style=\"width:157.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Primary Actor:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Secondary Actors:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Description:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Trigger:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Preconditions:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span><span>PRE-1.<span>&nbsp;&nbsp;&nbsp;&nbsp;</span></span></span><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Postconditions:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span><span>POST-1.<span>&nbsp;&nbsp;&nbsp;</span></span></span><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Normal Flow:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span><span>1.<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span></span><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Alternative Flows:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Exceptions:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Priority:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Business Rules:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Assumptions:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Other Information:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr></tbody></table>"
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:41:27.262Z"
+        },
+        {
+          "affectedNodeId": "146",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-21T17:41:53.844Z",
+          "docId": "UC",
+          "structureAction": "Promote"
+        }
+      ]
+    }
+  ],
   "attributes": {
   },
   "templateColumns": {
