@@ -2,14 +2,14 @@
   "id": "UC",
   "guid": "dc48b33b-70a5-463d-ba91-689b80725be6",
   "name": "Use Cases",
-  "lastId": 38,
+  "lastId": 39,
   "createdOn": "2025-10-21T16:40:14.114Z",
   "createdBy": {
     "name": "Ajay Ludher",
     "email": "ludhera17@mytru.ca",
     "company": "Thompson Rivers University"
   },
-  "lastChangedOn": "2025-10-21T16:40:43.138Z",
+  "lastChangedOn": "2025-10-21T17:20:30.794Z",
   "lastChangedBy": {
     "name": "Ajay Ludher",
     "email": "ludhera17@mytru.ca",
@@ -17,8 +17,8 @@
   },
   "data": [
     {
-      "id": "1",
-      "guid": "b89ff2a1-17bb-44cc-83a1-b68f2929a7d6",
+      "id": "39",
+      "guid": "3e3c751c-0bd5-400e-be19-91ad9795e46f",
       "history": [
         {
           "affectedNodeId": "#",
@@ -27,224 +27,9 @@
             "email": "ludhera17@mytru.ca",
             "name": "Ajay Ludher"
           },
-          "changedOn": "2025-10-21T16:40:14.139Z",
+          "changedOn": "2025-10-21T17:20:30.794Z",
           "docId": "UC",
           "structureAction": "Create"
-        }
-      ]
-    },
-    {
-      "id": "2",
-      "guid": "2334b748-3b72-4380-a0e1-0758086687dc",
-      "text": "<p><span>Use Cases</span></p>"
-    },
-    {
-      "id": "3",
-      "guid": "12e4cb8d-fcc9-40af-a5cb-faf1efe21829",
-      "text": "<p><span>for</span></p>"
-    },
-    {
-      "id": "4",
-      "guid": "2dad374e-9f3f-44a8-b873-a53aba7a21cf",
-      "text": "<p><span>&lt;Project&gt;</span></p>"
-    },
-    {
-      "id": "5",
-      "guid": "a94d1d21-3ca9-4070-ad43-4e866f9674ce",
-      "text": "<p><span>Version 1.0 approved</span></p>"
-    },
-    {
-      "id": "6",
-      "guid": "7dd722f7-3580-4823-aed1-9e03b48c797a",
-      "text": "<p><span>Prepared by &lt;author&gt;</span></p>"
-    },
-    {
-      "id": "7",
-      "guid": "1b8c0774-8175-4ace-a98e-438e29d9ecd5",
-      "text": "<p><span>&lt;organization&gt;</span></p>"
-    },
-    {
-      "id": "8",
-      "guid": "c32146ba-5556-4644-9fff-f56e247e1438",
-      "text": "<p><span>&lt;date created&gt;</span></p>",
-      "children": [
-        {
-          "id": "9",
-          "guid": "978e031d-9eba-476a-affd-ef6c25269a9c",
-          "heading": "Use Case ID and Name",
-          "children": [
-            {
-              "id": "10",
-              "guid": "ac3f2d26-704a-4782-a9fc-a8d13e11edcc",
-              "text": "<p><span>Give each use case a unique numeric identifier. State a concise name for the use case that indicates the value the use case would provide to some user. Begin with an action verb, followed by an object.</span></p>"
-            }
-          ]
-        },
-        {
-          "id": "11",
-          "guid": "34c51087-0074-4d4b-9c02-0ee23bd92e34",
-          "heading": "Author and Date Created",
-          "children": [
-            {
-              "id": "12",
-              "guid": "3ddb9d48-95c4-4b36-80b8-b55e8c70902e",
-              "text": "<p><span>Enter the name of the person who initially wrote this use case and the date it was written.</span></p>"
-            }
-          ]
-        },
-        {
-          "id": "13",
-          "guid": "29eb7be5-70ba-4df3-93af-53fc3a116b92",
-          "heading": "Primary and Secondary Actors",
-          "children": [
-            {
-              "id": "14",
-              "guid": "c968db0a-df90-41e8-823e-bc8392e73fa2",
-              "text": "<p><span>An actor is a person or other entity external to the software system being specified who interacts with the system and performs use cases to accomplish something of value. Different actors often correspond to different user classes, or roles. Name the primary actor that will be initiating this use case and any other secondary actors (humans or systems) that will participate in the use case’s execution.</span></p>"
-            }
-          ]
-        },
-        {
-          "id": "15",
-          "guid": "8f109669-d846-4fa7-84dd-fb2c9fa401c4",
-          "heading": "Description",
-          "children": [
-            {
-              "id": "16",
-              "guid": "d46a5c82-9eac-4109-b2ef-1a528cb5949d",
-              "text": "<p><span>Provide a brief description of the reason for and outcome of this use case, or a high-level description of the sequence of actions and the outcome of executing the use case.</span></p>"
-            }
-          ]
-        },
-        {
-          "id": "17",
-          "guid": "f9ab3e33-289a-4bba-851a-e98b09b83d35",
-          "heading": "Trigger",
-          "children": [
-            {
-              "id": "18",
-              "guid": "309f9426-ac06-4f45-9940-e30fd699b2a1",
-              "text": "<p><span>Identify the event or user action that initiates the use case. This trigger alerts the system to test the preconditions so it can judge whether to proceed with execution.</span></p>"
-            }
-          ]
-        },
-        {
-          "id": "19",
-          "guid": "c2cc98cf-4d0f-4ac9-9115-5d8e1a10c54a",
-          "heading": "Preconditions",
-          "children": [
-            {
-              "id": "20",
-              "guid": "71acebfd-d600-4bdc-bdbc-537eb43f8678",
-              "text": "<p><span>List any activities that must take place, or any conditions that must be true, before the use case can be started. The system must be able to test each precondition. Number each precondition. Example: PRE-1. User’s identity has been authenticated.</span></p>"
-            }
-          ]
-        },
-        {
-          "id": "21",
-          "guid": "348a831c-5a0f-46c9-ad59-0762efaf6d5c",
-          "heading": "Postconditions",
-          "children": [
-            {
-              "id": "22",
-              "guid": "01eede3e-f7e8-4c19-be95-67f87e93d55e",
-              "text": "<p><span>Describe the state of the system at the successful conclusion of the use case execution. Label each postcondition in the form POST-X, where X is a sequence number. Example: POST-1. Price of item in the database has been updated with the new value.</span></p>"
-            }
-          ]
-        },
-        {
-          "id": "23",
-          "guid": "585a738a-ba8c-4289-8d7a-d665488e40c8",
-          "heading": "Normal Flow",
-          "children": [
-            {
-              "id": "24",
-              "guid": "040fd62f-10b3-426f-a77b-d9b420e649cb",
-              "text": "<p><span>Provide a description of the user actions and corresponding system responses that will take place during execution of the use case under normal, expected conditions. This dialogue sequence will lead to accomplishing the goal stated in the use case name and description. Show a numbered list of actions performed by the actor, alternating with responses provided by the system. The normal flow is numbered “X.0”, where “X” is the Use Case ID.</span></p>"
-            }
-          ]
-        },
-        {
-          "id": "25",
-          "guid": "8b369e39-9cca-42bc-8ed0-57ed466dea4c",
-          "heading": "Alternative Flows",
-          "children": [
-            {
-              "id": "26",
-              "guid": "f06e3bd9-eee7-4962-8df6-82dcc81c8bda",
-              "text": "<p><span>Document other successful usage scenarios that can take place within this use case. State the alternative flow, and describe any differences in the sequence of steps that take place. Number each alternative flow in the form “X.Y”, where “X” is the Use Case ID and Y is a sequence number for the alternative flow. For example, “5.3” would indicate the third alternative flow for use case number 5. Indicate where each alternative flow would branch off from the normal flow, and if pertinent, where it would rejoin the normal flow.</span></p>"
-            }
-          ]
-        },
-        {
-          "id": "27",
-          "guid": "2a375493-32cf-4dd0-9a94-384e3b49d003",
-          "heading": "Exceptions",
-          "children": [
-            {
-              "id": "28",
-              "guid": "11d7b2c4-dcbc-41a9-b388-0b54ed603c8a",
-              "text": "<p><span>Describe any anticipated error conditions that could occur during execution of the use case and how the system is to respond to those conditions. Number each alternative flow in the form “X.<span>Y.EZ</span>”, where “X” is the Use Case ID, Y indicates the normal (0) or alternative (&gt;0) flow during which this exception could take place, “E” indicates an exception, and “Z” is a sequence number for the exceptions. For <span>example</span> “5.0.E2” would indicate the second exception for the normal flow for use case number 5. Indicate where in the normal (or an alternative) flow each exception could occur.</span></p>"
-            }
-          ]
-        },
-        {
-          "id": "29",
-          "guid": "32dd5747-bb4e-4e93-8bda-5092e453c1f3",
-          "heading": "Priority",
-          "children": [
-            {
-              "id": "30",
-              "guid": "f590471b-3a3e-48f5-908f-506663557721",
-              "text": "<p><span>Indicate the relative priority of implementing the functionality required to allow this use case to be executed. Use the same priority scheme as that used for other requirements.</span></p>"
-            }
-          ]
-        },
-        {
-          "id": "31",
-          "guid": "8d13e281-a3b3-4871-921a-1db9afc6a59f",
-          "heading": "Business Rules",
-          "children": [
-            {
-              "id": "32",
-              "guid": "3c6f04b8-7a47-4d9a-a855-ead6dc9abd22",
-              "text": "<p><span>List any business rules that influence this use case. Don’t include the business rule text here, just its identifier so the reader can find it in another repository when needed.</span></p>"
-            }
-          ]
-        },
-        {
-          "id": "33",
-          "guid": "4941ab50-7072-4c4a-ad58-2b4d9971acca",
-          "heading": "Assumptions",
-          "children": [
-            {
-              "id": "34",
-              "guid": "a0ebb857-49b9-4b38-a2f3-039e727c9f9f",
-              "text": "<p><span>List any assumptions that were made regarding this use case or how it might execute.</span></p>"
-            }
-          ]
-        },
-        {
-          "id": "35",
-          "guid": "aacd0fd4-eac3-4dbe-ad49-c5bc45404920",
-          "heading": "Other Information",
-          "children": [
-            {
-              "id": "36",
-              "guid": "8abfdb59-ab83-4dac-a87a-19c1268e187e",
-              "text": "<p><span>Identify any additional pertinent requirements or constraints for the use case, such as quality attributes. Describe what should happen if the use case execution fails for some unanticipated or systemic reason (e.g., loss of network access, timeout). If the use case results in a durable state change in a database or the outside world, state whether the change is rolled back, completed correctly, partially completed with a known state, or left in an undetermined state as a result of the exception.</span></p>"
-            },
-            {
-              "id": "37",
-              "guid": "f6f39744-68e6-4c0e-9212-6423235187bf",
-              "text": "<p><span>Use Case List</span></p><table><tbody><tr><td style=\"width:122.4pt;\"><p><span>Primary Actor</span></p></td><td style=\"width:274.5pt;\"><p><span>Use Cases</span></p></td></tr><tr><td style=\"width:122.4pt;\"><p><span>&nbsp;</span></p></td><td style=\"width:274.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:122.4pt;\"><p><span>&nbsp;</span></p></td><td style=\"width:274.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:122.4pt;\"><p><span>&nbsp;</span></p></td><td style=\"width:274.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:122.4pt;\"><p><span>&nbsp;</span></p></td><td style=\"width:274.5pt;\"><p><span>&nbsp;</span></p></td></tr></tbody></table>"
-            },
-            {
-              "id": "38",
-              "guid": "bbdcd9c2-36ab-43e6-8eb6-3d232f312552",
-              "text": "<p><span>Use Case Template</span></p><table><tbody><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>ID and Name:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Author:</span></p></td><td style=\"width:121.5pt;\"><p><span>&nbsp;</span></p></td><td style=\"width:94.5pt;\"><p style=\"text-align:right;\"><span>Date Created:</span></p></td><td style=\"width:157.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Primary Actor:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Secondary Actors:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Description:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Trigger:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Preconditions:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span><span>PRE-1.<span>&nbsp;&nbsp;&nbsp;&nbsp;</span></span></span><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Postconditions:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span><span>POST-1.<span>&nbsp;&nbsp;&nbsp;</span></span></span><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Normal Flow:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span><span>1.<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span></span><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Alternative Flows:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Exceptions:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Priority:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Business Rules:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Assumptions:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\"><span>Other Information:</span></p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p><span>&nbsp;</span></p></td></tr></tbody></table>"
-            }
-          ]
         }
       ]
     }
