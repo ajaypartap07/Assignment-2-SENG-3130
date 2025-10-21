@@ -1,0 +1,41 @@
+{
+  "id": "UC",
+  "guid": "742df7d0-c149-4890-ab27-2296b4306d5c",
+  "name": "Use Cases",
+  "lastId": 0,
+  "createdOn": "2025-10-21T17:21:12.987Z",
+  "createdBy": {
+    "name": "Ajay Ludher",
+    "email": "ludhera17@mytru.ca",
+    "company": "Thompson Rivers University"
+  },
+  "lastChangedOn": "2025-10-21T17:21:12.987Z",
+  "lastChangedBy": {
+    "name": "Ajay Ludher",
+    "email": "ludhera17@mytru.ca",
+    "company": "Thompson Rivers University"
+  },
+  "data": [],
+  "attributes": {
+  },
+  "templateColumns": {
+  },
+  "views": {
+    "Primary": {
+      "columns": [
+        {
+          "columnId": "id",
+          "width": 65
+        },
+        {
+          "columnId": "description",
+          "width": 500
+        }
+      ],
+      "default": true
+    }
+  },
+  "metadata": {
+    "format": "2.20"
+  }
+}

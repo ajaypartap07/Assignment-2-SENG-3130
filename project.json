@@ -2,7 +2,8 @@
   "id": "Assignment 2",
   "description": "SENG 3130 - Assignment 2",
   "documents": [
-    "SRS.json"
+    "SRS.json",
+    "UC.json"
   ],
   "traceability": {
     "reference": {
