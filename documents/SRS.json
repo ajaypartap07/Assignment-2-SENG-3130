@@ -9,7 +9,7 @@
     "email": "ludhera17@mytru.ca",
     "company": "Thompson Rivers University"
   },
-  "lastChangedOn": "2025-10-23T15:35:29.212Z",
+  "lastChangedOn": "2025-10-23T15:46:57.794Z",
   "lastChangedBy": {
     "name": "Ajay Ludher",
     "email": "ludhera17@mytru.ca",
@@ -20,6 +20,20 @@
       "id": "54",
       "guid": "42d92609-a6c4-4c84-b994-37b0837739f6",
       "heading": "Introduction",
+      "text": "<p>The Smart Waste Management &amp; Recycling System (SWMRS) Software Requirements Specification outlines the objectives, standards, and functional framework for a city-wide, sensor-driven waste and recycling solution in Kamloops.</p>",
+      "history": [
+        {
+          "attributesChanged": {
+            "text": null
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-23T15:46:57.794Z"
+        }
+      ],
       "children": [
         {
           "id": "56",
@@ -238,6 +252,7 @@
       "id": "78",
       "guid": "f397ae22-be0d-408d-9586-a58413584900",
       "heading": "System Features",
+      "text": "<p>This section identifies and details the core functional features that form the backbone of the SWMRS platform. Each feature is presented with a concise summary, priority ranking, and a set of traceable requirements to support effective implementation and system validation.</p>",
       "history": [
         {
           "attributesChanged": {
@@ -260,6 +275,17 @@
             "name": "Ajay Ludher"
           },
           "changedOn": "2025-10-23T06:50:42.192Z"
+        },
+        {
+          "attributesChanged": {
+            "text": null
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-23T15:41:53.218Z"
         }
       ],
       "children": [
