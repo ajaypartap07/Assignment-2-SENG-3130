@@ -2,14 +2,14 @@
   "id": "SRS",
   "guid": "35d8cd4f-daf8-4aff-91be-04f947645a25",
   "name": "Software Requirements Specification",
-  "lastId": 127,
+  "lastId": 142,
   "createdOn": "2025-10-21T16:38:22.573Z",
   "createdBy": {
     "name": "Ajay Ludher",
     "email": "ludhera17@mytru.ca",
     "company": "Thompson Rivers University"
   },
-  "lastChangedOn": "2025-10-21T16:38:35.212Z",
+  "lastChangedOn": "2025-10-23T09:12:38.040Z",
   "lastChangedBy": {
     "name": "Ajay Ludher",
     "email": "ludhera17@mytru.ca",
@@ -17,301 +17,26 @@
   },
   "data": [
     {
-      "id": "1",
-      "guid": "57a6b05e-26fd-4dba-89bb-2420e2a1426b",
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Thompson Rivers University",
-            "email": "ludhera17@mytru.ca",
-            "name": "Ajay Ludher"
-          },
-          "changedOn": "2025-10-21T16:38:23.014Z",
-          "docId": "SRS",
-          "structureAction": "Create"
-        }
-      ]
-    },
-    {
-      "id": "2",
-      "guid": "a2a3059a-ca89-4b14-a7eb-ff5d3eec4d56",
-      "text": "<p><span>Software Requirements Specification</span></p>"
-    },
-    {
-      "id": "3",
-      "guid": "a1467b5b-576e-4926-a9f6-2c098be2256a",
-      "text": "<p><span>for</span></p>"
-    },
-    {
-      "id": "4",
-      "guid": "8d2b32a4-2ac1-425b-812e-9c9f487478e0",
-      "text": "<p><span>&lt;Project&gt;</span></p>"
-    },
-    {
-      "id": "5",
-      "guid": "43b9abdd-c235-47dc-9001-b2a9afb5bdad",
-      "text": "<p><span>Version 1.0 approved</span></p>"
-    },
-    {
-      "id": "6",
-      "guid": "b8059fd8-2a89-42e0-919c-eb103887166c",
-      "text": "<p><span>Prepared by &lt;author&gt;</span></p>"
-    },
-    {
-      "id": "7",
-      "guid": "4dd0505a-7ed9-4d89-ac4e-0fc580a1758c",
-      "text": "<p><span>&lt;organization&gt;</span></p>"
-    },
-    {
-      "id": "8",
-      "guid": "fd0d42b6-ecb4-484c-8a98-e89f9bf3791e",
-      "text": "<p><span>&lt;date created&gt;</span></p>"
-    },
-    {
-      "id": "9",
-      "guid": "b7d86dda-58b3-4568-ab5a-6e4e501f0ff9",
-      "text": "<p><span><span>Table of Contents</span></span></p>"
-    },
-    {
-      "id": "10",
-      "guid": "79286b8a-a127-40a3-8c41-73af6ac47339",
-      "text": "<p><span>Table of Contents<span>.......................................................................................................................... </span></span><span>ii</span></p>"
-    },
-    {
-      "id": "11",
-      "guid": "79d2f8aa-4dc2-44b4-bac7-89e3775924eb",
-      "text": "<p><span>Revision History<span>........................................................................................................................... </span></span><span>iii</span></p>"
-    },
-    {
-      "id": "12",
-      "guid": "82456dc9-0176-4f22-9d98-44855a87870a",
-      "text": "<p><span>1.</span><span><span>&nbsp;&nbsp; </span></span><span>Introduction<span>............................................................................................................................. </span></span><span>1</span></p>"
-    },
-    {
-      "id": "13",
-      "guid": "5dd55e21-e5d2-4e58-8922-a45c679b68b0",
-      "text": "<p><span>1.1</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Document Purpose<span>............................................................................................................. </span></span><span>1</span></p>"
-    },
-    {
-      "id": "14",
-      "guid": "c7b6da88-84c1-48fa-acd5-2ac46e446409",
-      "text": "<p><span>1.2</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Document Conventions<span>....................................................................................................... </span></span><span>1</span></p>"
-    },
-    {
-      "id": "15",
-      "guid": "6cc281fb-abee-4da4-8e4f-fad87d6e1d43",
-      "text": "<p><span>1.3</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Project Scope<span>..................................................................................................................... </span></span><span>1</span></p>"
-    },
-    {
-      "id": "16",
-      "guid": "7e189fa4-db59-4a0a-b048-f396e08e1cec",
-      "text": "<p><span>1.4</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>References<span>......................................................................................................................... </span></span><span>1</span></p>"
-    },
-    {
-      "id": "17",
-      "guid": "f0129702-2e64-46f9-bef5-5624150250d7",
-      "text": "<p><span>2.</span><span><span>&nbsp;&nbsp; </span></span><span>Overall Description<span>................................................................................................................. </span></span><span>1</span></p>"
-    },
-    {
-      "id": "18",
-      "guid": "a90a36a6-dd41-479e-9b12-ad55979b2400",
-      "text": "<p><span>2.1</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Product Perspective<span>............................................................................................................ </span></span><span>1</span></p>"
-    },
-    {
-      "id": "19",
-      "guid": "07ba6356-8ea0-4511-89f3-66c21707725f",
-      "text": "<p><span>2.2</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>User Classes and Characteristics<span>......................................................................................... </span></span><span>2</span></p>"
-    },
-    {
-      "id": "20",
-      "guid": "ac2ec5cb-06d8-4297-a10b-72cd9680ba11",
-      "text": "<p><span>2.3</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Use Cases and Models<span>........................................................................................................ </span></span><span>2</span></p>"
-    },
-    {
-      "id": "21",
-      "guid": "886dde18-00f8-4309-8dec-a656dbda6332",
-      "text": "<p><span>2.4</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Operating Environment<span>....................................................................................................... </span></span><span>2</span></p>"
-    },
-    {
-      "id": "22",
-      "guid": "c0218984-c753-4055-bc31-eb6f8d76147c",
-      "text": "<p><span>2.5</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Design and Implementation Constraints<span>............................................................................... </span></span><span>2</span></p>"
-    },
-    {
-      "id": "23",
-      "guid": "54a68139-ac60-4413-a79e-317ebb104730",
-      "text": "<p><span>2.6</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Assumptions and Dependencies<span>.......................................................................................... </span></span><span>2</span></p>"
-    },
-    {
-      "id": "24",
-      "guid": "2c17bfd8-5140-43c1-9282-07103c19a14f",
-      "text": "<p><span>3.</span><span><span>&nbsp;&nbsp; </span></span><span>System Features<span>....................................................................................................................... </span></span><span>2</span></p>"
-    },
-    {
-      "id": "25",
-      "guid": "13065956-c8c3-41fd-85ad-3f30d99bb8e8",
-      "text": "<p><span>3.1</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>System Feature 1<span>................................................................................................................ </span></span><span>3</span></p>"
-    },
-    {
-      "id": "26",
-      "guid": "6cbd0f6e-3a37-4e1b-a16f-d0c4ab8ee58a",
-      "text": "<p><span>3.1.1</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Description<span>.................................................................................................................... </span></span><span>3</span></p>"
-    },
-    {
-      "id": "27",
-      "guid": "d96de6a2-41fe-4208-af99-8c1dfe4bcaea",
-      "text": "<p><span>&lt;Provide a short description of the feature and indicate whether it is of High, Medium, or Low priority.&gt;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>3</span></p>"
-    },
-    {
-      "id": "28",
-      "guid": "8f5be130-9e58-4995-b089-007d8390e0aa",
-      "text": "<p><span>3.1.2</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Stimulus/Response Sequences<span>......................................................................................... </span></span><span>3</span></p>"
-    },
-    {
-      "id": "29",
-      "guid": "9ff63f98-b7a4-4869-9b49-c11cc5a72b97",
-      "text": "<p><span>&lt;List the sequences of user actions and system responses that stimulate the behavior defined for this feature. These will correspond to the dialog elements associated with use cases.&gt;<span>......................................................................................................... </span></span><span>3</span></p>"
-    },
-    {
-      "id": "30",
-      "guid": "a3ff235a-1698-44c6-afb7-f064d2ab754b",
-      "text": "<p><span>3.1.3</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Functional Requirements<span>................................................................................................ </span></span><span>3</span></p>"
-    },
-    {
-      "id": "31",
-      "guid": "05495cad-22f5-4477-9ba4-e9d7ad32ddf7",
-      "text": "<p><span>&lt;Itemize the specific functional requirements associated with this feature. These are the software capabilities that must be implemented for the user to carry out the feature's services or to perform a use case. Describe how the product should respond to anticipated error conditions. Use “TBD” as a placeholder to indicate when necessary information is not yet available.&gt;<span>...................................... </span></span><span>3</span></p>"
-    },
-    {
-      "id": "32",
-      "guid": "b2029879-fac8-4bf3-a51c-05f99f090cc5",
-      "text": "<p><span>3.2</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>System Feature 2 (and so on)<span>.............................................................................................. </span></span><span>3</span></p>"
-    },
-    {
-      "id": "33",
-      "guid": "2412102e-4722-4ecf-b8e1-203dd2f5781b",
-      "text": "<p><span>4.</span><span><span>&nbsp;&nbsp; </span></span><span>Data Requirements<span>.................................................................................................................. </span></span><span>3</span></p>"
-    },
-    {
-      "id": "34",
-      "guid": "aae7e8f3-6896-4edc-9039-bec7d5828871",
-      "text": "<p><span>4.1</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Logical Data Model<span>............................................................................................................ </span></span><span>3</span></p>"
-    },
-    {
-      "id": "35",
-      "guid": "fe8f6c49-691d-458c-9136-0aec5f50da4f",
-      "text": "<p><span>4.2</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Data Dictionary<span>.................................................................................................................. </span></span><span>3</span></p>"
-    },
-    {
-      "id": "36",
-      "guid": "570d6008-7efb-4bf8-b18a-48a99f94ce1e",
-      "text": "<p><span>4.3</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Reports<span>.............................................................................................................................. </span></span><span>3</span></p>"
-    },
-    {
-      "id": "37",
-      "guid": "41a44997-f9a2-44f4-9f88-3f4cc790d1dc",
-      "text": "<p><span>4.4</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Data Acquisition, Integrity, Retention, and Disposal<span>............................................................. </span></span><span>4</span></p>"
-    },
-    {
-      "id": "38",
-      "guid": "18ce609c-1af4-4c4d-9e37-d61ea31e3102",
-      "text": "<p><span>5.</span><span><span>&nbsp;&nbsp; </span></span><span>External Interface Requirements<span>.......................................................................................... </span></span><span>4</span></p>"
-    },
-    {
-      "id": "39",
-      "guid": "81461c5c-17e2-4055-9457-8cc3d2b7e27f",
-      "text": "<p><span>5.1</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>User Interfaces<span>................................................................................................................... </span></span><span>4</span></p>"
-    },
-    {
-      "id": "40",
-      "guid": "fccd0142-0794-4539-ba97-9886d856e0d3",
-      "text": "<p><span>5.2</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Software Interfaces<span>............................................................................................................. </span></span><span>4</span></p>"
-    },
-    {
-      "id": "41",
-      "guid": "e5f2d927-d7b9-411f-aabc-29b8b550071b",
-      "text": "<p><span>5.3</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Hardware Interfaces<span>........................................................................................................... </span></span><span>4</span></p>"
-    },
-    {
-      "id": "42",
-      "guid": "37c93d3f-5712-430f-b300-5a29561b798d",
-      "text": "<p><span>5.4</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Communications Interfaces<span>................................................................................................. </span></span><span>5</span></p>"
-    },
-    {
-      "id": "43",
-      "guid": "f4e69dde-b344-4e0a-9976-f399148d8319",
-      "text": "<p><span>6.</span><span><span>&nbsp;&nbsp; </span></span><span>Quality Attributes<span>................................................................................................................... </span></span><span>5</span></p>"
-    },
-    {
-      "id": "44",
-      "guid": "5fee49b0-24c6-4fbb-878d-1faf48fc1230",
-      "text": "<p><span>6.1</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Usability<span>............................................................................................................................ </span></span><span>5</span></p>"
-    },
-    {
-      "id": "45",
-      "guid": "0e5e7198-5354-4e82-83d4-fd1b5a67d934",
-      "text": "<p><span>6.2</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Performance<span>....................................................................................................................... </span></span><span>5</span></p>"
-    },
-    {
-      "id": "46",
-      "guid": "138108a5-6b53-4824-87b9-a20243328a04",
-      "text": "<p><span>6.3</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Security<span>............................................................................................................................. </span></span><span>5</span></p>"
-    },
-    {
-      "id": "47",
-      "guid": "0abb5283-43c5-4c26-a873-1a3181d8cd57",
-      "text": "<p><span>6.4</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Safety<span>................................................................................................................................ </span></span><span>5</span></p>"
-    },
-    {
-      "id": "48",
-      "guid": "adac0630-2af2-4172-8276-e843650d7582",
-      "text": "<p><span>6.5</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>[Others as relevant]<span>............................................................................................................ </span></span><span>5</span></p>"
-    },
-    {
-      "id": "49",
-      "guid": "aac02b94-d545-48fd-8bd3-19af367c6949",
-      "text": "<p><span>7.</span><span><span>&nbsp;&nbsp; </span></span><span>Internationalization and Localization Requirements<span>.......................................................... </span></span><span>6</span></p>"
-    },
-    {
-      "id": "50",
-      "guid": "297652f3-7f3f-4205-bd34-b7e9fde1b512",
-      "text": "<p><span>8.</span><span><span>&nbsp;&nbsp; </span></span><span>Other Requirements<span>................................................................................................................ </span></span><span>6</span></p>"
-    },
-    {
-      "id": "51",
-      "guid": "691f134e-782d-41e0-9742-4ae28d83b1c4",
-      "text": "<p><span>9.</span><span><span>&nbsp;&nbsp; </span></span><span>Glossary<span>.................................................................................................................................... </span></span><span>6</span></p>"
-    },
-    {
-      "id": "52",
-      "guid": "833e1f67-987a-42ef-8564-f78b8f19dea3",
-      "text": "<p><span>10.</span><span><span> </span></span><span>Analysis Models<span>....................................................................................................................... </span></span><span>6</span></p>"
-    },
-    {
-      "id": "53",
-      "guid": "94569962-1b27-484c-b0bc-d576c889a9de",
-      "text": "<p><a><span>Revision History</span></a></p><table><tbody><tr><td style=\"width:108.0pt;\"><p><span>Name</span></p></td><td style=\"width:58.5pt;\"><p><span>Date</span></p></td><td style=\"width:247.7pt;\"><p><span>Reason For Changes</span></p></td><td style=\"width:79.2pt;\"><p><span>Version</span></p></td></tr><tr><td style=\"width:108.0pt;\"><p><span>&nbsp;</span></p></td><td style=\"width:58.5pt;\"><p><span>&nbsp;</span></p></td><td style=\"width:247.7pt;\"><p><span>&nbsp;</span></p></td><td style=\"width:79.2pt;\"><p><span>&nbsp;</span></p></td></tr><tr><td style=\"width:108.0pt;\"><p><span>&nbsp;</span></p></td><td style=\"width:58.5pt;\"><p><span>&nbsp;</span></p></td><td style=\"width:247.7pt;\"><p><span>&nbsp;</span></p></td><td style=\"width:79.2pt;\"><p><span>&nbsp;</span></p></td></tr></tbody></table>"
-    },
-    {
       "id": "54",
       "guid": "42d92609-a6c4-4c84-b994-37b0837739f6",
       "heading": "Introduction",
       "children": [
         {
-          "id": "55",
-          "guid": "42ada6e7-225b-4a80-a00f-3e979f828658",
-          "text": "<p><a><span>&lt;The introduction presents an overview to help the reader understand how the SRS is organized and how to use it.&gt;</span></a></p>"
-        },
-        {
           "id": "56",
           "guid": "76c004f4-bd9e-4ff3-bf07-d807a19dfd24",
           "heading": "Document Purpose",
-          "children": [
+          "text": "<p>This Software Requirements Specification (SRS) establishes the complete requirements for the Smart Waste Management &amp; Recycling System (SWMRS) – the product developed by The Junkers for the City of Kamloops. The target audience includes software developers, project managers, client representatives, city administrators, collection workers, residents, maintainers, QA/testers, and documentation writers. Its purpose is to define detailed, traceable requirements based on the vision from Assignment 1 and extended through requirements elicitation in Assignment 2.</p>",
+          "history": [
             {
-              "id": "57",
-              "guid": "07dd31a7-6c0b-4335-a3f4-43cbc2b134aa",
-              "text": "<p><span>&lt;Identify the product whose software requirements are specified in this document, including the revision or release number. Describe the different types of reader that the document is intended for, such as developers, project managers, marketing staff, users, testers, and documentation writers.&gt;</span></p>"
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-23T07:17:00.571Z"
             }
           ]
         },
@@ -319,11 +44,18 @@
           "id": "58",
           "guid": "4fc2b546-0f99-466b-b0d3-11b5391dd542",
           "heading": "Document Conventions",
-          "children": [
+          "text": "<ul><li>Each requirement, objective, and risk in this document is assigned a unique identifier for traceability (e.g., OBJ-01, REQ-10, RSK-05) as per best SRS practices.</li><li>Use cases are prefixed UC-XX (e.g., UC-01).</li><li>High, Medium, or Low priority is noted in italics after each feature descriptor.</li><li>All referenced documents follow IEEE citation guidelines.</li><li>Terminology and abbreviations are defined in Section 9 (Glossary).</li><li>Tables or numbered paragraphs are used instead of unstructured lists for all formally referenced items.</li></ul>",
+          "history": [
             {
-              "id": "59",
-              "guid": "440e7dd5-aa9d-4e42-a536-aec4030c1784",
-              "text": "<p><span>&lt;Describe any standards or typographical conventions used, including the meaning of specific text styles, highlighting, or notations. If you are manually labeling unique requirement identifiers, you might specify the format here for anyone who needs to add one later.&gt;</span></p>"
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-23T07:16:54.359Z"
             }
           ]
         },
@@ -331,11 +63,18 @@
           "id": "60",
           "guid": "01c65040-9e45-4b0b-a6fb-8db88d05ef74",
           "heading": "Project Scope",
-          "children": [
+          "text": "<p>SWMRS is an integrated municipal software solution that will use IoT-enabled waste bin sensors, intelligent routing, mobile and web interfaces, and real-time analytics to enhance the efficiency of waste/recycling collection and community engagement in Kamloops. Major objectives include:</p><p>OBJ-01. Reduce operational expenditures by 20% in the first year through route optimization.</p><p>OBJ-02. Increase recycling rates by at least 30% by year-end via resident point-based gamification.</p><p>OBJ-03. Achieve a 15% reduction in missed collections through automated fill-level monitoring and alerts.</p><p>OBJ-04. Lower the city sanitation fleet’s carbon emissions by 10% by minimizing unnecessary travel.</p><p>The scope and business context are established in the Vision &amp; Scope Document (VSD), with this SRS focusing on requirements for the initial release of the SWMRS.</p>",
+          "history": [
             {
-              "id": "61",
-              "guid": "7ad6f8f1-3db7-401b-a1bb-d81a5ec1e7ae",
-              "text": "<p><span>&lt;Provide a short description of the software being specified and its purpose. Relate the software to user or corporate goals and to business objectives and strategies. If a separate vision and scope or similar document is available, refer to it rather than duplicating its contents here. An SRS that specifies an incremental release of an evolving product should contain its own scope statement as a subset of the long-term strategic product vision. You might provide a high-level summary of the major features the release contains or the significant functions that it performs.&gt;</span></p>"
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-23T07:16:47.916Z"
             }
           ]
         },
@@ -343,11 +82,18 @@
           "id": "62",
           "guid": "8fd855fc-e0d4-4422-bef7-5221afa592d4",
           "heading": "References",
-          "children": [
+          "text": "<ul><li>Vision &amp; Scope Doc - The Junkers, v1.0, Oct 2025</li><li>City of Kamloops Waste Management Policy, 2025</li><li>Assignment #2 - SENG 3130, User Requirement Details</li><li>IEEE SRS Standard, 2020</li><li>(Other technical references and source materials as needed)</li></ul>",
+          "history": [
             {
-              "id": "63",
-              "guid": "a28e9aa4-c42b-4292-a274-12279a7239f8",
-              "text": "<p><span>&lt;List any documents or other resources to which this SRS refers. Include hyperlinks to them if they are in a persistent location. These might include user interface style guides, contracts, standards, system requirements specifications, interface specifications, or the SRS for a related product. Provide enough information so that the reader can access each reference, including its title, author, version number, date, and source, storage location, or URL.&gt;</span></p>"
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-23T07:16:42.071Z"
             }
           ]
         }
@@ -357,21 +103,37 @@
       "id": "64",
       "guid": "2d7e2ac8-7e58-4d0f-9681-334cf8fd82bf",
       "heading": "Overall Description",
-      "children": [
+      "text": "<p>This section provides a high-level overview of the SWMRS, its users, the primary operating environment, major constraints, and foundational project assumptions.</p>",
+      "history": [
         {
-          "id": "65",
-          "guid": "60dddc43-f131-4f04-811c-eb677449bfd9",
-          "text": "<p><span>&lt;This section presents a high-level overview of the product and the environment in which it will be used, the anticipated users, and known constraints, assumptions, and dependencies.&gt;</span></p>"
-        },
+          "attributesChanged": {
+            "text": null
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-23T07:16:34.451Z"
+        }
+      ],
+      "children": [
         {
           "id": "66",
           "guid": "3b2fae23-5dfd-4154-8b64-d052b57f59dd",
           "heading": "Product Perspective",
-          "children": [
+          "text": "<p>SWMRS is a newly designed, city-wide, data-driven SaaS platform intended to replace Kamloops’ legacy manual and partially-digital waste management processes. It is architected to interact with decentralized IoT smart bins, municipal and contractor staff, resident users (via mobile/web), and a rewards vendor network. The SWMRS is the hub for data collection, monitoring, routing optimization, reward calculation, and cross-stakeholder communication.</p>",
+          "history": [
             {
-              "id": "67",
-              "guid": "4e18d6a8-8d7a-4833-b7c5-6f404c1bb2d5",
-              "text": "<p><span>&lt;Describe the product's context and origin. Is it the next member of a growing product line, the next version of a mature system, a replacement for an existing application, or an entirely new product? If this SRS defines a component of a larger system, state how this software relates to the overall system and identify major interfaces between the two. Consider including visual models such as a context diagram or ecosystem map to show the product's relationship to other systems.&gt;</span></p>"
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-23T07:16:27.927Z"
             }
           ]
         },
@@ -379,11 +141,18 @@
           "id": "68",
           "guid": "506883bd-2f01-47f0-ae32-d37a1ee1ad05",
           "heading": "User Classes and Characteristics",
-          "children": [
+          "text": "<table style=\"width: 91%;\"><tbody><tr><td><strong>User Class​​​​​</strong></td><td><strong>Type</strong></td><td><strong>Description</strong></td><td><strong>Favourability</strong>&nbsp;</td></tr><tr><td>Collection Worker</td><td>Direct<br></td><td>Uses mobile app to view routes, report issues, confirm work<br></td><td>Favoured&nbsp;</td></tr><tr><td>City Administrator</td><td>Direct<br></td><td>Oversees system/operations, generates compliance reports<br></td><td>Favoured<br></td></tr><tr><td>Resident</td><td>Direct<br></td><td>Receives notifications, reports issues, tracks rewards<br></td><td>Favoured<br></td></tr><tr><td>Supervisor</td><td>Direct<br></td><td>Manages exceptions, approves/denies reports<br></td><td>Favoured<br></td></tr><tr><td>Maintenance Technician</td><td>Indirect</td><td>Responds to sensor/truck faults and audit triggers<br></td><td>Favoured<br></td></tr><tr><td>Local Business Partner</td><td>Indirect</td><td>Provides and manages resident rewards<br></td><td>Favoured<br></td></tr><tr><td>Data Attacker</td><td>Indirect</td><td>Threatens system security (handled via security systems)<br></td><td>Unfavored</td></tr><tr><td>Unauthorized User</td><td>Direct<br></td><td>Attempts system breach or unauthorized actions<br></td><td>Unfavored</td></tr></tbody></table>",
+          "history": [
             {
-              "id": "69",
-              "guid": "b849dba3-cccd-4c40-acd4-45b5297c46e0",
-              "text": "<p><span>&lt;Identify the various user classes that you anticipate will use this product and describe their pertinent characteristics. Some requirements might pertain only to certain user classes. Identify the favored user classes. User classes represent a subset of the stakeholders described in the vision and scope document. User class descriptions are a reusable resource. If available, you can incorporate user class descriptions by simply pointing to them in a master user class catalog instead of duplicating information here.&gt;</span></p>"
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-23T07:16:21.615Z"
             }
           ]
         },
@@ -391,11 +160,18 @@
           "id": "70",
           "guid": "e0bc6e25-2481-4557-9c92-285c2ecd659c",
           "heading": "Use Cases and Models",
-          "children": [
+          "text": "<p>The primary use cases for SWMRS are as follows:</p><p>UC-01. Optimize Collection Route</p><p>UC-02. Report Missed Pickup/Issue</p><p>UC-03. Resident Track Recycling Rewards</p><p>UC-04. Worker Pickup Confirmation</p><p>UC-05. City Admin Monitor Fleet/Sensor Dashboard</p><p>UC-06. Supervisor Manage Exceptions (approve/reject)</p><p>UC-07. Sensor Health and Alerts</p><p>UC-08. Manage Rewards Catalog</p><p>Model diagrams (use case, context, and activity) are provided in the assignment appendix.</p>",
+          "history": [
             {
-              "id": "71",
-              "guid": "5dd7b26e-cd4a-4a94-9c12-57f44a21e0c5",
-              "text": "<p><span>&lt;Identify the main use cases of the system and report them following the template. Model the use cases by drawing the Use Case diagrams and Activity diagrams.&gt;</span></p>"
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-23T07:15:18.562Z"
             }
           ]
         },
@@ -403,11 +179,18 @@
           "id": "72",
           "guid": "fafb1bcc-7ba7-42b7-af41-f7c3b228c42d",
           "heading": "Operating Environment",
-          "children": [
+          "text": "<ul><li><strong>Mobile platforms:</strong> Android 12.0+ and iOS 16.0+ for both resident and worker apps.</li><li><strong>Backend:</strong> Municipally managed secure servers (Windows Server 2019+ or Linux 22.04+), or cloud-based (Azure/GCP).</li><li><strong>IoT modules:</strong> LoRaWAN/Zigbee/3G/4G integration for bin telemetry.</li><li><strong>APIs:</strong> RESTful endpoints for traffic/weather integration and third-party rewards partners.</li><li>City office web portals deployed on secure municipal intranet.</li></ul>",
+          "history": [
             {
-              "id": "73",
-              "guid": "337b0074-3fbf-43f9-9700-ae7e0d21755c",
-              "text": "<p><span>&lt;Describe the environment in which the software will operate, including the hardware platform; operating systems and versions; geographical locations of users, servers, and databases; and organizations that host the related databases, servers, and websites. List any other software components or applications with which the system must peacefully coexist. If extensive technical infrastructure work needs to be performed in conjunction with developing the new system, consider creating a separate infrastructure requirements specification to detail that work.&gt;</span></p>"
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-23T07:15:12.223Z"
             }
           ]
         },
@@ -415,11 +198,18 @@
           "id": "74",
           "guid": "44019280-1e90-4cd3-b025-a8cbbe6547c7",
           "heading": "Design and Implementation Constraints",
-          "children": [
+          "text": "<ul><li>Comply with City of Kamloops and BC privacy/security policy.</li><li>Integration limited to officially certified IoT sensor vendors.</li><li>Mobile applications must function in offline mode with eventual data sync for workers.</li><li>All interfaces WCAG 2.1 Level AA accessible.</li><li>Open, documented APIs only; no legacy, proprietary, or closed-source dependencies in the first release.</li></ul>",
+          "history": [
             {
-              "id": "75",
-              "guid": "68d986b8-171d-41f3-97b8-47470cdbfb32",
-              "text": "<p><span>&lt;Describe any factors that will limit the options available to the developers. These might include: corporate or regulatory policies; hardware limitations (timing or memory requirements); interfaces to other applications; specific technologies, tools, and databases to be used; programming language requirements or restrictions.&gt;</span></p>"
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-23T07:15:06.333Z"
             }
           ]
         },
@@ -427,11 +217,18 @@
           "id": "76",
           "guid": "94ae993f-625c-413c-9b91-63eded4b2e27",
           "heading": "Assumptions and Dependencies",
-          "children": [
+          "text": "<ul><li>Sufficient mobile device and connectivity coverage for field staff and residents.</li><li>Regular calibration/maintenance of deployed sensor units.</li><li>Stable partnerships with rewards vendors.</li><li>Staff will be trained in mobile/web platforms.</li><li>Timely third-party API responses for route optimization.</li><li>Future expansion to other municipalities or language markets will be a separate scope.</li></ul>",
+          "history": [
             {
-              "id": "77",
-              "guid": "cdfde92c-3652-4a10-aee9-05ab961d3970",
-              "text": "<p><span>&lt;List any assumed factors (as opposed to known facts) that could affect the requirements stated in the SRS. These could include third-party or commercial components that you plan to use, reuse expectations, issues around the development or operating environment, or constraints. The project could be affected if these assumptions are incorrect, are not shared, or change. Also identify any dependencies the project has on external factors outside its control.&gt;</span></p>"
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-23T07:15:00.490Z"
             }
           ]
         }
@@ -441,31 +238,65 @@
       "id": "78",
       "guid": "f397ae22-be0d-408d-9586-a58413584900",
       "heading": "System Features",
-      "children": [
+      "history": [
         {
-          "id": "79",
-          "guid": "32a7cc1d-0d70-461a-9607-3bccbdd37f08",
-          "text": "<p><span><span>&lt;This template illustrates organizing the functional requirements for the product by system features, the major services provided by the product. You may prefer to organize this section by use case, mode of operation, user class, object class, functional hierarchy, stimulus, response, or combinations of these, whatever makes the most logical sense for your product.&gt;</span></span></p>"
+          "attributesChanged": {
+            "heading": "System Features"
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-23T06:48:52.572Z"
         },
+        {
+          "attributesChanged": {
+            "heading": "Dynamic Route Optimization (SFEAT-01)"
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-23T06:50:42.192Z"
+        }
+      ],
+      "children": [
         {
           "id": "80",
           "guid": "f4d293be-914f-447e-bc09-d81e4e875ec7",
-          "heading": "System Feature 1",
-          "children": [
+          "heading": "Dynamic Route Optimization (SFEAT-01)",
+          "history": [
             {
-              "id": "81",
-              "guid": "2077d149-74b3-4c34-a3d0-046cf3a9d0a1",
-              "text": "<p><span><span>&lt;Don’t really say “System Feature 1.” State the feature name in just a few words.&gt;</span></span></p>"
-            },
+              "attributesChanged": {
+                "heading": "System Feature 1"
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-23T06:51:25.677Z"
+            }
+          ],
+          "children": [
             {
               "id": "82",
               "guid": "9d423783-0aa6-4127-9136-d8cdd7ca6686",
               "heading": "Description",
-              "children": [
+              "text": "<p>Priority: High</p><p>Dynamically generates and updates optimized collection routes for workers, leveraging real-time sensor data, traffic conditions, and administrator settings. Minimizes operational costs and reduces missed or late pickups.</p>",
+              "history": [
                 {
-                  "id": "83",
-                  "guid": "b252b312-03dd-4415-834c-3526099edf37",
-                  "text": "<p><span><a><span>&lt;Provide a short description of the feature and indicate whether it is of High, Medium, or Low priority.&gt;</span></a></span></p>"
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T07:14:51.603Z"
                 }
               ]
             },
@@ -473,11 +304,18 @@
               "id": "84",
               "guid": "1753109a-1879-4a21-87ab-283888cf81dd",
               "heading": "Stimulus/Response Sequences",
-              "children": [
+              "text": "<ul><li>Worker launches mobile app at start of shift → System downloads current optimal route (SRQ-01).</li><li>Bin sensor reports fill level ≥ threshold during route → System recalculates and adjusts route, notifies worker in-app (SRQ-02).</li><li>Worker enters area with poor connectivity → App switches to offline cached route, syncs updates when reconnected (SRQ-03).</li></ul>",
+              "history": [
                 {
-                  "id": "85",
-                  "guid": "2a79c570-00b6-4dad-a8d5-be49f1f3751c",
-                  "text": "<p><span><a><span>&lt;List the sequences of user actions and system responses that stimulate the behavior defined for this feature. These will correspond to the dialog elements associated with use cases.&gt;</span></a></span></p>"
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T07:14:41.292Z"
                 }
               ]
             },
@@ -485,11 +323,18 @@
               "id": "86",
               "guid": "e4aaa727-8388-487a-8fd8-011afe44061f",
               "heading": "Functional Requirements",
-              "children": [
+              "text": "<table style=\"width: 100%;\"><tbody><tr><td><strong>Req ID</strong></td><td><strong>Requirement Description</strong></td></tr><tr><td>REQ-001</td><td>System shall use real-time bin sensor data to calculate optimal pickup order.<br></td></tr><tr><td>REQ-002<br></td><td>System must integrate live traffic data from external APIs when proposing a route.<br></td></tr><tr><td>REQ-003<br></td><td>Workers using the mobile app must be able to download and view their daily route with map support.<br></td></tr><tr><td>REQ-004<br></td><td>Application must support offline access for routes, with data syncing after connectivity returns.<br></td></tr><tr><td>REQ-005<br></td><td>Route changes must be logged and auditable by supervisors.<br></td></tr><tr><td>REQ-006<br></td><td>Worker must receive in-app notifications for urgent reroutes or bin status changes en route.<br></td></tr><tr><td>REQ-007<br></td><td>System must record all completed pickups along with timestamps and GPS location.<br></td></tr><tr><td>REQ-008<br></td><td>Administrator must be able to define/adjust routing rules and thresholds.<br></td></tr></tbody></table>",
+              "history": [
                 {
-                  "id": "87",
-                  "guid": "e71b38f1-ea87-451b-a0e3-193a79c98a9c",
-                  "text": "<p><span><a><span>&lt;Itemize the specific functional requirements associated with this feature. These are the software capabilities that must be implemented for the user to carry out the feature's services or to perform a use case. Describe how the product should respond to anticipated error conditions. Use “TBD” as a placeholder to indicate when&nbsp;</span></a><span><span><span>necessary</span></span></span><span><span> information is not yet available.&gt;</span></span></span></p>"
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T07:14:29.351Z"
                 }
               ]
             }
@@ -498,7 +343,708 @@
         {
           "id": "88",
           "guid": "ee3ae1d1-b5c9-4797-ab67-22b0b931a2fa",
-          "heading": "System Feature 2 (and so on)"
+          "heading": "Real-Time Bin Monitoring (SFEAT-02)",
+          "history": [
+            {
+              "attributesChanged": {
+                "heading": "System Feature 2 (and so on)"
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-23T07:10:36.895Z"
+            }
+          ],
+          "children": [
+            {
+              "id": "128",
+              "guid": "97611ac3-6704-40e4-86a3-78a4d8d8a72c",
+              "heading": "Description",
+              "text": "<p>Priority: High</p><p>Enables IoT-enabled bins to continuously monitor and report fill levels, contamination, and obstructions to the SWMRS server for status tracking, operational decisions, and auditability.</p>",
+              "history": [
+                {
+                  "affectedNodeId": "88",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T07:11:54.581Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T07:12:01.524Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T07:13:44.466Z"
+                }
+              ]
+            },
+            {
+              "id": "129",
+              "guid": "b260a1d1-72dd-4244-8ba6-c89313efb65d",
+              "heading": "Stimulus/Response Sequences",
+              "text": "<ul><li>Bin sensor transmits fill level, contamination, and status data every 10 minutes → System updates bin status in dashboard (SRQ-04).</li><li>Unusual sensor reading (e.g., &gt;100% full, no data for 24h) → System alerts maintenance technician and disables bin from routing until resolved (SRQ-05).</li></ul>",
+              "history": [
+                {
+                  "affectedNodeId": "88",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T07:12:33.139Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T07:12:45.325Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>Priority: High</p>"
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T07:13:02.962Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>Priority: High</p><p>Enables IoT-enabled bins to continuously monitor and report fill levels, contamination, and obstructions to the SWMRS server for status tracking, operational decisions, and auditability.</p>"
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T07:13:40.829Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T07:13:57.975Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T07:14:14.941Z"
+                }
+              ]
+            },
+            {
+              "id": "130",
+              "guid": "5f91567e-8ddb-41e4-8012-50da456b5c9c",
+              "heading": "Functional Requirements",
+              "text": "<table style=\"width: 100%;\"><tbody><tr><td><strong>Req ID</strong></td><td><strong>Requirement Description</strong></td></tr><tr><td>REQ-009</td><td>Each bin must report fill level, contamination, and access status to the server at least every 10 min.<br></td></tr><tr><td>REQ-010<br></td><td>Sensor data shall be transferred using encrypted protocols.<br></td></tr><tr><td>REQ-011<br></td><td>System must flag any bin not reporting data for over 24 hours.<br></td></tr><tr><td>REQ-012<br></td><td>Sensor anomalies (impossible data, eg. &gt;150%) are to be auto-flagged and excluded from routing.</td></tr><tr><td>REQ-013<br></td><td>Technician must receive maintenance alert for flagged bins.<br></td></tr><tr><td>REQ-014<br></td><td>All bin status data must be retained and auditable for at least 2 years.<br></td></tr></tbody></table>",
+              "history": [
+                {
+                  "affectedNodeId": "88",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T07:28:11.361Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T07:28:27.296Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T07:37:39.024Z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "131",
+          "guid": "ef06b631-578e-4686-95b9-5b5d6bfe09ed",
+          "heading": "Resident Mobile App Services (SFEAT-03)",
+          "history": [
+            {
+              "affectedNodeId": "78",
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-23T07:38:22.346Z",
+              "docId": "SRS",
+              "structureAction": "Create"
+            },
+            {
+              "attributesChanged": {
+                "heading": null
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-23T07:39:26.547Z"
+            }
+          ],
+          "children": [
+            {
+              "id": "132",
+              "guid": "6944b084-c107-4189-81ef-97ec7e34755a",
+              "heading": "Description",
+              "text": "<p>Priority: High</p><p>Allows residents to track their collection schedules, receive proactive notifications, report missed pickups/issues, and view participation/rewards via a secure, intuitive mobile app.</p>",
+              "history": [
+                {
+                  "affectedNodeId": "131",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T07:39:40.885Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T07:39:52.790Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T07:40:06.632Z"
+                }
+              ]
+            },
+            {
+              "id": "133",
+              "guid": "db94f4d8-8d3c-43c4-ad40-2f0ad32bf627",
+              "heading": "Stimulus/Response Sequences",
+              "text": "<ul><li>Resident opens app to check schedule → System displays bin status, next scheduled pickup, and remaining days (SRQ-06).</li><li>Resident receives notification (“Pickup tomorrow”, “Pickup complete”, or “Skipped: contamination”) (SRQ-07).</li><li>Resident identifies a missed pickup and submits an issue report with description and photo; system logs event and notifies supervisor (SRQ-08).</li></ul>",
+              "history": [
+                {
+                  "affectedNodeId": "131",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T07:40:26.304Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null,
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T07:40:42.046Z"
+                }
+              ]
+            },
+            {
+              "id": "134",
+              "guid": "e1e8025d-10d1-41f2-8337-5d6d427b693e",
+              "heading": "Functional Requirements",
+              "text": "<table style=\"width: 100%;\"><tbody><tr><td><strong>Req ID</strong></td><td><strong>Requirement Description</strong></td></tr><tr><td>REQ-015</td><td>Mobile app must display personalized collection day and history using geolocation and bin ID.<br></td></tr><tr><td>REQ-016<br></td><td>App must deliver push notifications for upcoming and completed pickups, and skip explanations.<br></td></tr><tr><td>REQ-017<br></td><td>Residents must be able to submit skipped pickup/issue reports with geotagged photo and text.<br></td></tr><tr><td>REQ-018<br></td><td>Complaint/issue reports must generate case numbers trackable by both resident and supervisor.<br></td></tr><tr><td>REQ-019<br></td><td>Residents shall view their recycling score, total points, and rewards catalog in-app.<br></td></tr><tr><td>REQ-020<br></td><td>App must comply with accessibility standards (WCAG 2.1 AA).<br></td></tr></tbody></table>",
+              "history": [
+                {
+                  "affectedNodeId": "131",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T07:41:58.768Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null,
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T07:43:37.091Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<table style=\"width: 100%;\"><tbody><tr><td><strong>Req ID</strong></td><td><strong>Requirement Description</strong></td></tr><tr><td>REQ-009</td><td>Each bin must report fill level, contamination, and access status to the server at least every 10 min.<br></td></tr><tr><td>REQ-010<br></td><td>Sensor data shall be transferred using encrypted protocols.<br></td></tr><tr><td>REQ-011<br></td><td>System must flag any bin not reporting data for over 24 hours.<br></td></tr><tr><td>REQ-012<br></td><td>Sensor anomalies (impossible data, eg. &gt;150%) are to be auto-flagged and excluded from routing.</td></tr><tr><td>REQ-013<br></td><td>Technician must receive maintenance alert for flagged bins.<br></td></tr><tr><td>REQ-014<br></td><td>All bin status data must be retained and auditable for at least 2 years.<br></td></tr></tbody></table>"
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T07:44:20.618Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<table style=\"width: 100%;\"><tbody><tr><td><strong>Req ID</strong></td><td><strong>Requirement Description</strong></td></tr><tr><td>REQ-015</td><td>Each bin must report fill level, contamination, and access status to the server at least every 10 min.<br></td></tr><tr><td>REQ-016<br></td><td>Sensor data shall be transferred using encrypted protocols.<br></td></tr><tr><td>REQ-017<br></td><td>System must flag any bin not reporting data for over 24 hours.<br></td></tr><tr><td>REQ-018<br></td><td>Sensor anomalies (impossible data, eg. &gt;150%) are to be auto-flagged and excluded from routing.</td></tr><tr><td>REQ-019<br></td><td>Technician must receive maintenance alert for flagged bins.<br></td></tr><tr><td>REQ-020<br></td><td>All bin status data must be retained and auditable for at least 2 years.<br></td></tr></tbody></table>"
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T07:44:32.166Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<table style=\"width: 100%;\"><tbody><tr><td><strong>Req ID</strong></td><td><strong>Requirement Description</strong></td></tr><tr><td>REQ-015</td><td>Mobile app must display personalized collection day and history using geolocation and bin ID.<br></td></tr><tr><td>REQ-016<br></td><td>Sensor data shall be transferred using encrypted protocols.<br></td></tr><tr><td>REQ-017<br></td><td>System must flag any bin not reporting data for over 24 hours.<br></td></tr><tr><td>REQ-018<br></td><td>Sensor anomalies (impossible data, eg. &gt;150%) are to be auto-flagged and excluded from routing.</td></tr><tr><td>REQ-019<br></td><td>Technician must receive maintenance alert for flagged bins.<br></td></tr><tr><td>REQ-020<br></td><td>All bin status data must be retained and auditable for at least 2 years.<br></td></tr></tbody></table>"
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T07:44:41.093Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<table style=\"width: 100%;\"><tbody><tr><td><strong>Req ID</strong></td><td><strong>Requirement Description</strong></td></tr><tr><td>REQ-015</td><td>Mobile app must display personalized collection day and history using geolocation and bin ID.<br></td></tr><tr><td>REQ-016<br></td><td>App must deliver push notifications for upcoming and completed pickups, and skip explanations.<br></td></tr><tr><td>REQ-017<br></td><td>System must flag any bin not reporting data for over 24 hours.<br></td></tr><tr><td>REQ-018<br></td><td>Sensor anomalies (impossible data, eg. &gt;150%) are to be auto-flagged and excluded from routing.</td></tr><tr><td>REQ-019<br></td><td>Technician must receive maintenance alert for flagged bins.<br></td></tr><tr><td>REQ-020<br></td><td>All bin status data must be retained and auditable for at least 2 years.<br></td></tr></tbody></table>"
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T07:44:51.076Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<table style=\"width: 100%;\"><tbody><tr><td><strong>Req ID</strong></td><td><strong>Requirement Description</strong></td></tr><tr><td>REQ-015</td><td>Mobile app must display personalized collection day and history using geolocation and bin ID.<br></td></tr><tr><td>REQ-016<br></td><td>App must deliver push notifications for upcoming and completed pickups, and skip explanations.<br></td></tr><tr><td>REQ-017<br></td><td>Residents must be able to submit skipped pickup/issue reports with geotagged photo and text.<br></td></tr><tr><td>REQ-018<br></td><td>Sensor anomalies (impossible data, eg. &gt;150%) are to be auto-flagged and excluded from routing.</td></tr><tr><td>REQ-019<br></td><td>Technician must receive maintenance alert for flagged bins.<br></td></tr><tr><td>REQ-020<br></td><td>All bin status data must be retained and auditable for at least 2 years.<br></td></tr></tbody></table>"
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T07:45:01.264Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<table style=\"width: 100%;\"><tbody><tr><td><strong>Req ID</strong></td><td><strong>Requirement Description</strong></td></tr><tr><td>REQ-015</td><td>Mobile app must display personalized collection day and history using geolocation and bin ID.<br></td></tr><tr><td>REQ-016<br></td><td>App must deliver push notifications for upcoming and completed pickups, and skip explanations.<br></td></tr><tr><td>REQ-017<br></td><td>Residents must be able to submit skipped pickup/issue reports with geotagged photo and text.<br></td></tr><tr><td>REQ-018<br></td><td>Complaint/issue reports must generate case numbers trackable by both resident and supervisor.<br></td></tr><tr><td>REQ-019<br></td><td>Technician must receive maintenance alert for flagged bins.<br></td></tr><tr><td>REQ-020<br></td><td>All bin status data must be retained and auditable for at least 2 years.<br></td></tr></tbody></table>"
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T07:45:11.676Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<table style=\"width: 100%;\"><tbody><tr><td><strong>Req ID</strong></td><td><strong>Requirement Description</strong></td></tr><tr><td>REQ-015</td><td>Mobile app must display personalized collection day and history using geolocation and bin ID.<br></td></tr><tr><td>REQ-016<br></td><td>App must deliver push notifications for upcoming and completed pickups, and skip explanations.<br></td></tr><tr><td>REQ-017<br></td><td>Residents must be able to submit skipped pickup/issue reports with geotagged photo and text.<br></td></tr><tr><td>REQ-018<br></td><td>Complaint/issue reports must generate case numbers trackable by both resident and supervisor.<br></td></tr><tr><td>REQ-019<br></td><td>Residents shall view their recycling score, total points, and rewards catalog in-app.<br></td></tr><tr><td>REQ-020<br></td><td>All bin status data must be retained and auditable for at least 2 years.<br></td></tr></tbody></table>"
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T07:45:22.833Z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "135",
+          "guid": "4e15f5f4-1cd4-4ac4-b421-23cac248ec6f",
+          "heading": "Recycling Rewards Program (SFEAT-04)",
+          "history": [
+            {
+              "affectedNodeId": "78",
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-23T07:52:17.571Z",
+              "docId": "SRS",
+              "structureAction": "Create"
+            },
+            {
+              "attributesChanged": {
+                "heading": null
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-23T07:52:47.380Z"
+            }
+          ],
+          "children": [
+            {
+              "id": "136",
+              "guid": "a2c248f4-423f-4a3a-a8f5-fb7a934abf09",
+              "heading": "Description",
+              "text": "<p>Priority: Medium</p><p>Implements a transparent points-based program tracking resident recycling via unique bin IDs and enables redemption of points in a reward catalog sponsored by local businesses.</p>",
+              "history": [
+                {
+                  "affectedNodeId": "135",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T07:52:53.965Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T07:53:31.547Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T07:53:44.126Z"
+                }
+              ]
+            },
+            {
+              "id": "137",
+              "guid": "80b63b33-bd90-4b65-b370-b09e7f77aeae",
+              "heading": "Stimulus/Response ",
+              "text": "<ul><li>Bin is collected and weighed, or recycling event logged → System credits resident’s reward points based on grade and volume (SRQ-09).</li><li>Resident redeems points for a local business voucher → System issues voucher code or QR, updates points tally (SRQ-10).</li></ul>",
+              "history": [
+                {
+                  "affectedNodeId": "135",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T07:53:56.530Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T07:55:00.257Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T07:55:11.765Z"
+                }
+              ]
+            },
+            {
+              "id": "138",
+              "guid": "beeb9eef-343f-43db-8cbe-2e72ed61215f",
+              "heading": "Functional Requirements",
+              "text": "<table style=\"width: 100%;\"><tbody><tr><td><strong>Req ID</strong></td><td><strong>Requirement Description</strong></td></tr><tr><td>REQ-021</td><td>System must track recycling score/history per resident-linked bin.<br></td></tr><tr><td>REQ-022<br></td><td>Points must be calculated and added in real time after successful recycling pickups.<br></td></tr><tr><td>REQ-023<br></td><td>Residents must be able to view, browse, and redeem from the up-to-date rewards catalog in the app.<br></td></tr><tr><td>REQ-024<br></td><td>Redemption events must trigger notification to both resident and business sponsor.<br></td></tr><tr><td>REQ-025<br></td><td>All redemption and earning data must be retained for at least two years.<br></td></tr></tbody></table>",
+              "history": [
+                {
+                  "affectedNodeId": "135",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T07:55:58.541Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T07:56:20.955Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T07:58:41.250Z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "139",
+          "guid": "37dd4db1-d523-4c04-881d-7771cf5b0a92",
+          "heading": "Fleet Operations Dashboard (SFEAT-05)",
+          "history": [
+            {
+              "affectedNodeId": "78",
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-23T07:59:29.131Z",
+              "docId": "SRS",
+              "structureAction": "Create"
+            },
+            {
+              "attributesChanged": {
+                "heading": null
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-23T08:00:02.210Z"
+            }
+          ],
+          "children": [
+            {
+              "id": "140",
+              "guid": "77edaa58-09b4-40cf-8087-23771a0493b5",
+              "heading": "Description",
+              "text": "<p>Priority: High</p><p>Provides city administrators and supervisors a comprehensive dashboard that displays real-time truck status, route progress, missed pickups, fuel usage, compliance analytics, and system warnings for proactive operational management.</p>",
+              "history": [
+                {
+                  "affectedNodeId": "139",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T08:00:04.599Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T08:00:10.567Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T08:01:41.378Z"
+                }
+              ]
+            },
+            {
+              "id": "141",
+              "guid": "7117847b-86f7-490d-9d71-f9f91b4285fa",
+              "heading": "Stimulus/Response Sequences",
+              "text": "<ul><li>Administrator logs in to dashboard → System displays fleet map, truck/bins status, active alerts (SRQ-11).</li><li>Analytics module triggers urgent alert for 90% full bins or missed pickups → System enables quick re-routing or dispatch action (SRQ-12).</li></ul>",
+              "history": [
+                {
+                  "affectedNodeId": "139",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T08:00:15.820Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T08:00:41.364Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T08:01:53.734Z"
+                }
+              ]
+            },
+            {
+              "id": "142",
+              "guid": "022e4e02-1be9-4976-8eb5-24b315cb334f",
+              "heading": "Functional Requirements",
+              "text": "<table style=\"width: 100%;\"><tbody><tr><td><strong>Req ID</strong></td><td><strong>Requirement Description</strong></td></tr><tr><td>REQ-026</td><td>Dashboard must provide real-time status of all trucks, assets, and monitored bins.<br></td></tr><tr><td>REQ-027<br></td><td>Must display live route changes and allow filtering by status, region, or event type.<br></td></tr><tr><td>REQ-028<br></td><td>Enable administrators to adjust optimization parameters (fill threshold, zone priorities, etc.).<br></td></tr><tr><td>REQ-029<br></td><td>System must generate downloadable reports on performance and compliance with selectable filters.<br></td></tr><tr><td>REQ-030<br></td><td>Issue urgent alerts for high fill bins and sensor failures, integrating override options.<br></td></tr></tbody></table>",
+              "history": [
+                {
+                  "affectedNodeId": "139",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T08:01:09.466Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T08:01:21.003Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T08:02:21.732Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<table style=\"width: 100%;\"><tbody><tr><td><strong>Req ID</strong></td><td><strong>Requirement Description</strong></td></tr><tr><td>REQ-026</td><td>System must track recycling score/history per resident-linked bin.<br></td></tr><tr><td>REQ-027<br></td><td>Points must be calculated and added in real time after successful recycling pickups.<br></td></tr><tr><td>REQ-028<br></td><td>Residents must be able to view, browse, and redeem from the up-to-date rewards catalog in the app.<br></td></tr><tr><td>REQ-029<br></td><td>Redemption events must trigger notification to both resident and business sponsor.<br></td></tr><tr><td>REQ-030<br></td><td>All redemption and earning data must be retained for at least two years.<br></td></tr></tbody></table>"
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "ludhera17@mytru.ca",
+                    "name": "Ajay Ludher"
+                  },
+                  "changedOn": "2025-10-23T08:03:27.432Z"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -506,21 +1052,37 @@
       "id": "89",
       "guid": "a5c48c19-c784-4780-846b-e5bdde991f24",
       "heading": "Data Requirements",
-      "children": [
+      "text": "<p>This section describes all data objects and models processed or generated by SWMRS, as well as requirements related to acquisition, protection, retention, and deletion. It is written to ensure that data is both usable and auditable, meeting city standards and privacy policies.</p>",
+      "history": [
         {
-          "id": "90",
-          "guid": "1742f895-0a23-4734-bd3d-3b3f24f5e799",
-          "text": "<p><span><span>&lt;This section describes various aspects of the data that the system will consume as inputs, process in some fashion, or create as outputs.&gt;</span></span></p>"
-        },
+          "attributesChanged": {
+            "text": null
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-23T08:42:04.899Z"
+        }
+      ],
+      "children": [
         {
           "id": "91",
           "guid": "a713e472-3133-4472-b1f5-e3f9f84d6477",
           "heading": "Logical Data Model",
-          "children": [
+          "text": "<p>The SWMRS maintains relational data for waste bins, users, events, vehicles, reports, and rewards. The following high-level entities are modeled:</p><ul><li><strong>Bin</strong> (BinID, Location, FillLevel, ContaminationStatus, LastServiceDate, SensorHealth)</li><li><strong>Resident</strong> (ResidentID, Address, LinkedBinID, RecyclingScore, RewardPoints, ContactInfo)</li><li><strong>Worker</strong> (WorkerID, Name, AssignedRouteID, VehicleID)</li><li><strong>Truck</strong> (TruckID, Registration, GPSLocation, FuelUsage, MaintenanceStatus)</li><li><strong>CollectionEvent</strong> (EventID, TruckID, BinID, Timestamp, PickupConfirmed)</li><li><strong>Complaint</strong> (ComplaintID, ResidentID, BinID, Type, PhotoURL, Status, ResolutionDate)</li><li><strong>Reward</strong> (RewardID, PartnerID, Description, PointsRequired, DateRedeemed)</li><li><strong>Supervisor</strong> (SupervisorID, Name, Role, ApprovalActions)</li><li><strong>Partner</strong> (PartnerID, Name, VoucherFormat, RedemptionURL)</li></ul><p>The relationships between these entities are shown in an ER diagram included in the appendices and referenced for database implementation.</p>",
+          "history": [
             {
-              "id": "92",
-              "guid": "52784aa7-73be-4aea-9eba-5822a4aa109a",
-              "text": "<p><span><span>&lt;A data model is a visual representation of the data objects and collections the system will process and the relationships between them. Include a data model for the business operations being addressed by the system, or a logical representation for the data that the system itself will manipulate. Data models are most commonly created as an entity-relationship diagram.&gt;</span></span></p>"
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-23T08:43:26.184Z"
             }
           ]
         },
@@ -528,11 +1090,18 @@
           "id": "93",
           "guid": "6557f80a-a943-4544-9c9e-7c40f031fbfc",
           "heading": "Data Dictionary",
-          "children": [
+          "text": "<p>Each important data structure is defined with allowed types and formats for validation and consistency:</p><table style=\"width: 100%;\"><tbody><tr><td><strong>Field Name</strong></td><td><strong>Type</strong></td><td><strong>Length</strong></td><td><strong>Format</strong></td><td><strong>Allowed Values \\ Range</strong></td><td><strong>Description</strong></td></tr><tr><td>BinID</td><td>String</td><td>12</td><td>Alphanumeric</td><td>Unique, A-Z 0-9</td><td>Smart Waste Bin ID</td></tr><tr><td>FillLevel</td><td>Float</td><td>n/a</td><td>Percentage</td><td>0.0-150.0</td><td>Level of Waste</td></tr><tr><td>ContaminationStatus</td><td>Enum</td><td>n/a</td><td>Status Code</td><td>Clean, Minor, Major</td><td>Recycling contamination</td></tr><tr><td>ResidentID</td><td>String</td><td>16</td><td>Alphanumeric<br></td><td>Unique<br></td><td>Resident account ID<br></td></tr><tr><td>RecyclingScore</td><td>Integer</td><td>n/a<br></td><td>n/a</td><td>0-9999</td><td>Cumulative points<br></td></tr><tr><td>CompliantType</td><td>Enum</td><td>n/a<br></td><td>Predefined</td><td>MissedPickup, Obstruction, Contamination<br></td><td>Type of issue<br></td></tr><tr><td>PhotoURL</td><td>String</td><td>128</td><td>URL</td><td>Valid image link<br></td><td>Complaint evidence<br></td></tr><tr><td>EventID</td><td>String</td><td>16</td><td>Alphanumeric<br></td><td>Unique<br></td><td>Collection event<br></td></tr><tr><td>RewardID</td><td>String</td><td>10</td><td>Alphanumeric<br></td><td>Unique<br></td><td>Reward catalog item<br></td></tr><tr><td>PointsRequired</td><td>Integer</td><td>n/a<br></td><td>n/a</td><td>Positive</td><td>Needed for redemption<br></td></tr><tr><td>GPSLocation</td><td>String</td><td>32</td><td>Decimal, comma</td><td>Lat/Long</td><td>Truck/route geotag<br></td></tr></tbody></table><p>Additional details for rarely used fields are maintained in the system’s central data dictionary and regularly updated as requirements evolve.</p>",
+          "history": [
             {
-              "id": "94",
-              "guid": "49706198-9046-4f2c-9591-6d7ed856f73e",
-              "text": "<p><span><span>&lt;The data dictionary defines the composition of data structures and the meaning, data type, length, format, and allowed values for the data elements that make up those structures. In many cases, you're better off storing the data dictionary as a separate artifact, rather than embedding it in the middle of an SRS. That also increases its reusability potential in other projects.&gt;</span></span></p>"
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-23T09:12:18.162Z"
             }
           ]
         },
