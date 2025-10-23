@@ -9,7 +9,7 @@
     "email": "ludhera17@mytru.ca",
     "company": "Thompson Rivers University"
   },
-  "lastChangedOn": "2025-10-23T09:12:38.040Z",
+  "lastChangedOn": "2025-10-23T09:29:43.127Z",
   "lastChangedBy": {
     "name": "Ajay Ludher",
     "email": "ludhera17@mytru.ca",
@@ -1109,11 +1109,29 @@
           "id": "95",
           "guid": "afdb7d97-24d3-483b-af41-0e1b9cd0846e",
           "heading": "Reports",
-          "children": [
+          "text": "<p>The SWMRS supports standardized, filterable reports for city administration and auditing:</p><ol><li><strong>Daily Operational Report:&nbsp;</strong>Tracks all pickups, missed pickups, route adjustments, and fleet/location status.</li><li><strong>Missed Pickup and Complaint Summary:&nbsp;</strong>Aggregates issues by cause (contamination, missed, obstruction), resolution status, and time to close.</li><li><strong>Sensor Health &amp; Maintenance Alerts:&nbsp;</strong>Flags bins with abnormal readings or failed transmissions.</li><li><strong>Resident Recycling and Rewards Report:</strong> Summarizes points earned, redeemed, pending, and expired per resident.</li><li><strong>Compliance and Performance Audit:</strong> Details number of manual/automated route changes, fuel usage, emissions reduction, and service level metrics.</li></ol><p>All reports are exportable in PDF and CSV formats with configurable date ranges and field selection.</p>",
+          "history": [
             {
-              "id": "96",
-              "guid": "7d776ccb-cffc-4dcd-be91-3fb9948b38be",
-              "text": "<p><span><span>&lt;If your application will generate any reports, identify them here and describe their characteristics. If a report must conform to a specific predefined <span>layout</span> you can specify that here as a constraint, perhaps with an example. Otherwise, focus on the logical descriptions of the report content, sort sequence, totaling levels, and so forth, deferring the detailed report layout to the design stage.&gt;</span></span></p>"
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-23T09:26:07.911Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>The SWMRS supports standardized, filterable reports for city administration and auditing:</p><ol><li><strong>Daily Operational Report:&nbsp;</strong>Tracks all pickups, missed pickups, route adjustments, and fleet/location status.</li><li><strong>Missed Pickup and Complaint Summary:&nbsp;</strong>Aggregates issues by cause (contamination, missed, obstruction), resolution status, and time to close.</li><li><strong>Sensor Health &amp; Maintenance Alerts:&nbsp;</strong>Flags bins with abnormal readings or failed transmissions.</li><li>Resident Recycling and Rewards Report: Summarizes points earned, redeemed, pending, and expired per resident.</li><li>Compliance and Performance Audit: Details number of manual/automated route changes, fuel usage, emissions reduction, and service level metrics.</li></ol><p>All reports are exportable in PDF and CSV formats with configurable date ranges and field selection.</p>"
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-23T09:26:48.162Z"
             }
           ]
         },
@@ -1121,6 +1139,20 @@
           "id": "97",
           "guid": "421c2f26-5b94-4eb6-a654-d2e3e9a43021",
           "heading": "Data Acquisition, Integrity, Retention, and Disposal",
+          "text": "<p><strong>Acquisition</strong></p><ul><li>Bin sensors transmit data every ten minutes using encrypted RESTful service calls.</li><li>Mobile apps upload event, complaint, and confirmation data live, or cache offline with auto-sync on reconnect.</li></ul><p><strong>Integrity</strong></p><ul><li>Real-time validation of incoming fill levels and complaint data.</li><li>All route changes, pickups, and issue reports are logged with immutable timestamps.</li><li>Data backups performed daily with automated integrity verification scripts.</li></ul><p><strong>Retention and Disposal</strong></p><ul><li>All operational data is retained for a minimum of five years according to municipal rules.</li><li>Complaint and reward redemption records are kept for two years after resolution/redeeming unless flagged for audit.</li><li>Data flagged for deletion (resident closed account, resolved complaint) is securely removed after retention period.</li><li>Temporary/cache/offline data on devices is wiped after successful sync.</li></ul>",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-23T09:29:43.127Z"
+            }
+          ],
           "children": [
             {
               "id": "98",
