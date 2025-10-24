@@ -9,7 +9,7 @@
     "email": "ludhera17@mytru.ca",
     "company": "Thompson Rivers University"
   },
-  "lastChangedOn": "2025-10-23T15:46:57.794Z",
+  "lastChangedOn": "2025-10-24T07:05:25.900Z",
   "lastChangedBy": {
     "name": "Ajay Ludher",
     "email": "ludhera17@mytru.ca",
@@ -20,7 +20,7 @@
       "id": "54",
       "guid": "42d92609-a6c4-4c84-b994-37b0837739f6",
       "heading": "Introduction",
-      "text": "<p>The Smart Waste Management &amp; Recycling System (SWMRS) Software Requirements Specification outlines the objectives, standards, and functional framework for a city-wide, sensor-driven waste and recycling solution in Kamloops.</p>",
+      "text": "<p>The Smart Waste Management &amp; Recycling System (SWMRS) Software Requirements Specification outlines the objectives, standards, and functional framework for a city-wide, sensor-driven waste and recycling solution.</p>",
       "history": [
         {
           "attributesChanged": {
@@ -32,6 +32,17 @@
             "name": "Ajay Ludher"
           },
           "changedOn": "2025-10-23T15:46:57.794Z"
+        },
+        {
+          "attributesChanged": {
+            "text": "<p>The Smart Waste Management &amp; Recycling System (SWMRS) Software Requirements Specification outlines the objectives, standards, and functional framework for a city-wide, sensor-driven waste and recycling solution in Kamloops.</p>"
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T07:01:55.902Z"
         }
       ],
       "children": [
@@ -39,7 +50,7 @@
           "id": "56",
           "guid": "76c004f4-bd9e-4ff3-bf07-d807a19dfd24",
           "heading": "Document Purpose",
-          "text": "<p>This Software Requirements Specification (SRS) establishes the complete requirements for the Smart Waste Management &amp; Recycling System (SWMRS) – the product developed by The Junkers for the City of Kamloops. The target audience includes software developers, project managers, client representatives, city administrators, collection workers, residents, maintainers, QA/testers, and documentation writers. Its purpose is to define detailed, traceable requirements based on the vision from Assignment 1 and extended through requirements elicitation in Assignment 2.</p>",
+          "text": "<p>This Software Requirements Specification (SRS) establishes the complete requirements for the Smart Waste Management &amp; Recycling System (SWMRS), the product developed by The Junkers. The target audience includes software developers, project managers, client representatives, city administrators, collection workers, residents, maintainers, QA/testers, and documentation writers. Its purpose is to define detailed, traceable requirements based on the vision from Assignment 1 and extended through requirements in Assignment 2.</p>",
           "history": [
             {
               "attributesChanged": {
@@ -51,6 +62,17 @@
                 "name": "Ajay Ludher"
               },
               "changedOn": "2025-10-23T07:17:00.571Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>This Software Requirements Specification (SRS) establishes the complete requirements for the Smart Waste Management &amp; Recycling System (SWMRS) – the product developed by The Junkers for the City of Kamloops. The target audience includes software developers, project managers, client representatives, city administrators, collection workers, residents, maintainers, QA/testers, and documentation writers. Its purpose is to define detailed, traceable requirements based on the vision from Assignment 1 and extended through requirements elicitation in Assignment 2.</p>"
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-24T06:59:41.904Z"
             }
           ]
         },
@@ -58,7 +80,7 @@
           "id": "58",
           "guid": "4fc2b546-0f99-466b-b0d3-11b5391dd542",
           "heading": "Document Conventions",
-          "text": "<ul><li>Each requirement, objective, and risk in this document is assigned a unique identifier for traceability (e.g., OBJ-01, REQ-10, RSK-05) as per best SRS practices.</li><li>Use cases are prefixed UC-XX (e.g., UC-01).</li><li>High, Medium, or Low priority is noted in italics after each feature descriptor.</li><li>All referenced documents follow IEEE citation guidelines.</li><li>Terminology and abbreviations are defined in Section 9 (Glossary).</li><li>Tables or numbered paragraphs are used instead of unstructured lists for all formally referenced items.</li></ul>",
+          "text": "<ul><li>Each requirement, objective, and risk in this document is assigned a unique identifier for traceability as per best SRS practices.</li><li>Use cases are prefixed UC-XX (e.g., UC-01).</li><li>High, Medium, or Low priority is noted in italics after each feature descriptor.</li><li>Terminology and abbreviations are defined in Section 9 (Glossary).</li><li>Tables or numbered paragraphs are used instead of unstructured lists for all formally referenced items.</li></ul>",
           "history": [
             {
               "attributesChanged": {
@@ -70,6 +92,17 @@
                 "name": "Ajay Ludher"
               },
               "changedOn": "2025-10-23T07:16:54.359Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<ul><li>Each requirement, objective, and risk in this document is assigned a unique identifier for traceability (e.g., OBJ-01, REQ-10, RSK-05) as per best SRS practices.</li><li>Use cases are prefixed UC-XX (e.g., UC-01).</li><li>High, Medium, or Low priority is noted in italics after each feature descriptor.</li><li>All referenced documents follow IEEE citation guidelines.</li><li>Terminology and abbreviations are defined in Section 9 (Glossary).</li><li>Tables or numbered paragraphs are used instead of unstructured lists for all formally referenced items.</li></ul>"
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-24T07:00:11.910Z"
             }
           ]
         },
@@ -77,7 +110,7 @@
           "id": "60",
           "guid": "01c65040-9e45-4b0b-a6fb-8db88d05ef74",
           "heading": "Project Scope",
-          "text": "<p>SWMRS is an integrated municipal software solution that will use IoT-enabled waste bin sensors, intelligent routing, mobile and web interfaces, and real-time analytics to enhance the efficiency of waste/recycling collection and community engagement in Kamloops. Major objectives include:</p><p>OBJ-01. Reduce operational expenditures by 20% in the first year through route optimization.</p><p>OBJ-02. Increase recycling rates by at least 30% by year-end via resident point-based gamification.</p><p>OBJ-03. Achieve a 15% reduction in missed collections through automated fill-level monitoring and alerts.</p><p>OBJ-04. Lower the city sanitation fleet’s carbon emissions by 10% by minimizing unnecessary travel.</p><p>The scope and business context are established in the Vision &amp; Scope Document (VSD), with this SRS focusing on requirements for the initial release of the SWMRS.</p>",
+          "text": "<p>SWMRS is an integrated municipal software solution that will use IoT-enabled waste bin sensors, intelligent routing, mobile and web interfaces, and real-time analytics to enhance the efficiency of waste/recycling collection and community engagement. Major objectives include:</p><p>OBJ-01. Reduce operational expenditures by 20% in the first year through route optimization.</p><p>OBJ-02. Increase recycling rates by at least 30% by year-end via resident point-based gamification.</p><p>OBJ-03. Achieve a 15% reduction in missed collections through automated fill-level monitoring and alerts.</p><p>OBJ-04. Lower the city sanitation fleet’s carbon emissions by 10% by minimizing unnecessary travel.</p><p>The scope and business context are established in the Vision &amp; Scope Document (VSD), with this SRS focusing on requirements for the initial release of the SWMRS.</p>",
           "history": [
             {
               "attributesChanged": {
@@ -89,6 +122,17 @@
                 "name": "Ajay Ludher"
               },
               "changedOn": "2025-10-23T07:16:47.916Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>SWMRS is an integrated municipal software solution that will use IoT-enabled waste bin sensors, intelligent routing, mobile and web interfaces, and real-time analytics to enhance the efficiency of waste/recycling collection and community engagement in Kamloops. Major objectives include:</p><p>OBJ-01. Reduce operational expenditures by 20% in the first year through route optimization.</p><p>OBJ-02. Increase recycling rates by at least 30% by year-end via resident point-based gamification.</p><p>OBJ-03. Achieve a 15% reduction in missed collections through automated fill-level monitoring and alerts.</p><p>OBJ-04. Lower the city sanitation fleet’s carbon emissions by 10% by minimizing unnecessary travel.</p><p>The scope and business context are established in the Vision &amp; Scope Document (VSD), with this SRS focusing on requirements for the initial release of the SWMRS.</p>"
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-24T07:02:08.943Z"
             }
           ]
         },
@@ -96,7 +140,7 @@
           "id": "62",
           "guid": "8fd855fc-e0d4-4422-bef7-5221afa592d4",
           "heading": "References",
-          "text": "<ul><li>Vision &amp; Scope Doc - The Junkers, v1.0, Oct 2025</li><li>City of Kamloops Waste Management Policy, 2025</li><li>Assignment #2 - SENG 3130, User Requirement Details</li><li>IEEE SRS Standard, 2020</li><li>(Other technical references and source materials as needed)</li></ul>",
+          "text": "<ul><li>Vision &amp; Scope Doc - The Junkers, v1.0, Oct 2025</li><li>Assignment #2 - SENG 3130, User Requirement Details</li></ul>",
           "history": [
             {
               "attributesChanged": {
@@ -108,6 +152,17 @@
                 "name": "Ajay Ludher"
               },
               "changedOn": "2025-10-23T07:16:42.071Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<ul><li>Vision &amp; Scope Doc - The Junkers, v1.0, Oct 2025</li><li>City of Kamloops Waste Management Policy, 2025</li><li>Assignment #2 - SENG 3130, User Requirement Details</li><li>IEEE SRS Standard, 2020</li><li>(Other technical references and source materials as needed)</li></ul>"
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-24T07:01:16.261Z"
             }
           ]
         }
@@ -136,7 +191,7 @@
           "id": "66",
           "guid": "3b2fae23-5dfd-4154-8b64-d052b57f59dd",
           "heading": "Product Perspective",
-          "text": "<p>SWMRS is a newly designed, city-wide, data-driven SaaS platform intended to replace Kamloops’ legacy manual and partially-digital waste management processes. It is architected to interact with decentralized IoT smart bins, municipal and contractor staff, resident users (via mobile/web), and a rewards vendor network. The SWMRS is the hub for data collection, monitoring, routing optimization, reward calculation, and cross-stakeholder communication.</p>",
+          "text": "<p>SWMRS is a newly designed, city-wide, data-driven SaaS platform intended to replace the legacy manual and partially-digital waste management processes. It is architected to interact with decentralized IoT smart bins, municipal and contractor staff, resident users (via mobile/web), and a rewards vendor network. The SWMRS is the hub for data collection, monitoring, routing optimization, reward calculation, and cross-stakeholder communication.</p>",
           "history": [
             {
               "attributesChanged": {
@@ -148,6 +203,17 @@
                 "name": "Ajay Ludher"
               },
               "changedOn": "2025-10-23T07:16:27.927Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>SWMRS is a newly designed, city-wide, data-driven SaaS platform intended to replace Kamloops’ legacy manual and partially-digital waste management processes. It is architected to interact with decentralized IoT smart bins, municipal and contractor staff, resident users (via mobile/web), and a rewards vendor network. The SWMRS is the hub for data collection, monitoring, routing optimization, reward calculation, and cross-stakeholder communication.</p>"
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-24T07:01:38.629Z"
             }
           ]
         },
@@ -212,7 +278,7 @@
           "id": "74",
           "guid": "44019280-1e90-4cd3-b025-a8cbbe6547c7",
           "heading": "Design and Implementation Constraints",
-          "text": "<ul><li>Comply with City of Kamloops and BC privacy/security policy.</li><li>Integration limited to officially certified IoT sensor vendors.</li><li>Mobile applications must function in offline mode with eventual data sync for workers.</li><li>All interfaces WCAG 2.1 Level AA accessible.</li><li>Open, documented APIs only; no legacy, proprietary, or closed-source dependencies in the first release.</li></ul>",
+          "text": "<ul><li>Comply with City and Province privacy/security policy.</li><li>Integration limited to officially certified IoT sensor vendors.</li><li>Mobile applications must function in offline mode with eventual data sync for workers.</li><li>All interfaces WCAG 2.1 Level AA accessible.</li><li>Open, documented APIs only; no legacy, proprietary, or closed-source dependencies in the first release.</li></ul>",
           "history": [
             {
               "attributesChanged": {
@@ -224,6 +290,17 @@
                 "name": "Ajay Ludher"
               },
               "changedOn": "2025-10-23T07:15:06.333Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<ul><li>Comply with City of Kamloops and BC privacy/security policy.</li><li>Integration limited to officially certified IoT sensor vendors.</li><li>Mobile applications must function in offline mode with eventual data sync for workers.</li><li>All interfaces WCAG 2.1 Level AA accessible.</li><li>Open, documented APIs only; no legacy, proprietary, or closed-source dependencies in the first release.</li></ul>"
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-24T07:03:10.091Z"
             }
           ]
         },
@@ -1212,7 +1289,7 @@
           "id": "101",
           "guid": "11e711e7-f283-41f2-a0d5-bec55cf5c099",
           "heading": "User Interfaces",
-          "text": "<p>SWMRS provides user interfaces for residents, collection workers, administrators, supervisors, and partners:</p><ul><li><strong>Resident Mobile App UI</strong><ul><li>Platforms: Android 12+, iOS 16+</li><li>Features: Personalized collection calendar, notification center, rewards dashboard, issue reporting form</li><li>Style: Complies with Kamloops accessibility guidelines (WCAG 2.1 AA), supports text enlargement, contrast adjustment, screen reader compatibility</li><li>UI elements: Standard navigation bar, home dashboard, actionable notifications, error messages with clear explanations</li></ul></li><li><strong>Worker Mobile App UI</strong><ul><li>Route map view (GPS-linked), bin status sidebar, pickup confirmation prompt, offline mode indicator</li><li>Embedded camera/photo upload for reporting issues</li></ul></li><li><strong>Administrator Web Dashboard</strong><ul><li>Secure login; real-time fleet map; route editor; filterable performance reports; analytics widgets</li><li>Customizable alert panel; system-wide audit history</li></ul></li><li><strong>Supervisor/Technician Portal</strong><ul><li>Quick-approve/reject issue dashboard, flagged sensor alerts, maintenance request forms</li></ul></li></ul><p>Standard icon sets, consistent button placements, keyboard shortcuts for frequent actions, and error messaging protocols are used throughout all interfaces.</p>",
+          "text": "<p>SWMRS provides user interfaces for residents, collection workers, administrators, supervisors, and partners:</p><ul><li><strong>Resident Mobile App UI</strong><ul><li>Platforms: Android 12+, iOS 16+</li><li>Features: Personalized collection calendar, notification center, rewards dashboard, issue reporting form</li><li>Style: Complies with City accessibility guidelines (WCAG 2.1 AA), supports text enlargement, contrast adjustment, screen reader compatibility</li><li>UI elements: Standard navigation bar, home dashboard, actionable notifications, error messages with clear explanations</li></ul></li><li><strong>Worker Mobile App UI</strong><ul><li>Route map view (GPS-linked), bin status sidebar, pickup confirmation prompt, offline mode indicator</li><li>Embedded camera/photo upload for reporting issues</li></ul></li><li><strong>Administrator Web Dashboard</strong><ul><li>Secure login; real-time fleet map; route editor; filterable performance reports; analytics widgets</li><li>Customizable alert panel; system-wide audit history</li></ul></li><li><strong>Supervisor/Technician Portal</strong><ul><li>Quick-approve/reject issue dashboard, flagged sensor alerts, maintenance request forms</li></ul></li></ul><p>Standard icon sets, consistent button placements, keyboard shortcuts for frequent actions, and error messaging protocols are used throughout all interfaces.</p>",
           "history": [
             {
               "attributesChanged": {
@@ -1235,6 +1312,17 @@
                 "name": "Ajay Ludher"
               },
               "changedOn": "2025-10-23T09:43:39.690Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>SWMRS provides user interfaces for residents, collection workers, administrators, supervisors, and partners:</p><ul><li><strong>Resident Mobile App UI</strong><ul><li>Platforms: Android 12+, iOS 16+</li><li>Features: Personalized collection calendar, notification center, rewards dashboard, issue reporting form</li><li>Style: Complies with Kamloops accessibility guidelines (WCAG 2.1 AA), supports text enlargement, contrast adjustment, screen reader compatibility</li><li>UI elements: Standard navigation bar, home dashboard, actionable notifications, error messages with clear explanations</li></ul></li><li><strong>Worker Mobile App UI</strong><ul><li>Route map view (GPS-linked), bin status sidebar, pickup confirmation prompt, offline mode indicator</li><li>Embedded camera/photo upload for reporting issues</li></ul></li><li><strong>Administrator Web Dashboard</strong><ul><li>Secure login; real-time fleet map; route editor; filterable performance reports; analytics widgets</li><li>Customizable alert panel; system-wide audit history</li></ul></li><li><strong>Supervisor/Technician Portal</strong><ul><li>Quick-approve/reject issue dashboard, flagged sensor alerts, maintenance request forms</li></ul></li></ul><p>Standard icon sets, consistent button placements, keyboard shortcuts for frequent actions, and error messaging protocols are used throughout all interfaces.</p>"
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-24T07:04:24.963Z"
             }
           ]
         },
@@ -1302,7 +1390,7 @@
           "id": "107",
           "guid": "c2ca2661-dd2b-4857-8ffd-82fe50992a01",
           "heading": "Communications Interfaces",
-          "text": "<p>SWMRS supports secure, multi-modal communication for data transmission and notifications:</p><ul><li><strong>Network Protocols</strong><ul><li>All data is transmitted over HTTPS/TLS for privacy and security</li><li>Mobile apps auto-switch from WiFi to cellular if needed, with offline caching</li></ul></li><li><strong>Push Notifications</strong><ul><li>Real-time notifications for residents and workers delivered via Firebase/APNs for respective OS; queued if offline</li></ul></li><li><strong>Email Alerts</strong><ul><li>Exception reports, urgent compliance notifications, and regular summaries can be delivered to authorized recipients via SMTP plugin</li></ul></li><li><strong>Synchronization/Backup</strong><ul><li>Scheduled and event-triggered sync with servers; checkpoint markers for each transaction</li></ul></li><li><strong>Security &amp; Encryption</strong><ul><li>All communications are subject to role-privilege filtering; audit logs capture sender/recipient/action for legal compliance</li></ul></li></ul><p>Any handling of third-party data follows the City of Kamloops legal and technical standards for encryption and retention.</p>",
+          "text": "<p>SWMRS supports secure, multi-modal communication for data transmission and notifications:</p><ul><li><strong>Network Protocols</strong><ul><li>All data is transmitted over HTTPS/TLS for privacy and security</li><li>Mobile apps auto-switch from WiFi to cellular if needed, with offline caching</li></ul></li><li><strong>Push Notifications</strong><ul><li>Real-time notifications for residents and workers delivered via Firebase/APNs for respective OS; queued if offline</li></ul></li><li><strong>Email Alerts</strong><ul><li>Exception reports, urgent compliance notifications, and regular summaries can be delivered to authorized recipients via SMTP plugin</li></ul></li><li><strong>Synchronization/Backup</strong><ul><li>Scheduled and event-triggered sync with servers; checkpoint markers for each transaction</li></ul></li><li><strong>Security &amp; Encryption</strong><ul><li>All communications are subject to role-privilege filtering; audit logs capture sender/recipient/action for legal compliance</li></ul></li></ul><p>Any handling of third-party data follows the City legal and technical standards for encryption and retention.</p>",
           "history": [
             {
               "attributesChanged": {
@@ -1325,6 +1413,17 @@
                 "name": "Ajay Ludher"
               },
               "changedOn": "2025-10-23T09:48:35.995Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>SWMRS supports secure, multi-modal communication for data transmission and notifications:</p><ul><li><strong>Network Protocols</strong><ul><li>All data is transmitted over HTTPS/TLS for privacy and security</li><li>Mobile apps auto-switch from WiFi to cellular if needed, with offline caching</li></ul></li><li><strong>Push Notifications</strong><ul><li>Real-time notifications for residents and workers delivered via Firebase/APNs for respective OS; queued if offline</li></ul></li><li><strong>Email Alerts</strong><ul><li>Exception reports, urgent compliance notifications, and regular summaries can be delivered to authorized recipients via SMTP plugin</li></ul></li><li><strong>Synchronization/Backup</strong><ul><li>Scheduled and event-triggered sync with servers; checkpoint markers for each transaction</li></ul></li><li><strong>Security &amp; Encryption</strong><ul><li>All communications are subject to role-privilege filtering; audit logs capture sender/recipient/action for legal compliance</li></ul></li></ul><p>Any handling of third-party data follows the City of Kamloops legal and technical standards for encryption and retention.</p>"
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-24T07:04:34.352Z"
             }
           ]
         }
@@ -1459,7 +1558,7 @@
           "id": "143",
           "guid": "4a697a7a-eff1-4fb7-8bc1-c40804987bbd",
           "heading": "Other Attributes",
-          "text": "<ul><li><strong>Scalability (QA-19):</strong> Backend infrastructure must support up to twice projected Kamloops user/device load for three years post-launch, with elastic cloud expansion available.</li><li><strong>Interoperability (QA-20):</strong> All third-party integrations must use open, documented standards, with connector modules tested quarterly for compatibility.</li><li><strong>Maintainability (QA-21):</strong> Modular codebase with well-documented interfaces required; critical bugs are resolved within three business days of identification.</li><li><strong>Auditability (QA-22):</strong> All major actions and changes are logged with full traceability for compliance and stakeholder review.</li></ul>",
+          "text": "<ul><li><strong>Scalability (QA-19):</strong> Backend infrastructure must support up to twice projected city user/device load for three years post-launch, with elastic cloud expansion available.</li><li><strong>Interoperability (QA-20):</strong> All third-party integrations must use open, documented standards, with connector modules tested quarterly for compatibility.</li><li><strong>Maintainability (QA-21):</strong> Modular codebase with well-documented interfaces required; critical bugs are resolved within three business days of identification.</li><li><strong>Auditability (QA-22):</strong> All major actions and changes are logged with full traceability for compliance and stakeholder review.</li></ul>",
           "history": [
             {
               "affectedNodeId": "109",
@@ -1493,6 +1592,17 @@
                 "name": "Ajay Ludher"
               },
               "changedOn": "2025-10-23T10:06:00.596Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<ul><li><strong>Scalability (QA-19):</strong> Backend infrastructure must support up to twice projected Kamloops user/device load for three years post-launch, with elastic cloud expansion available.</li><li><strong>Interoperability (QA-20):</strong> All third-party integrations must use open, documented standards, with connector modules tested quarterly for compatibility.</li><li><strong>Maintainability (QA-21):</strong> Modular codebase with well-documented interfaces required; critical bugs are resolved within three business days of identification.</li><li><strong>Auditability (QA-22):</strong> All major actions and changes are logged with full traceability for compliance and stakeholder review.</li></ul>"
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-24T07:04:46.196Z"
             }
           ]
         }
@@ -1532,7 +1642,7 @@
       "id": "122",
       "guid": "5b64d19c-dcfe-44f9-8330-2e04d5b1c917",
       "heading": "Other Requirements",
-      "text": "<p>This section specifies requirements for legal compliance, product deployment, operational processes, and system monitoring, supplementing previous feature and quality specifications.</p><ul><li><strong>OR-01:</strong> SWMRS must comply fully with all City of Kamloops and British Columbia privacy regulations, including the Personal Information Protection Act (PIPA) and municipal waste handling statutes.</li><li><strong>OR-02:&nbsp;</strong>All system logging, monitoring, and audit trails must be active by default and retained for at least five years, accessible by authorized personnel for regulatory review and incident investigation.</li><li><strong>OR-03:</strong> Product installation scripts must automate deployment for both the backend (Windows/Linux servers) and mobile clients (Android/iOS), including company device onboarding and configuration.</li><li><strong>OR-04:</strong> Configuration management procedures must be documented and support rollback for all major software updates; schema migrations must be handled in a controlled, traceable manner.</li><li><strong>OR-05:&nbsp;</strong>System startup and shutdown must be logged, monitored, and capable of full error logging and recovery; all intentional restarts require supervisor notification.</li><li><strong>OR-06:&nbsp;</strong>All data exports (reports, backups) must conform to city cybersecurity standards, using encrypted formats and secure transmission for all sensitive data.</li><li><strong>OR-07:&nbsp;</strong>SWMRS must provide interfaces for authorized city IT staff to monitor health, usage, system events, and to trigger emergency shutdown in case of security violation or hardware failure.</li><li><strong>OR-08:</strong> Incident response procedures and disaster recovery plans must be established for all core data and service components as part of site delivery.</li></ul>",
+      "text": "<p>This section specifies requirements for legal compliance, product deployment, operational processes, and system monitoring, supplementing previous feature and quality specifications.</p><ul><li><strong>OR-01:</strong> SWMRS must comply fully with all City &amp; Province privacy regulations, including the Personal Information Protection Act (PIPA) and municipal waste handling statutes.</li><li><strong>OR-02:&nbsp;</strong>All system logging, monitoring, and audit trails must be active by default and retained for at least five years, accessible by authorized personnel for regulatory review and incident investigation.</li><li><strong>OR-03:</strong> Product installation scripts must automate deployment for both the backend (Windows/Linux servers) and mobile clients (Android/iOS), including company device onboarding and configuration.</li><li><strong>OR-04:</strong> Configuration management procedures must be documented and support rollback for all major software updates; schema migrations must be handled in a controlled, traceable manner.</li><li><strong>OR-05:&nbsp;</strong>System startup and shutdown must be logged, monitored, and capable of full error logging and recovery; all intentional restarts require supervisor notification.</li><li><strong>OR-06:&nbsp;</strong>All data exports (reports, backups) must conform to city cybersecurity standards, using encrypted formats and secure transmission for all sensitive data.</li><li><strong>OR-07:&nbsp;</strong>SWMRS must provide interfaces for authorized city IT staff to monitor health, usage, system events, and to trigger emergency shutdown in case of security violation or hardware failure.</li><li><strong>OR-08:</strong> Incident response procedures and disaster recovery plans must be established for all core data and service components as part of site delivery.</li></ul>",
       "history": [
         {
           "attributesChanged": {
@@ -1544,6 +1654,17 @@
             "name": "Ajay Ludher"
           },
           "changedOn": "2025-10-23T10:12:09.644Z"
+        },
+        {
+          "attributesChanged": {
+            "text": "<p>This section specifies requirements for legal compliance, product deployment, operational processes, and system monitoring, supplementing previous feature and quality specifications.</p><ul><li><strong>OR-01:</strong> SWMRS must comply fully with all City of Kamloops and British Columbia privacy regulations, including the Personal Information Protection Act (PIPA) and municipal waste handling statutes.</li><li><strong>OR-02:&nbsp;</strong>All system logging, monitoring, and audit trails must be active by default and retained for at least five years, accessible by authorized personnel for regulatory review and incident investigation.</li><li><strong>OR-03:</strong> Product installation scripts must automate deployment for both the backend (Windows/Linux servers) and mobile clients (Android/iOS), including company device onboarding and configuration.</li><li><strong>OR-04:</strong> Configuration management procedures must be documented and support rollback for all major software updates; schema migrations must be handled in a controlled, traceable manner.</li><li><strong>OR-05:&nbsp;</strong>System startup and shutdown must be logged, monitored, and capable of full error logging and recovery; all intentional restarts require supervisor notification.</li><li><strong>OR-06:&nbsp;</strong>All data exports (reports, backups) must conform to city cybersecurity standards, using encrypted formats and secure transmission for all sensitive data.</li><li><strong>OR-07:&nbsp;</strong>SWMRS must provide interfaces for authorized city IT staff to monitor health, usage, system events, and to trigger emergency shutdown in case of security violation or hardware failure.</li><li><strong>OR-08:</strong> Incident response procedures and disaster recovery plans must be established for all core data and service components as part of site delivery.</li></ul>"
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T07:05:11.549Z"
         }
       ]
     },
@@ -1551,7 +1672,7 @@
       "id": "124",
       "guid": "cc91b543-15a8-4c8e-bd8b-b672f5013206",
       "heading": "Glossary",
-      "text": "<table style=\"width: 100%;\"><tbody><tr><td><strong>Term/Acronym</strong></td><td><strong>Definition</strong></td></tr><tr><td>SWMRS</td><td>Smart Waste Management &amp; Recycling System—project name for Kamloops’ municipal waste/recycling app<br></td></tr><tr><td>BinID</td><td>Unique identifier assigned to each smart waste or recycling bin (alphanumeric, 12 chars)<br></td></tr><tr><td>IoT</td><td>Internet of Things—network-connected physical devices reporting real-world conditions<br></td></tr><tr><td>GPS</td><td>Global Positioning System—satellite-based system for providing live location information<br></td></tr><tr><td>WCAG 2.1 AA</td><td>Web Content Accessibility Guidelines, Level AA—standards for accessible digital interfaces<br></td></tr><tr><td>Resident</td><td>Any individual or household account using municipal waste/recycling services<br></td></tr><tr><td>Supervisor</td><td>Staff with authority to review/approve exceptions, handle complaints, and manage operations<br></td></tr><tr><td>Collection Worker</td><td>Municipal or contractor employee performing bin pickup and reporting tasks<br></td></tr><tr><td>Administrator</td><td>City or contracted personnel managing routes, performance, system settings via SWMRS dashboardStaff with authority to review/approve exceptions, handle complaints, and manage operations<br></td></tr><tr><td>Technician</td><td>Staff responsible for installing/repairing sensors and maintaining hardware<br></td></tr><tr><td>Partner</td><td>Third-party business participating in the rewards/voucher system<br></td></tr><tr><td>OAuth2</td><td>Open Standard for secure authentication and authorization via token-based control<br></td></tr><tr><td>LoRaWAN/Zigbee<br></td><td>Industry-standard wireless protocols for IoT sensor communication<br></td></tr><tr><td>RBAC</td><td>Role-Based Access Control—user permissions model based on assigned roles<br></td></tr><tr><td>API</td><td>Application Programming Interface—standard set of protocols for software or device communication<br></td></tr><tr><td>CSV/XLSX</td><td>Commonly used tabular data file formats (Comma-Separated Values, Excel)<br></td></tr><tr><td>PIPA</td><td>Personal Information Protection Act—BC privacy law regarding handling of personal information<br></td></tr><tr><td>ETL</td><td>Extract, Transform, Load—process for migrating and handling large volumes of data<br></td></tr><tr><td>A4</td><td>Standard ISO paper size used for printable municipal documentsSWMRS<br></td></tr></tbody></table>",
+      "text": "<table style=\"width: 100%;\"><tbody><tr><td><strong>Term/Acronym</strong></td><td><strong>Definition</strong></td></tr><tr><td>SWMRS</td><td>Smart Waste Management &amp; Recycling System—project name for City's municipal waste/recycling app<br></td></tr><tr><td>BinID</td><td>Unique identifier assigned to each smart waste or recycling bin (alphanumeric, 12 chars)<br></td></tr><tr><td>IoT</td><td>Internet of Things—network-connected physical devices reporting real-world conditions<br></td></tr><tr><td>GPS</td><td>Global Positioning System—satellite-based system for providing live location information<br></td></tr><tr><td>WCAG 2.1 AA</td><td>Web Content Accessibility Guidelines, Level AA—standards for accessible digital interfaces<br></td></tr><tr><td>Resident</td><td>Any individual or household account using municipal waste/recycling services<br></td></tr><tr><td>Supervisor</td><td>Staff with authority to review/approve exceptions, handle complaints, and manage operations<br></td></tr><tr><td>Collection Worker</td><td>Municipal or contractor employee performing bin pickup and reporting tasks<br></td></tr><tr><td>Administrator</td><td>City or contracted personnel managing routes, performance, system settings via SWMRS dashboardStaff with authority to review/approve exceptions, handle complaints, and manage operations<br></td></tr><tr><td>Technician</td><td>Staff responsible for installing/repairing sensors and maintaining hardware<br></td></tr><tr><td>Partner</td><td>Third-party business participating in the rewards/voucher system<br></td></tr><tr><td>OAuth2</td><td>Open Standard for secure authentication and authorization via token-based control<br></td></tr><tr><td>LoRaWAN/Zigbee<br></td><td>Industry-standard wireless protocols for IoT sensor communication<br></td></tr><tr><td>RBAC</td><td>Role-Based Access Control—user permissions model based on assigned roles<br></td></tr><tr><td>API</td><td>Application Programming Interface—standard set of protocols for software or device communication<br></td></tr><tr><td>CSV/XLSX</td><td>Commonly used tabular data file formats (Comma-Separated Values, Excel)<br></td></tr><tr><td>PIPA</td><td>Personal Information Protection Act—BC privacy law regarding handling of personal information<br></td></tr><tr><td>ETL</td><td>Extract, Transform, Load—process for migrating and handling large volumes of data<br></td></tr><tr><td>A4</td><td>Standard ISO paper size used for printable municipal documentsSWMRS<br></td></tr></tbody></table>",
       "history": [
         {
           "attributesChanged": {
@@ -1563,6 +1684,17 @@
             "name": "Ajay Ludher"
           },
           "changedOn": "2025-10-23T15:35:29.212Z"
+        },
+        {
+          "attributesChanged": {
+            "text": "<table style=\"width: 100%;\"><tbody><tr><td><strong>Term/Acronym</strong></td><td><strong>Definition</strong></td></tr><tr><td>SWMRS</td><td>Smart Waste Management &amp; Recycling System—project name for Kamloops’ municipal waste/recycling app<br></td></tr><tr><td>BinID</td><td>Unique identifier assigned to each smart waste or recycling bin (alphanumeric, 12 chars)<br></td></tr><tr><td>IoT</td><td>Internet of Things—network-connected physical devices reporting real-world conditions<br></td></tr><tr><td>GPS</td><td>Global Positioning System—satellite-based system for providing live location information<br></td></tr><tr><td>WCAG 2.1 AA</td><td>Web Content Accessibility Guidelines, Level AA—standards for accessible digital interfaces<br></td></tr><tr><td>Resident</td><td>Any individual or household account using municipal waste/recycling services<br></td></tr><tr><td>Supervisor</td><td>Staff with authority to review/approve exceptions, handle complaints, and manage operations<br></td></tr><tr><td>Collection Worker</td><td>Municipal or contractor employee performing bin pickup and reporting tasks<br></td></tr><tr><td>Administrator</td><td>City or contracted personnel managing routes, performance, system settings via SWMRS dashboardStaff with authority to review/approve exceptions, handle complaints, and manage operations<br></td></tr><tr><td>Technician</td><td>Staff responsible for installing/repairing sensors and maintaining hardware<br></td></tr><tr><td>Partner</td><td>Third-party business participating in the rewards/voucher system<br></td></tr><tr><td>OAuth2</td><td>Open Standard for secure authentication and authorization via token-based control<br></td></tr><tr><td>LoRaWAN/Zigbee<br></td><td>Industry-standard wireless protocols for IoT sensor communication<br></td></tr><tr><td>RBAC</td><td>Role-Based Access Control—user permissions model based on assigned roles<br></td></tr><tr><td>API</td><td>Application Programming Interface—standard set of protocols for software or device communication<br></td></tr><tr><td>CSV/XLSX</td><td>Commonly used tabular data file formats (Comma-Separated Values, Excel)<br></td></tr><tr><td>PIPA</td><td>Personal Information Protection Act—BC privacy law regarding handling of personal information<br></td></tr><tr><td>ETL</td><td>Extract, Transform, Load—process for migrating and handling large volumes of data<br></td></tr><tr><td>A4</td><td>Standard ISO paper size used for printable municipal documentsSWMRS<br></td></tr></tbody></table>"
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T07:05:25.900Z"
         }
       ]
     },
@@ -1590,6 +1722,9 @@
           "guid": "f7674e4e-7e87-404c-a5b1-e3d01af2c391",
           "heading": "Use Case Diagram",
           "text": "<p>A comprehensive UML Use Case Diagram is provided, depicting:</p><ul><li>The system boundary for SWMRS</li><li>All external actors (residents, workers, admins, supervisors, partners, sensors, APIs)</li><li>Major use cases (“Optimize Collection Route”, “Report Missed Pickup/Issue”, “Track Recycling Rewards”, “Confirm Pickup”, “Monitor Fleet Dashboard”, “Sensor Health Monitoring”, etc.)</li><li>Relationships (include, extend, generalization) are indicated per UML standard</li><li>Diagrams use a legend to clarify all symbols and connectors.</li></ul>",
+          "attachments": [
+            "SRS-144_1_use case diagram.png"
+          ],
           "history": [
             {
               "affectedNodeId": "126",
@@ -1623,211 +1758,15 @@
                 "name": "Ajay Ludher"
               },
               "changedOn": "2025-10-23T15:25:32.015Z"
-            }
-          ]
-        },
-        {
-          "id": "145",
-          "guid": "01450bc0-f7e8-412a-9a84-b2c774be24d7",
-          "heading": "Activity Diagram",
-          "text": "<p>Activity diagrams for high-traffic workflows, such as resident complaint reporting and dynamic route recalculation, are attached. These diagrams show the logical flow, alternate branches, data state changes, and synchronization points.</p>",
-          "history": [
-            {
-              "affectedNodeId": "126",
-              "changedBy": {
-                "company": "Thompson Rivers University",
-                "email": "ludhera17@mytru.ca",
-                "name": "Ajay Ludher"
-              },
-              "changedOn": "2025-10-23T15:23:50.197Z",
-              "docId": "SRS",
-              "structureAction": "Create"
             },
             {
-              "attributesChanged": {
-                "heading": null
-              },
+              "addedAttachment": "SRS-144_1_use case diagram.png",
               "changedBy": {
                 "company": "Thompson Rivers University",
                 "email": "ludhera17@mytru.ca",
                 "name": "Ajay Ludher"
               },
-              "changedOn": "2025-10-23T15:23:56.087Z"
-            },
-            {
-              "attributesChanged": {
-                "text": null
-              },
-              "changedBy": {
-                "company": "Thompson Rivers University",
-                "email": "ludhera17@mytru.ca",
-                "name": "Ajay Ludher"
-              },
-              "changedOn": "2025-10-23T15:25:41.166Z"
-            }
-          ]
-        },
-        {
-          "id": "146",
-          "guid": "2d897786-8585-4692-b212-476d5a7f5a52",
-          "heading": "Entity Relationship Diagram",
-          "text": "<p>An ERD details the major data entities (Bin, Resident, Worker, Truck, Event, Complaint, Reward, Partner) and their relationships, including cardinality, key constraints, and referential integrity.</p>",
-          "history": [
-            {
-              "affectedNodeId": "126",
-              "changedBy": {
-                "company": "Thompson Rivers University",
-                "email": "ludhera17@mytru.ca",
-                "name": "Ajay Ludher"
-              },
-              "changedOn": "2025-10-23T15:24:01.137Z",
-              "docId": "SRS",
-              "structureAction": "Create"
-            },
-            {
-              "attributesChanged": {
-                "heading": null
-              },
-              "changedBy": {
-                "company": "Thompson Rivers University",
-                "email": "ludhera17@mytru.ca",
-                "name": "Ajay Ludher"
-              },
-              "changedOn": "2025-10-23T15:24:14.297Z"
-            },
-            {
-              "attributesChanged": {
-                "text": null
-              },
-              "changedBy": {
-                "company": "Thompson Rivers University",
-                "email": "ludhera17@mytru.ca",
-                "name": "Ajay Ludher"
-              },
-              "changedOn": "2025-10-23T15:25:47.297Z"
-            }
-          ]
-        },
-        {
-          "id": "147",
-          "guid": "94f27d75-37e7-46bb-bdf4-0bf153e44560",
-          "heading": "State Transition Diagram",
-          "text": "<p>Where applicable (e.g., for sensor health or complaint workflow), state-transition diagrams document the allowable states, transitions, and triggers within the process.</p>",
-          "history": [
-            {
-              "affectedNodeId": "126",
-              "changedBy": {
-                "company": "Thompson Rivers University",
-                "email": "ludhera17@mytru.ca",
-                "name": "Ajay Ludher"
-              },
-              "changedOn": "2025-10-23T15:24:22.464Z",
-              "docId": "SRS",
-              "structureAction": "Create"
-            },
-            {
-              "attributesChanged": {
-                "heading": null
-              },
-              "changedBy": {
-                "company": "Thompson Rivers University",
-                "email": "ludhera17@mytru.ca",
-                "name": "Ajay Ludher"
-              },
-              "changedOn": "2025-10-23T15:24:29.329Z"
-            },
-            {
-              "attributesChanged": {
-                "text": null
-              },
-              "changedBy": {
-                "company": "Thompson Rivers University",
-                "email": "ludhera17@mytru.ca",
-                "name": "Ajay Ludher"
-              },
-              "changedOn": "2025-10-23T15:25:54.682Z"
-            }
-          ]
-        },
-        {
-          "id": "148",
-          "guid": "a5158a43-28fc-4237-beb2-0e6bff9690dc",
-          "heading": "Feature Tree/Context Diagram",
-          "text": "<p>A feature tree summarizes system capabilities and hierarchy, and a context diagram maps SWMRS to its external systems (city database, APIs, business partners). These provide a high-level overview for stakeholders and development teams.</p>",
-          "history": [
-            {
-              "affectedNodeId": "126",
-              "changedBy": {
-                "company": "Thompson Rivers University",
-                "email": "ludhera17@mytru.ca",
-                "name": "Ajay Ludher"
-              },
-              "changedOn": "2025-10-23T15:24:33.818Z",
-              "docId": "SRS",
-              "structureAction": "Create"
-            },
-            {
-              "attributesChanged": {
-                "heading": null
-              },
-              "changedBy": {
-                "company": "Thompson Rivers University",
-                "email": "ludhera17@mytru.ca",
-                "name": "Ajay Ludher"
-              },
-              "changedOn": "2025-10-23T15:24:46.878Z"
-            },
-            {
-              "attributesChanged": {
-                "text": null
-              },
-              "changedBy": {
-                "company": "Thompson Rivers University",
-                "email": "ludhera17@mytru.ca",
-                "name": "Ajay Ludher"
-              },
-              "changedOn": "2025-10-23T15:26:05.076Z"
-            }
-          ]
-        },
-        {
-          "id": "149",
-          "guid": "5d4b5219-aa1b-4210-a6cf-c99ab3bb2350",
-          "heading": "Technical Appendices",
-          "text": "<p>If required, technical appendices can include:</p><ul><li>Data dictionary</li><li>API call schemas and documentation</li><li>Sample report layouts</li><li>Accessibility validation checklists</li></ul><p>All diagrams are professionally labeled, referenced in the document, and organized by artifact type. They support clearer engineering communication, traceability, and validation, addressing requirements for completeness and transparency.</p>",
-          "history": [
-            {
-              "affectedNodeId": "126",
-              "changedBy": {
-                "company": "Thompson Rivers University",
-                "email": "ludhera17@mytru.ca",
-                "name": "Ajay Ludher"
-              },
-              "changedOn": "2025-10-23T15:24:55.479Z",
-              "docId": "SRS",
-              "structureAction": "Create"
-            },
-            {
-              "attributesChanged": {
-                "heading": null
-              },
-              "changedBy": {
-                "company": "Thompson Rivers University",
-                "email": "ludhera17@mytru.ca",
-                "name": "Ajay Ludher"
-              },
-              "changedOn": "2025-10-23T15:25:03.225Z"
-            },
-            {
-              "attributesChanged": {
-                "text": null
-              },
-              "changedBy": {
-                "company": "Thompson Rivers University",
-                "email": "ludhera17@mytru.ca",
-                "name": "Ajay Ludher"
-              },
-              "changedOn": "2025-10-23T15:27:06.637Z"
+              "changedOn": "2025-10-24T06:58:19.064Z"
             }
           ]
         }
