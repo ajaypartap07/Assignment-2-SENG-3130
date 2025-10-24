@@ -3,7 +3,8 @@
   "description": "SENG 3130 - Assignment 2",
   "documents": [
     "SRS.json",
-    "UC.json"
+    "UC.json",
+    "URD.json"
   ],
   "traceability": {
     "reference": {
