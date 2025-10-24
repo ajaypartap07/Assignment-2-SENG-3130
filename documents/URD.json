@@ -2,20 +2,616 @@
   "id": "URD",
   "guid": "a3e93a9f-67b4-4180-be88-3920c24b6841",
   "name": "User Requirement Document",
-  "lastId": 0,
+  "lastId": 11,
   "createdOn": "2025-10-24T02:18:55.074Z",
   "createdBy": {
     "name": "Ajay Ludher",
     "email": "ludhera17@mytru.ca",
     "company": "Thompson Rivers University"
   },
-  "lastChangedOn": "2025-10-24T02:18:55.074Z",
+  "lastChangedOn": "2025-10-24T05:11:02.483Z",
   "lastChangedBy": {
     "name": "Ajay Ludher",
     "email": "ludhera17@mytru.ca",
     "company": "Thompson Rivers University"
   },
-  "data": [],
+  "data": [
+    {
+      "id": "1",
+      "guid": "b2c66038-f5c5-4283-b928-8ba660ca1a15",
+      "heading": "Introduction",
+      "text": "<p>The Smart Waste Management &amp; Recycling System (SWMRS) User Requirement Document defines the essential requirements, use cases, and user interactions for the city’s next-generation waste management solution. This document identifies stakeholder roles, system actors—including human, external, and temporal participants—and details main system functions through use case templates. The purpose is to ensure all functional and non-functional requirements are captured for clear communication between stakeholders, system designers, and developers, supporting a smooth and accountable implementation.</p>",
+      "history": [
+        {
+          "affectedNodeId": "#",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T02:18:58.788Z",
+          "docId": "URD",
+          "structureAction": "Create"
+        },
+        {
+          "attributesChanged": {
+            "heading": null
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T02:19:25.007Z"
+        },
+        {
+          "attributesChanged": {
+            "text": null
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T04:45:57.216Z"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "guid": "9356fc40-59e0-4dbb-9ec5-f414f3f23dd6",
+      "heading": "User Classes and Profiles",
+      "text": "<table style=\"width: 100%;\"><tbody><tr><td><strong>Class Name</strong></td><td><strong>Type (Direct/Indirect, Favoured/Unfavored/Ignored)</strong></td><td><strong>Brief Description</strong></td></tr><tr><td>Collection Worker</td><td>Direct, Favoured<br></td><td>Uses app for real-time route and pickup confirmations; main operator in the field.<br></td></tr><tr><td>Resident</td><td>Direct, Favoured<br></td><td>Uses app/web to report issues, view recycling rewards, receive service notifications.<br></td></tr><tr><td>City Administrator</td><td>Direct, Favoured<br></td><td>Oversees system, assigns routes, runs analytics, manages city waste/recycling operations.<br></td></tr><tr><td>Supervisor</td><td>Direct, Favoured<br></td><td>Approves exceptions, validates field data, coordinates incident/complaint handling.<br></td></tr><tr><td>Maintenance Technician</td><td>Indirect, Favoured<br></td><td>Receives equipment/service alerts, repairs sensors/vehicles, ensures hardware uptime.<br></td></tr><tr><td>Local Business Partner</td><td>Indirect, Favoured<br></td><td>Provides recycling reward sponsorship, receives participation data, business engagement.<br></td></tr><tr><td>Data Attacker</td><td>Indirect, Unfavored<br></td><td>Represents threat actors, targeted by security mechanisms and audits.<br></td></tr><tr><td>Unauthorized User</td><td>Direct, Unfavored<br></td><td>Attempts unauthorized access, system blocks and logs activity for monitoring.<br></td></tr></tbody></table>",
+      "history": [
+        {
+          "affectedNodeId": "#",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T02:19:42.236Z",
+          "docId": "URD",
+          "structureAction": "Create"
+        },
+        {
+          "attributesChanged": {
+            "heading": null
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T02:19:44.666Z"
+        },
+        {
+          "attributesChanged": {
+            "text": null
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T03:40:57.203Z"
+        },
+        {
+          "attributesChanged": {
+            "text": "<table style=\"width: 100%;\"><tbody><tr><td><strong>Class Name</strong></td><td><strong>Type (Direct/Indirect, Favoured/Unfavored/Ignored)</strong></td><td><strong>Brief Description</strong></td></tr><tr><td>Collection Worker</td><td>Direct, Favoured<br></td><td>Uses app for real-time route and pickup confirmations; main operator in the field.<br></td></tr><tr><td>Resident</td><td>Direct, Favoured<br></td><td>Uses app/web to report issues, view recycling rewards, receive service notifications.<br></td></tr><tr><td>City Administrator</td><td>Direct, Favoured<br></td><td>Oversees system, assigns routes, runs analytics, manages city waste/recycling operations.<br></td></tr><tr><td>Supervisor</td><td>Direct, Favoured<br></td><td>Approves exceptions, validates field data, coordinates incident/complaint handling.<br></td></tr><tr><td>Maintenance Technician</td><td>Indirect, Favoured<br></td><td>Receives equipment/service alerts, repairs sensors/vehicles, ensures hardware uptime.<br></td></tr><tr><td>Local Business Partner</td><td>Indirect, Favoured<br></td><td>Provides recycling reward sponsorship, receives participation data, business engagement.<br></td></tr><tr><td>Data Attacker</td><td>Indirect, Unfavoured<br></td><td>Represents threat actors, targeted by security mechanisms and audits.<br></td></tr><tr><td>Unauthorized User</td><td>Direct, Disfavoured<br></td><td>Attempts unauthorized access, system blocks and logs activity for monitoring.<br></td></tr></tbody></table>"
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T04:59:40.741Z"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "guid": "44399d60-b267-466f-8d5b-2de8eb8bf971",
+      "heading": "System Actors",
+      "text": "<table style=\"width: 100%;\"><tbody><tr><td><strong>Actor Name</strong></td><td><strong>Type (Human/External/Temporal)</strong></td><td><strong>Description/Role in System</strong></td></tr><tr><td>Collection Worker</td><td>Human</td><td>Field operator performing waste/recycling collection; uses mobile app for route guidance and pickup confirmation.<br></td></tr><tr><td>Resident</td><td>Human<br></td><td>Municipal service user, reports issues, checks pickup status, manages recycling data and rewards.<br></td></tr><tr><td>City Administrator</td><td>Human<br></td><td>Oversees waste management, route assignment, system monitoring, analytics, policy enforcement.<br></td></tr><tr><td>Supervisor</td><td>Human<br></td><td>Approves exceptions, reviews incidents, validates route changes, coordinates staff.<br></td></tr><tr><td>Maintenance Technician</td><td>Human<br></td><td>Repairs sensors, maintains vehicles/equipment, responds to alerts for hardware faults.<br></td></tr><tr><td>Traffic Data API</td><td>External System<br></td><td>Provides real-time traffic data for dynamic route optimization, alerts for congestion or accidents.<br></td></tr><tr><td>Bin Sensor Network</td><td>External System<br></td><td>IoT network reporting real-time bin fill levels/status, enabling automated routing and overflow alerts.<br></td></tr><tr><td>Scheduled Collection Event</td><td>Temporal Event<br></td><td>Daily/weekly recurring system trigger assigning new routes, pickups, reminders, and shift logs.<br></td></tr><tr><td>Weather Service API</td><td>External System<br></td><td>Provides weather conditions that affect route planning and field safety notifications.<br></td></tr><tr><td>Data Attacker</td><td>External Entity<br></td><td>Represents cyberthreat—target for system security, subject to access monitoring and controls.<br></td></tr></tbody></table>",
+      "history": [
+        {
+          "affectedNodeId": "#",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T02:19:51.571Z",
+          "docId": "URD",
+          "structureAction": "Create"
+        },
+        {
+          "attributesChanged": {
+            "heading": null
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T02:19:53.431Z"
+        },
+        {
+          "attributesChanged": {
+            "text": null
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T03:48:59.374Z"
+        },
+        {
+          "attributesChanged": {
+            "text": "<table style=\"width: 100%;\"><tbody><tr><td><strong>Actor Name</strong></td><td><strong>Type (Human/External/Temporal)</strong></td><td><strong>Description/Role in System</strong></td></tr><tr><td>Collection Worker</td><td>Human</td><td>Field operator performing waste/recycling collection; uses mobile app for route guidance and pickup confirmation.<br></td></tr><tr><td>Resident</td><td>Human<br></td><td>Municipal service user, reports issues, checks pickup status, manages recycling data and rewards.<br></td></tr><tr><td>City Administrator</td><td>Human<br></td><td>Oversees waste management, route assignment, system monitoring, analytics, policy enforcement.<br></td></tr><tr><td>Supervisor</td><td>Human<br></td><td>Approves exceptions, reviews incidents, validates route changes, coordinates staff.<br></td></tr><tr><td>Maintenance Technician</td><td>Human<br></td><td>Repairs sensors, maintains vehicles/equipment, responds to alerts for hardware faults.<br></td></tr><tr><td>Traffic Data API</td><td>External System<br></td><td>Provides real-time traffic data for dynamic route optimization, alerts for congestion or accidents.<br></td></tr><tr><td>Bin Sensor Network</td><td>External System<br></td><td>IoT network reporting real-time bin fill levels/status, enabling automated routing and overflow alerts.<br></td></tr><tr><td>Scheduled Collection Event</td><td>Temporal Event<br></td><td>Daily/weekly recurring system trigger assigning new routes, pickups, reminders, and shift logs.<br></td></tr><tr><td>Weather Service API</td><td>External System<br></td><td>Provides weather conditions that affect route planning and field safety notifications.<br></td></tr><tr><td>Data Attacker</td><td>External Entity (Unfavored)<br></td><td>Represents cyberthreat—target for system security, subject to access monitoring and controls.<br></td></tr></tbody></table>"
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T05:00:13.325Z"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "guid": "45eed4ba-931f-4602-b2f0-8fa1504d080b",
+      "heading": "Main Use Cases",
+      "text": "<table style=\"width: 100%;\"><tbody><tr><td><p><strong>Primary Actor</strong></p></td><td><p><strong>Use Cases</strong></p></td></tr><tr><td><p>&nbsp;Collection Worker</p></td><td><p>&nbsp;Optimize Collection Route, Confirm Pickup</p></td></tr><tr><td><p>&nbsp;Resident</p></td><td><p>&nbsp;Report Missed Pickup/Issue, Track Recycling Rewards</p></td></tr><tr><td><p>&nbsp;City Administrator</p></td><td><p>&nbsp;Monitor Fleet Dashboard, Update Collection Parameters</p></td></tr><tr><td><p>&nbsp;Supervisor&nbsp;</p></td><td><p>&nbsp;Approve Exception Reports, Audit Route Changes</p></td></tr><tr><td><br>Technician<br><br></td><td><br>Sensor Health Monitoring, Maintenance Dispatch<br></td></tr><tr><td><br>Bin Sensor Network (API)<br><br></td><td><br>Provide bin fill data, Alert for overflow<br></td></tr><tr><td><br>Traffic Data API<br></td><td><br>Provide real-time traffic status, Update optimal route<br><br></td></tr><tr><td><br>Scheduled Collection Event<br></td><td><br>Trigger daily/weekly collection batch assignment<br><br></td></tr></tbody></table>",
+      "history": [
+        {
+          "affectedNodeId": "#",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T02:20:00.869Z",
+          "docId": "URD",
+          "structureAction": "Create"
+        },
+        {
+          "attributesChanged": {
+            "heading": null
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T02:20:02.682Z"
+        },
+        {
+          "attributesChanged": {
+            "text": null
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T04:31:21.630Z"
+        },
+        {
+          "attributesChanged": {
+            "text": "<table style=\"width: 100%;\"><tbody><tr><td><strong>Use Case Name</strong></td><td><strong>Primary Actor</strong><strong>​</strong></td><td><strong>Concise Description</strong></td><td><strong>Secondary Actors</strong></td></tr><tr><td>Optimize Collection Route</td><td>Collection Worker</td><td>Worker receives dynamic, optimized route for pickups based on bin data/traffic.</td><td>Supervisor, Traffic Data API</td></tr><tr><td>Confirm Pickup</td><td>Collection Worker</td><td>Worker confirms each bin serviced via mobile app, logging time and location.</td><td>Bin Sensor Network</td></tr><tr><td>Report Missed Pickup/Issue</td><td>Resident</td><td>Resident reports missed pickup, bin blockage, or contamination via app/web.</td><td>City Administrator, Supervisor</td></tr><tr><td>Track Recycling Rewards</td><td>Resident</td><td>Resident views personal recycling stats and earned rewards.</td><td>Local Business Partner</td></tr><tr><td>Monitor Fleet Dashboard</td><td>City Administrator</td><td>Real-time map of bin status, truck locations, service and issue analytics.</td><td>Supervisor, Traffic Data API</td></tr><tr><td>Approve Exception Reports</td><td>Supervisor</td><td>Supervisor reviews/approves missed pickups, route changes, incident reports.</td><td>Collection Worker</td></tr><tr><td>Sensor Health Monitoring<br></td><td>Technician</td><td>Technician views alerts for broken/faulty sensors, schedules maintenance.</td><td>Bin Sensor Network</td></tr><tr><td>Maintenance Dispatch<br></td><td>Technician</td><td>Technician received automated work orders for sensor/vehicle service.</td><td>City Administrator</td></tr><tr><td>Update Collection Parameters<br></td><td>City Administrator</td><td>Admin edits schedules, priorities, and service levels for specific areas.</td><td>Traffic Data API, Resident</td></tr></tbody></table>"
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T04:35:54.883Z"
+        },
+        {
+          "attributesChanged": {
+            "text": "<p>Use Case List:</p><table style=\"width: 100%;\"><tbody><tr><td><p>Primary Actor</p></td><td><p>Use Cases</p></td></tr><tr><td><p>&nbsp;Collection Worker</p></td><td><p>&nbsp;Optimize Collection Route, Confirm Pickup</p></td></tr><tr><td><p>&nbsp;Resident</p></td><td><p>&nbsp;Report Missed Pickup/Issue, Track Recycling Rewards</p></td></tr><tr><td><p>&nbsp;City Administrator</p></td><td><p>&nbsp;Monitor Fleet Dashboard, Update Collection Parameters</p></td></tr><tr><td><p>&nbsp;Supervisor&nbsp;</p></td><td><p>&nbsp;Approve Exception Reports, Audit Route Changes</p></td></tr><tr><td><br>Technician<br><br></td><td><br>Sensor Health Monitoring, Maintenance Dispatch<br></td></tr><tr><td><br>Bin Sensor Network (API)<br><br></td><td><br>Provide bin fill data, Alert for overflow<br></td></tr><tr><td><br>Traffic Data API<br></td><td><br>Provide real-time traffic status, Update optimal route<br><br></td></tr><tr><td><br>Scheduled Collection Event<br></td><td><br>Trigger daily/weekly collection batch assignment<br><br></td></tr></tbody></table><p><br></p><p>Use Case Description:</p><table style=\"width: 100%;\"><tbody><tr><td><strong>Use Case Name</strong></td><td><strong>Primary Actor</strong></td><td><strong>Concise Description</strong></td><td><strong>Secondary Actors</strong></td></tr><tr><td>Optimize Collection Route</td><td>Collection Worker</td><td>Worker receives dynamic, optimized route for pickups based on bin data/traffic.</td><td>Supervisor, Traffic Data API</td></tr><tr><td>Confirm Pickup</td><td>Collection Worker</td><td>Worker confirms each bin serviced via mobile app, logging time and location.</td><td>Bin Sensor Network</td></tr><tr><td>Report Missed Pickup/Issue</td><td>Resident</td><td>Resident reports missed pickup, bin blockage, or contamination via app/web.</td><td>City Administrator, Supervisor</td></tr><tr><td>Track Recycling Rewards</td><td>Resident</td><td>Resident views personal recycling stats and earned rewards.</td><td>Local Business Partner</td></tr><tr><td>Monitor Fleet Dashboard</td><td>City Administrator</td><td>Real-time map of bin status, truck locations, service and issue analytics.</td><td>Supervisor, Traffic Data API</td></tr><tr><td>Approve Exception Reports</td><td>Supervisor</td><td>Supervisor reviews/approves missed pickups, route changes, incident reports.</td><td>Collection Worker</td></tr><tr><td>Sensor Health Monitoring<br></td><td>Technician</td><td>Technician views alerts for broken/faulty sensors, schedules maintenance.</td><td>Bin Sensor Network</td></tr><tr><td>Maintenance Dispatch<br></td><td>Technician</td><td>Technician received automated work orders for sensor/vehicle service.</td><td>City Administrator</td></tr><tr><td>Update Collection Parameters<br></td><td>City Administrator</td><td>Admin edits schedules, priorities, and service levels for specific areas.</td><td>Traffic Data API, Resident</td></tr></tbody></table>"
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T05:00:35.651Z"
+        },
+        {
+          "attributesChanged": {
+            "text": "<p>Use Case List:</p><table style=\"width: 100%;\"><tbody><tr><td><p><strong>Primary Actor</strong></p></td><td><p><strong>Use Cases</strong></p></td></tr><tr><td><p>&nbsp;Collection Worker</p></td><td><p>&nbsp;Optimize Collection Route, Confirm Pickup</p></td></tr><tr><td><p>&nbsp;Resident</p></td><td><p>&nbsp;Report Missed Pickup/Issue, Track Recycling Rewards</p></td></tr><tr><td><p>&nbsp;City Administrator</p></td><td><p>&nbsp;Monitor Fleet Dashboard, Update Collection Parameters</p></td></tr><tr><td><p>&nbsp;Supervisor&nbsp;</p></td><td><p>&nbsp;Approve Exception Reports, Audit Route Changes</p></td></tr><tr><td><br>Technician<br><br></td><td><br>Sensor Health Monitoring, Maintenance Dispatch<br></td></tr><tr><td><br>Bin Sensor Network (API)<br><br></td><td><br>Provide bin fill data, Alert for overflow<br></td></tr><tr><td><br>Traffic Data API<br></td><td><br>Provide real-time traffic status, Update optimal route<br><br></td></tr><tr><td><br>Scheduled Collection Event<br></td><td><br>Trigger daily/weekly collection batch assignment<br><br></td></tr></tbody></table><p><br></p><p>Use Case Description:</p><table style=\"width: 100%;\"><tbody><tr><td><strong>Use Case Name</strong></td><td><strong>Primary Actor</strong></td><td><strong>Concise Description</strong></td><td><strong>Secondary Actors</strong></td></tr><tr><td>Optimize Collection Route</td><td>Collection Worker</td><td>Worker receives dynamic, optimized route for pickups based on bin data/traffic.</td><td>Supervisor, Traffic Data API</td></tr><tr><td>Confirm Pickup</td><td>Collection Worker</td><td>Worker confirms each bin serviced via mobile app, logging time and location.</td><td>Bin Sensor Network</td></tr><tr><td>Report Missed Pickup/Issue</td><td>Resident</td><td>Resident reports missed pickup, bin blockage, or contamination via app/web.</td><td>City Administrator, Supervisor</td></tr><tr><td>Track Recycling Rewards</td><td>Resident</td><td>Resident views personal recycling stats and earned rewards.</td><td>Local Business Partner</td></tr><tr><td>Monitor Fleet Dashboard</td><td>City Administrator</td><td>Real-time map of bin status, truck locations, service and issue analytics.</td><td>Supervisor, Traffic Data API</td></tr><tr><td>Approve Exception Reports</td><td>Supervisor</td><td>Supervisor reviews/approves missed pickups, route changes, incident reports.</td><td>Collection Worker</td></tr><tr><td>Sensor Health Monitoring<br></td><td>Technician</td><td>Technician views alerts for broken/faulty sensors, schedules maintenance.</td><td>Bin Sensor Network</td></tr><tr><td>Maintenance Dispatch<br></td><td>Technician</td><td>Technician received automated work orders for sensor/vehicle service.</td><td>City Administrator</td></tr><tr><td>Update Collection Parameters<br></td><td>City Administrator</td><td>Admin edits schedules, priorities, and service levels for specific areas.</td><td>Traffic Data API, Resident</td></tr></tbody></table>"
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T05:07:21.871Z"
+        },
+        {
+          "attributesChanged": {
+            "text": "<p>Use Case List:</p><table style=\"width: 100%;\"><tbody><tr><td><p><strong>Primary Actor</strong></p></td><td><p><strong>Use Cases</strong></p></td></tr><tr><td><p>&nbsp;Collection Worker</p></td><td><p>&nbsp;Optimize Collection Route, Confirm Pickup</p></td></tr><tr><td><p>&nbsp;Resident</p></td><td><p>&nbsp;Report Missed Pickup/Issue, Track Recycling Rewards</p></td></tr><tr><td><p>&nbsp;City Administrator</p></td><td><p>&nbsp;Monitor Fleet Dashboard, Update Collection Parameters</p></td></tr><tr><td><p>&nbsp;Supervisor&nbsp;</p></td><td><p>&nbsp;Approve Exception Reports, Audit Route Changes</p></td></tr><tr><td><br>Technician<br><br></td><td><br>Sensor Health Monitoring, Maintenance Dispatch<br></td></tr><tr><td><br>Bin Sensor Network (API)<br><br></td><td><br>Provide bin fill data, Alert for overflow<br></td></tr><tr><td><br>Traffic Data API<br></td><td><br>Provide real-time traffic status, Update optimal route<br><br></td></tr><tr><td><br>Scheduled Collection Event<br></td><td><br>Trigger daily/weekly collection batch assignment<br><br></td></tr></tbody></table><p><br></p><p>Use Case Description:</p><p><br></p>"
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T05:07:39.525Z"
+        },
+        {
+          "attributesChanged": {
+            "text": "<table style=\"width: 100%;\"><tbody><tr><td><p><strong>Primary Actor</strong></p></td><td><p><strong>Use Cases</strong></p></td></tr><tr><td><p>&nbsp;Collection Worker</p></td><td><p>&nbsp;Optimize Collection Route, Confirm Pickup</p></td></tr><tr><td><p>&nbsp;Resident</p></td><td><p>&nbsp;Report Missed Pickup/Issue, Track Recycling Rewards</p></td></tr><tr><td><p>&nbsp;City Administrator</p></td><td><p>&nbsp;Monitor Fleet Dashboard, Update Collection Parameters</p></td></tr><tr><td><p>&nbsp;Supervisor&nbsp;</p></td><td><p>&nbsp;Approve Exception Reports, Audit Route Changes</p></td></tr><tr><td><br>Technician<br><br></td><td><br>Sensor Health Monitoring, Maintenance Dispatch<br></td></tr><tr><td><br>Bin Sensor Network (API)<br><br></td><td><br>Provide bin fill data, Alert for overflow<br></td></tr><tr><td><br>Traffic Data API<br></td><td><br>Provide real-time traffic status, Update optimal route<br><br></td></tr><tr><td><br>Scheduled Collection Event<br></td><td><br>Trigger daily/weekly collection batch assignment<br><br></td></tr></tbody></table><p><br></p>"
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T05:07:56.698Z"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "guid": "fd40e3d2-02e9-4022-a137-386064aa9a70",
+      "heading": "Use Case Description",
+      "text": "<table style=\"width: 100%;\"><tbody><tr><td><strong>Use Case Name</strong></td><td><strong>Primary Actor</strong></td><td><strong>Concise Description</strong></td><td><strong>Secondary Actors</strong></td></tr><tr><td>Optimize Collection Route</td><td>Collection Worker</td><td>Worker receives dynamic, optimized route for pickups based on bin data/traffic.</td><td>Supervisor, Traffic Data API</td></tr><tr><td>Confirm Pickup</td><td>Collection Worker</td><td>Worker confirms each bin serviced via mobile app, logging time and location.</td><td>Bin Sensor Network</td></tr><tr><td>Report Missed Pickup/Issue</td><td>Resident</td><td>Resident reports missed pickup, bin blockage, or contamination via app/web.</td><td>City Administrator, Supervisor</td></tr><tr><td>Track Recycling Rewards</td><td>Resident</td><td>Resident views personal recycling stats and earned rewards.</td><td>Local Business Partner</td></tr><tr><td>Monitor Fleet Dashboard</td><td>City Administrator</td><td>Real-time map of bin status, truck locations, service and issue analytics.</td><td>Supervisor, Traffic Data API</td></tr><tr><td>Approve Exception Reports</td><td>Supervisor</td><td>Supervisor reviews/approves missed pickups, route changes, incident reports.</td><td>Collection Worker</td></tr><tr><td>Sensor Health Monitoring<br></td><td>Technician</td><td>Technician views alerts for broken/faulty sensors, schedules maintenance.</td><td>Bin Sensor Network</td></tr><tr><td>Maintenance Dispatch<br></td><td>Technician</td><td>Technician received automated work orders for sensor/vehicle service.</td><td>City Administrator</td></tr><tr><td>Update Collection Parameters<br></td><td>City Administrator</td><td>Admin edits schedules, priorities, and service levels for specific areas.</td><td>Traffic Data API, Resident</td></tr></tbody></table>",
+      "history": [
+        {
+          "affectedNodeId": "#",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T05:06:59.545Z",
+          "docId": "URD",
+          "structureAction": "Create"
+        },
+        {
+          "attributesChanged": {
+            "heading": null
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T05:07:14.190Z"
+        },
+        {
+          "attributesChanged": {
+            "text": null
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T05:07:31.313Z"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "guid": "b8c7ef76-9a91-4cb0-aa7c-eeb328ead217",
+      "heading": "Use Case Diagram",
+      "attachments": [
+        "URD-5_1_use case diagram.png"
+      ],
+      "history": [
+        {
+          "affectedNodeId": "#",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T02:20:18.715Z",
+          "docId": "URD",
+          "structureAction": "Create"
+        },
+        {
+          "attributesChanged": {
+            "heading": null
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T02:20:22.428Z"
+        },
+        {
+          "addedAttachment": "URD-5_1_use case diagram.png",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T04:32:24.377Z"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "guid": "f6e0e7df-df4c-47b8-8cc6-ad614ee9ce7e",
+      "heading": "Use Case Specifications",
+      "history": [
+        {
+          "affectedNodeId": "#",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T02:20:30.865Z",
+          "docId": "URD",
+          "structureAction": "Create"
+        },
+        {
+          "attributesChanged": {
+            "heading": null
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T02:20:44.854Z"
+        },
+        {
+          "attributesChanged": {
+            "text": null
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T04:37:24.350Z"
+        },
+        {
+          "attributesChanged": {
+            "text": "<p>1.</p><table><tbody><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">ID and Name:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>UC-01: Optimize Collection Route</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Author:</p></td><td style=\"width:121.5pt;\"><p>Ajay Ludher</p></td><td style=\"width:94.5pt;\"><p style=\"text-align:right;\">Date Created:</p></td><td style=\"width:157.5pt;\"><p>Oct 23, 2025</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Primary Actor:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>Collection Worker</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Secondary Actors:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>Traffic Data API, Supervisor</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Description:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>The system generates an optimized waste/recycling collection route for the worker using real-time bin sensor data and current traffic conditions. The worker is guided in real time, ensuring efficient service, fewer missed pickups, and improved operational efficiency.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Trigger:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>Worker logs into the mobile app and selects “Start Route” at the beginning of their shift.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Preconditions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>PRE-1. Worker’s identity is authenticated in the mobile app.</p><p>PRE-2. Vehicle assignment and pre-trip checklist are completed.</p><p>PRE-3. Bin sensor network and traffic data API are online.​</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Postconditions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>POST-1. Completed pickup events are logged to the system and available to supervisor and city administrator.</p><p>POST-2. Route completion and any rerouting events are recorded for audit and reporting. &nbsp;&nbsp;</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Normal Flow:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ol><li>Worker opens the “Route” feature in the app.</li><li>System fetches latest sensor and traffic data, computes the optimized route.</li><li>Route map with navigation is shown to worker; worker follows the instructions.</li><li>System monitors progress, sends alerts if route conditions change (e.g., bin fills, traffic delay).</li><li>Worker confirms each pickup in app; data is logged in real-time.</li><li>After last stop, worker reviews summary; route completion is entered in the system.</li></ol></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Alternative Flows:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ol><li>Worker loses connection—app switches to offline mode, uses cached route, enables local logging.</li><li>Unexpected bin overflow detected—system pushes rerouting and notification to worker.</li><li>Traffic API fails—system falls back to static routing and logs the event.</li></ol></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Exceptions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ol><li>​Bin sensor returns error—system skips the bin, logs incident, sends an alert to technician.</li><li>Vehicle breakdown—worker pauses route, sends status; supervisor receives immediate alert.</li><li>Worker unable to access route—system provides emergency contact and escalates to support.</li></ol></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Priority:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>&nbsp;High</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Business Rules:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>​BR-01: Only bins meeting fill threshold are scheduled for collection.</p><p>BR-02: Any route deviation must be confirmed by the supervisor.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Assumptions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ul><li>​Network infrastructure and bin sensors work reliably.</li><li>Traffic data API is consistently available during route calculation.</li></ul></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Other Information:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>All route changes, pickups, exceptions, and completion events are auditable. Offline work automatically syncs when reconnected.</p></td></tr></tbody></table><p><br></p><p>2.&nbsp;</p><p><br></p>"
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T04:37:57.606Z"
+        },
+        {
+          "attributesChanged": {
+            "text": "<p>1.</p><table><tbody><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">ID and Name:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>UC-01: Optimize Collection Route</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Author:</p></td><td style=\"width:121.5pt;\"><p>Ajay Ludher</p></td><td style=\"width:94.5pt;\"><p style=\"text-align:right;\">Date Created:</p></td><td style=\"width:157.5pt;\"><p>Oct 23, 2025</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Primary Actor:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>Collection Worker</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Secondary Actors:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>Traffic Data API, Supervisor</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Description:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>The system generates an optimized waste/recycling collection route for the worker using real-time bin sensor data and current traffic conditions. The worker is guided in real time, ensuring efficient service, fewer missed pickups, and improved operational efficiency.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Trigger:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>Worker logs into the mobile app and selects “Start Route” at the beginning of their shift.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Preconditions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>PRE-1. Worker’s identity is authenticated in the mobile app.</p><p>PRE-2. Vehicle assignment and pre-trip checklist are completed.</p><p>PRE-3. Bin sensor network and traffic data API are online.​</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Postconditions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>POST-1. Completed pickup events are logged to the system and available to supervisor and city administrator.</p><p>POST-2. Route completion and any rerouting events are recorded for audit and reporting. &nbsp;&nbsp;</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Normal Flow:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ol><li>Worker opens the “Route” feature in the app.</li><li>System fetches latest sensor and traffic data, computes the optimized route.</li><li>Route map with navigation is shown to worker; worker follows the instructions.</li><li>System monitors progress, sends alerts if route conditions change (e.g., bin fills, traffic delay).</li><li>Worker confirms each pickup in app; data is logged in real-time.</li><li>After last stop, worker reviews summary; route completion is entered in the system.</li></ol></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Alternative Flows:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ol><li>Worker loses connection—app switches to offline mode, uses cached route, enables local logging.</li><li>Unexpected bin overflow detected—system pushes rerouting and notification to worker.</li><li>Traffic API fails—system falls back to static routing and logs the event.</li></ol></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Exceptions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ol><li>​Bin sensor returns error—system skips the bin, logs incident, sends an alert to technician.</li><li>Vehicle breakdown—worker pauses route, sends status; supervisor receives immediate alert.</li><li>Worker unable to access route—system provides emergency contact and escalates to support.</li></ol></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Priority:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>&nbsp;High</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Business Rules:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>​BR-01: Only bins meeting fill threshold are scheduled for collection.</p><p>BR-02: Any route deviation must be confirmed by the supervisor.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Assumptions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ul><li>​Network infrastructure and bin sensors work reliably.</li><li>Traffic data API is consistently available during route calculation.</li></ul></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Other Information:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>All route changes, pickups, exceptions, and completion events are auditable. Offline work automatically syncs when reconnected.</p></td></tr></tbody></table><p><br></p><p>2.&nbsp;</p><table><tbody><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">ID and Name:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>UC-02: Report Missed Pickup/Issue</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Author:</p></td><td style=\"width:121.5pt;\"><p>Ajay Ludher</p></td><td style=\"width:94.5pt;\"><p style=\"text-align:right;\">Date Created:</p></td><td style=\"width:157.5pt;\"><p>Oct 23, 2025</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Primary Actor:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>Resident</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Secondary Actors:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>City Administrator, Supervisor</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Description:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>A resident uses the mobile or web app to report a missed garbage collection, a blocked bin, or contamination. The report is processed, and relevant administrative and field staff are notified for follow-up and resolution.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Trigger:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>Resident selects “Report Issue” in the SWMRS app or web portal and submits incident details.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Preconditions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>PRE-1. Resident is authenticated in the system (app/web).</p><p>PRE-2. The current day’s collection schedule is available.</p><p>PRE-3. The system is online and able to receive incident submissions.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Postconditions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>POST-1. The issue report is logged and assigned a unique tracking ID.</p><p>POST-2. The City Administrator and relevant Supervisor are notified.</p><p>POST-3. Issue is visible to the resident in their app portal until resolution.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Normal Flow:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ol><li>Resident selects report type (missed pickup, blockage, contamination, etc.) in the app.</li><li>Resident describes the issue and optionally provides a photo.</li><li>Resident confirms location/address and submits the report.</li><li>System generates confirmation and issue tracking ID for resident.</li><li>System routes the issue to the appropriate administrator and supervisor for review.</li><li>Supervisor reviews and assigns field response or schedules corrective action.</li><li>Resident receives updates or resolution notice in-app/on web portal.</li></ol></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Alternative Flows:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ol><li>Resident is unable to submit a photo—system allows issue submission with only a text description.</li><li>If no collection was scheduled for reported date/address, system notifies resident of scheduling mismatch but still logs issue for review.</li></ol></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Exceptions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ol><li>Resident submits duplicate report—system checks for similar open issues and prompts resident to view status or confirm sharing new evidence.</li><li>System temporarily offline—system stores the report locally and submits automatically once connected; resident is informed of delayed submission.</li><li>Address cannot be matched—resident prompted to correct or select location manually.</li></ol></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Priority:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>&nbsp;High</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Business Rules:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>BR-05: Only authenticated residents can submit formal collection complaints.</p><p>BR-06: Supervisors must address missed pickup issues within defined SLA timeframe.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Assumptions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ul><li>Residents have access to a smartphone or computer with internet connection.</li><li>Complaint submission workflow aligns with city escalation policy.</li></ul></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Other Information:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>Reports and updates are auditable. System auto-reminds supervisor if issue not addressed within SLA. Duplicate submissions help build history for persistent problems.</p></td></tr></tbody></table><p><br></p><p>3.</p><p><br></p>"
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T04:38:33.283Z"
+        },
+        {
+          "attributesChanged": {
+            "text": "<p>1.</p><table><tbody><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">ID and Name:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>UC-01: Optimize Collection Route</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Author:</p></td><td style=\"width:121.5pt;\"><p>Ajay Ludher</p></td><td style=\"width:94.5pt;\"><p style=\"text-align:right;\">Date Created:</p></td><td style=\"width:157.5pt;\"><p>Oct 23, 2025</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Primary Actor:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>Collection Worker</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Secondary Actors:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>Traffic Data API, Supervisor</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Description:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>The system generates an optimized waste/recycling collection route for the worker using real-time bin sensor data and current traffic conditions. The worker is guided in real time, ensuring efficient service, fewer missed pickups, and improved operational efficiency.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Trigger:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>Worker logs into the mobile app and selects “Start Route” at the beginning of their shift.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Preconditions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>PRE-1. Worker’s identity is authenticated in the mobile app.</p><p>PRE-2. Vehicle assignment and pre-trip checklist are completed.</p><p>PRE-3. Bin sensor network and traffic data API are online.​</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Postconditions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>POST-1. Completed pickup events are logged to the system and available to supervisor and city administrator.</p><p>POST-2. Route completion and any rerouting events are recorded for audit and reporting. &nbsp;&nbsp;</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Normal Flow:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ol><li>Worker opens the “Route” feature in the app.</li><li>System fetches latest sensor and traffic data, computes the optimized route.</li><li>Route map with navigation is shown to worker; worker follows the instructions.</li><li>System monitors progress, sends alerts if route conditions change (e.g., bin fills, traffic delay).</li><li>Worker confirms each pickup in app; data is logged in real-time.</li><li>After last stop, worker reviews summary; route completion is entered in the system.</li></ol></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Alternative Flows:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ol><li>Worker loses connection—app switches to offline mode, uses cached route, enables local logging.</li><li>Unexpected bin overflow detected—system pushes rerouting and notification to worker.</li><li>Traffic API fails—system falls back to static routing and logs the event.</li></ol></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Exceptions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ol><li>​Bin sensor returns error—system skips the bin, logs incident, sends an alert to technician.</li><li>Vehicle breakdown—worker pauses route, sends status; supervisor receives immediate alert.</li><li>Worker unable to access route—system provides emergency contact and escalates to support.</li></ol></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Priority:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>&nbsp;High</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Business Rules:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>​BR-01: Only bins meeting fill threshold are scheduled for collection.</p><p>BR-02: Any route deviation must be confirmed by the supervisor.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Assumptions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ul><li>​Network infrastructure and bin sensors work reliably.</li><li>Traffic data API is consistently available during route calculation.</li></ul></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Other Information:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>All route changes, pickups, exceptions, and completion events are auditable. Offline work automatically syncs when reconnected.</p></td></tr></tbody></table><p><br></p><p>2.&nbsp;</p><table><tbody><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">ID and Name:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>UC-02: Report Missed Pickup/Issue</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Author:</p></td><td style=\"width:121.5pt;\"><p>Ajay Ludher</p></td><td style=\"width:94.5pt;\"><p style=\"text-align:right;\">Date Created:</p></td><td style=\"width:157.5pt;\"><p>Oct 23, 2025</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Primary Actor:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>Resident</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Secondary Actors:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>City Administrator, Supervisor</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Description:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>A resident uses the mobile or web app to report a missed garbage collection, a blocked bin, or contamination. The report is processed, and relevant administrative and field staff are notified for follow-up and resolution.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Trigger:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>Resident selects “Report Issue” in the SWMRS app or web portal and submits incident details.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Preconditions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>PRE-1. Resident is authenticated in the system (app/web).</p><p>PRE-2. The current day’s collection schedule is available.</p><p>PRE-3. The system is online and able to receive incident submissions.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Postconditions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>POST-1. The issue report is logged and assigned a unique tracking ID.</p><p>POST-2. The City Administrator and relevant Supervisor are notified.</p><p>POST-3. Issue is visible to the resident in their app portal until resolution.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Normal Flow:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ol><li>Resident selects report type (missed pickup, blockage, contamination, etc.) in the app.</li><li>Resident describes the issue and optionally provides a photo.</li><li>Resident confirms location/address and submits the report.</li><li>System generates confirmation and issue tracking ID for resident.</li><li>System routes the issue to the appropriate administrator and supervisor for review.</li><li>Supervisor reviews and assigns field response or schedules corrective action.</li><li>Resident receives updates or resolution notice in-app/on web portal.</li></ol></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Alternative Flows:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ol><li>Resident is unable to submit a photo—system allows issue submission with only a text description.</li><li>If no collection was scheduled for reported date/address, system notifies resident of scheduling mismatch but still logs issue for review.</li></ol></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Exceptions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ol><li>Resident submits duplicate report—system checks for similar open issues and prompts resident to view status or confirm sharing new evidence.</li><li>System temporarily offline—system stores the report locally and submits automatically once connected; resident is informed of delayed submission.</li><li>Address cannot be matched—resident prompted to correct or select location manually.</li></ol></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Priority:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>&nbsp;High</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Business Rules:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>BR-05: Only authenticated residents can submit formal collection complaints.</p><p>BR-06: Supervisors must address missed pickup issues within defined SLA timeframe.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Assumptions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ul><li>Residents have access to a smartphone or computer with internet connection.</li><li>Complaint submission workflow aligns with city escalation policy.</li></ul></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Other Information:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>Reports and updates are auditable. System auto-reminds supervisor if issue not addressed within SLA. Duplicate submissions help build history for persistent problems.</p></td></tr></tbody></table><p><br></p><p>3.</p><table><tbody><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">ID and Name:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>UC-02: Report Missed Pickup/Issue</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Author:</p></td><td style=\"width:121.5pt;\"><p>Ajay Ludher</p></td><td style=\"width:94.5pt;\"><p style=\"text-align:right;\">Date Created:</p></td><td style=\"width:157.5pt;\"><p>Oct 23, 2025</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Primary Actor:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>Resident</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Secondary Actors:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>City Administrator, Supervisor</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Description:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>A resident uses the mobile or web app to report a missed garbage collection, a blocked bin, or contamination. The report is processed, and relevant administrative and field staff are notified for follow-up and resolution.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Trigger:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>Resident selects “Report Issue” in the SWMRS app or web portal and submits incident details.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Preconditions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>PRE-1. Resident is authenticated in the system (app/web).</p><p>PRE-2. The current day’s collection schedule is available.</p><p>PRE-3. The system is online and able to receive incident submissions.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Postconditions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>POST-1. The issue report is logged and assigned a unique tracking ID.</p><p>POST-2. The City Administrator and relevant Supervisor are notified.</p><p>POST-3. Issue is visible to the resident in their app portal until resolution.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Normal Flow:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ol><li>Resident selects report type (missed pickup, blockage, contamination, etc.) in the app.</li><li>Resident describes the issue and optionally provides a photo.</li><li>Resident confirms location/address and submits the report.</li><li>System generates confirmation and issue tracking ID for resident.</li><li>System routes the issue to the appropriate administrator and supervisor for review.</li><li>Supervisor reviews and assigns field response or schedules corrective action.</li><li>Resident receives updates or resolution notice in-app/on web portal.</li></ol></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Alternative Flows:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ol><li>Resident is unable to submit a photo—system allows issue submission with only a text description.</li><li>If no collection was scheduled for reported date/address, system notifies resident of scheduling mismatch but still logs issue for review.</li></ol></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Exceptions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ol><li>Resident submits duplicate report—system checks for similar open issues and prompts resident to view status or confirm sharing new evidence.</li><li>System temporarily offline—system stores the report locally and submits automatically once connected; resident is informed of delayed submission.</li><li>Address cannot be matched—resident prompted to correct or select location manually.</li></ol></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Priority:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>&nbsp;High</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Business Rules:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>BR-05: Only authenticated residents can submit formal collection complaints.</p><p>BR-06: Supervisors must address missed pickup issues within defined SLA timeframe.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Assumptions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ul><li>Residents have access to a smartphone or computer with internet connection.</li><li>Complaint submission workflow aligns with city escalation policy.</li></ul></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Other Information:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>Reports and updates are auditable. System auto-reminds supervisor if issue not addressed within SLA. Duplicate submissions help build history for persistent problems.</p></td></tr></tbody></table>"
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T05:09:58.411Z"
+        },
+        {
+          "attributesChanged": {
+            "text": "<p><br><br></p><p>2.&nbsp;</p><table><tbody><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">ID and Name:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>UC-02: Report Missed Pickup/Issue</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Author:</p></td><td style=\"width:121.5pt;\"><p>Ajay Ludher</p></td><td style=\"width:94.5pt;\"><p style=\"text-align:right;\">Date Created:</p></td><td style=\"width:157.5pt;\"><p>Oct 23, 2025</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Primary Actor:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>Resident</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Secondary Actors:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>City Administrator, Supervisor</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Description:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>A resident uses the mobile or web app to report a missed garbage collection, a blocked bin, or contamination. The report is processed, and relevant administrative and field staff are notified for follow-up and resolution.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Trigger:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>Resident selects “Report Issue” in the SWMRS app or web portal and submits incident details.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Preconditions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>PRE-1. Resident is authenticated in the system (app/web).</p><p>PRE-2. The current day’s collection schedule is available.</p><p>PRE-3. The system is online and able to receive incident submissions.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Postconditions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>POST-1. The issue report is logged and assigned a unique tracking ID.</p><p>POST-2. The City Administrator and relevant Supervisor are notified.</p><p>POST-3. Issue is visible to the resident in their app portal until resolution.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Normal Flow:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ol><li>Resident selects report type (missed pickup, blockage, contamination, etc.) in the app.</li><li>Resident describes the issue and optionally provides a photo.</li><li>Resident confirms location/address and submits the report.</li><li>System generates confirmation and issue tracking ID for resident.</li><li>System routes the issue to the appropriate administrator and supervisor for review.</li><li>Supervisor reviews and assigns field response or schedules corrective action.</li><li>Resident receives updates or resolution notice in-app/on web portal.</li></ol></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Alternative Flows:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ol><li>Resident is unable to submit a photo—system allows issue submission with only a text description.</li><li>If no collection was scheduled for reported date/address, system notifies resident of scheduling mismatch but still logs issue for review.</li></ol></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Exceptions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ol><li>Resident submits duplicate report—system checks for similar open issues and prompts resident to view status or confirm sharing new evidence.</li><li>System temporarily offline—system stores the report locally and submits automatically once connected; resident is informed of delayed submission.</li><li>Address cannot be matched—resident prompted to correct or select location manually.</li></ol></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Priority:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>&nbsp;High</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Business Rules:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>BR-05: Only authenticated residents can submit formal collection complaints.</p><p>BR-06: Supervisors must address missed pickup issues within defined SLA timeframe.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Assumptions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ul><li>Residents have access to a smartphone or computer with internet connection.</li><li>Complaint submission workflow aligns with city escalation policy.</li></ul></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Other Information:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>Reports and updates are auditable. System auto-reminds supervisor if issue not addressed within SLA. Duplicate submissions help build history for persistent problems.</p></td></tr></tbody></table><p><br></p><p>3.</p><table><tbody><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">ID and Name:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>UC-02: Report Missed Pickup/Issue</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Author:</p></td><td style=\"width:121.5pt;\"><p>Ajay Ludher</p></td><td style=\"width:94.5pt;\"><p style=\"text-align:right;\">Date Created:</p></td><td style=\"width:157.5pt;\"><p>Oct 23, 2025</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Primary Actor:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>Resident</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Secondary Actors:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>City Administrator, Supervisor</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Description:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>A resident uses the mobile or web app to report a missed garbage collection, a blocked bin, or contamination. The report is processed, and relevant administrative and field staff are notified for follow-up and resolution.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Trigger:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>Resident selects “Report Issue” in the SWMRS app or web portal and submits incident details.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Preconditions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>PRE-1. Resident is authenticated in the system (app/web).</p><p>PRE-2. The current day’s collection schedule is available.</p><p>PRE-3. The system is online and able to receive incident submissions.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Postconditions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>POST-1. The issue report is logged and assigned a unique tracking ID.</p><p>POST-2. The City Administrator and relevant Supervisor are notified.</p><p>POST-3. Issue is visible to the resident in their app portal until resolution.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Normal Flow:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ol><li>Resident selects report type (missed pickup, blockage, contamination, etc.) in the app.</li><li>Resident describes the issue and optionally provides a photo.</li><li>Resident confirms location/address and submits the report.</li><li>System generates confirmation and issue tracking ID for resident.</li><li>System routes the issue to the appropriate administrator and supervisor for review.</li><li>Supervisor reviews and assigns field response or schedules corrective action.</li><li>Resident receives updates or resolution notice in-app/on web portal.</li></ol></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Alternative Flows:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ol><li>Resident is unable to submit a photo—system allows issue submission with only a text description.</li><li>If no collection was scheduled for reported date/address, system notifies resident of scheduling mismatch but still logs issue for review.</li></ol></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Exceptions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ol><li>Resident submits duplicate report—system checks for similar open issues and prompts resident to view status or confirm sharing new evidence.</li><li>System temporarily offline—system stores the report locally and submits automatically once connected; resident is informed of delayed submission.</li><li>Address cannot be matched—resident prompted to correct or select location manually.</li></ol></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Priority:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>&nbsp;High</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Business Rules:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>BR-05: Only authenticated residents can submit formal collection complaints.</p><p>BR-06: Supervisors must address missed pickup issues within defined SLA timeframe.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Assumptions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ul><li>Residents have access to a smartphone or computer with internet connection.</li><li>Complaint submission workflow aligns with city escalation policy.</li></ul></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Other Information:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>Reports and updates are auditable. System auto-reminds supervisor if issue not addressed within SLA. Duplicate submissions help build history for persistent problems.</p></td></tr></tbody></table>"
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T05:10:23.219Z"
+        },
+        {
+          "attributesChanged": {
+            "text": "<p><br><br></p><p>3.</p><table><tbody><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">ID and Name:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>UC-02: Report Missed Pickup/Issue</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Author:</p></td><td style=\"width:121.5pt;\"><p>Ajay Ludher</p></td><td style=\"width:94.5pt;\"><p style=\"text-align:right;\">Date Created:</p></td><td style=\"width:157.5pt;\"><p>Oct 23, 2025</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Primary Actor:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>Resident</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Secondary Actors:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>City Administrator, Supervisor</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Description:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>A resident uses the mobile or web app to report a missed garbage collection, a blocked bin, or contamination. The report is processed, and relevant administrative and field staff are notified for follow-up and resolution.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Trigger:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>Resident selects “Report Issue” in the SWMRS app or web portal and submits incident details.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Preconditions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>PRE-1. Resident is authenticated in the system (app/web).</p><p>PRE-2. The current day’s collection schedule is available.</p><p>PRE-3. The system is online and able to receive incident submissions.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Postconditions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>POST-1. The issue report is logged and assigned a unique tracking ID.</p><p>POST-2. The City Administrator and relevant Supervisor are notified.</p><p>POST-3. Issue is visible to the resident in their app portal until resolution.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Normal Flow:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ol><li>Resident selects report type (missed pickup, blockage, contamination, etc.) in the app.</li><li>Resident describes the issue and optionally provides a photo.</li><li>Resident confirms location/address and submits the report.</li><li>System generates confirmation and issue tracking ID for resident.</li><li>System routes the issue to the appropriate administrator and supervisor for review.</li><li>Supervisor reviews and assigns field response or schedules corrective action.</li><li>Resident receives updates or resolution notice in-app/on web portal.</li></ol></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Alternative Flows:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ol><li>Resident is unable to submit a photo—system allows issue submission with only a text description.</li><li>If no collection was scheduled for reported date/address, system notifies resident of scheduling mismatch but still logs issue for review.</li></ol></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Exceptions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ol><li>Resident submits duplicate report—system checks for similar open issues and prompts resident to view status or confirm sharing new evidence.</li><li>System temporarily offline—system stores the report locally and submits automatically once connected; resident is informed of delayed submission.</li><li>Address cannot be matched—resident prompted to correct or select location manually.</li></ol></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Priority:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>&nbsp;High</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Business Rules:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>BR-05: Only authenticated residents can submit formal collection complaints.</p><p>BR-06: Supervisors must address missed pickup issues within defined SLA timeframe.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Assumptions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ul><li>Residents have access to a smartphone or computer with internet connection.</li><li>Complaint submission workflow aligns with city escalation policy.</li></ul></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Other Information:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>Reports and updates are auditable. System auto-reminds supervisor if issue not addressed within SLA. Duplicate submissions help build history for persistent problems.</p></td></tr></tbody></table>"
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T05:10:45.192Z"
+        },
+        {
+          "attributesChanged": {
+            "text": "<p><br></p><p><br><br></p>"
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T05:10:49.909Z"
+        }
+      ],
+      "children": [
+        {
+          "id": "9",
+          "guid": "c331e3f2-7365-4b3b-9e0e-42a696b7ee56",
+          "heading": "UC-01",
+          "text": "<table><tbody><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">ID and Name:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>UC-01: Optimize Collection Route</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Author:</p></td><td style=\"width:121.5pt;\"><p>Ajay Ludher</p></td><td style=\"width:94.5pt;\"><p style=\"text-align:right;\">Date Created:</p></td><td style=\"width:157.5pt;\"><p>Oct 23, 2025</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Primary Actor:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>Collection Worker</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Secondary Actors:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>Traffic Data API, Supervisor</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Description:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>The system generates an optimized waste/recycling collection route for the worker using real-time bin sensor data and current traffic conditions. The worker is guided in real time, ensuring efficient service, fewer missed pickups, and improved operational efficiency.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Trigger:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>Worker logs into the mobile app and selects “Start Route” at the beginning of their shift.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Preconditions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>PRE-1. Worker’s identity is authenticated in the mobile app.</p><p>PRE-2. Vehicle assignment and pre-trip checklist are completed.</p><p>PRE-3. Bin sensor network and traffic data API are online.​</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Postconditions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>POST-1. Completed pickup events are logged to the system and available to supervisor and city administrator.</p><p>POST-2. Route completion and any rerouting events are recorded for audit and reporting. &nbsp;&nbsp;</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Normal Flow:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ol><li>Worker opens the “Route” feature in the app.</li><li>System fetches latest sensor and traffic data, computes the optimized route.</li><li>Route map with navigation is shown to worker; worker follows the instructions.</li><li>System monitors progress, sends alerts if route conditions change (e.g., bin fills, traffic delay).</li><li>Worker confirms each pickup in app; data is logged in real-time.</li><li>After last stop, worker reviews summary; route completion is entered in the system.</li></ol></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Alternative Flows:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ol><li>Worker loses connection—app switches to offline mode, uses cached route, enables local logging.</li><li>Unexpected bin overflow detected—system pushes rerouting and notification to worker.</li><li>Traffic API fails—system falls back to static routing and logs the event.</li></ol></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Exceptions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ol><li>​Bin sensor returns error—system skips the bin, logs incident, sends an alert to technician.</li><li>Vehicle breakdown—worker pauses route, sends status; supervisor receives immediate alert.</li><li>Worker unable to access route—system provides emergency contact and escalates to support.</li></ol></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Priority:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>&nbsp;High</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Business Rules:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>​BR-01: Only bins meeting fill threshold are scheduled for collection.</p><p>BR-02: Any route deviation must be confirmed by the supervisor.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Assumptions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ul><li>​Network infrastructure and bin sensors work reliably.</li><li>Traffic data API is consistently available during route calculation.</li></ul></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Other Information:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>All route changes, pickups, exceptions, and completion events are auditable. Offline work automatically syncs when reconnected.</p></td></tr></tbody></table>",
+          "history": [
+            {
+              "affectedNodeId": "6",
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-24T05:09:14.341Z",
+              "docId": "URD",
+              "structureAction": "Create"
+            },
+            {
+              "attributesChanged": {
+                "heading": null
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-24T05:09:25.112Z"
+            },
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-24T05:10:06.013Z"
+            }
+          ]
+        },
+        {
+          "id": "10",
+          "guid": "2c79ec66-d01b-48d8-b7bf-046237e6d2a6",
+          "heading": "UC-02",
+          "text": "<p><br></p><table><tbody><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">ID and Name:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>UC-02: Report Missed Pickup/Issue</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Author:</p></td><td style=\"width:121.5pt;\"><p>Ajay Ludher</p></td><td style=\"width:94.5pt;\"><p style=\"text-align:right;\">Date Created:</p></td><td style=\"width:157.5pt;\"><p>Oct 23, 2025</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Primary Actor:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>Resident</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Secondary Actors:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>City Administrator, Supervisor</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Description:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>A resident uses the mobile or web app to report a missed garbage collection, a blocked bin, or contamination. The report is processed, and relevant administrative and field staff are notified for follow-up and resolution.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Trigger:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>Resident selects “Report Issue” in the SWMRS app or web portal and submits incident details.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Preconditions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>PRE-1. Resident is authenticated in the system (app/web).</p><p>PRE-2. The current day’s collection schedule is available.</p><p>PRE-3. The system is online and able to receive incident submissions.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Postconditions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>POST-1. The issue report is logged and assigned a unique tracking ID.</p><p>POST-2. The City Administrator and relevant Supervisor are notified.</p><p>POST-3. Issue is visible to the resident in their app portal until resolution.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Normal Flow:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ol><li>Resident selects report type (missed pickup, blockage, contamination, etc.) in the app.</li><li>Resident describes the issue and optionally provides a photo.</li><li>Resident confirms location/address and submits the report.</li><li>System generates confirmation and issue tracking ID for resident.</li><li>System routes the issue to the appropriate administrator and supervisor for review.</li><li>Supervisor reviews and assigns field response or schedules corrective action.</li><li>Resident receives updates or resolution notice in-app/on web portal.</li></ol></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Alternative Flows:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ol><li>Resident is unable to submit a photo—system allows issue submission with only a text description.</li><li>If no collection was scheduled for reported date/address, system notifies resident of scheduling mismatch but still logs issue for review.</li></ol></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Exceptions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ol><li>Resident submits duplicate report—system checks for similar open issues and prompts resident to view status or confirm sharing new evidence.</li><li>System temporarily offline—system stores the report locally and submits automatically once connected; resident is informed of delayed submission.</li><li>Address cannot be matched—resident prompted to correct or select location manually.</li></ol></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Priority:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>&nbsp;High</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Business Rules:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>BR-05: Only authenticated residents can submit formal collection complaints.</p><p>BR-06: Supervisors must address missed pickup issues within defined SLA timeframe.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Assumptions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ul><li>Residents have access to a smartphone or computer with internet connection.</li><li>Complaint submission workflow aligns with city escalation policy.</li></ul></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Other Information:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>Reports and updates are auditable. System auto-reminds supervisor if issue not addressed within SLA. Duplicate submissions help build history for persistent problems.</p></td></tr></tbody></table>",
+          "history": [
+            {
+              "affectedNodeId": "6",
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-24T05:09:28.665Z",
+              "docId": "URD",
+              "structureAction": "Create"
+            },
+            {
+              "attributesChanged": {
+                "heading": null
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-24T05:09:32.029Z"
+            },
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-24T05:10:32.437Z"
+            }
+          ]
+        },
+        {
+          "id": "11",
+          "guid": "fd8a95bb-fbef-48e3-9df7-a5d7dd2deddb",
+          "heading": "UC-03",
+          "text": "<table><tbody><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">ID and Name:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>UC-02: Report Missed Pickup/Issue</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Author:</p></td><td style=\"width:121.5pt;\"><p>Ajay Ludher</p></td><td style=\"width:94.5pt;\"><p style=\"text-align:right;\">Date Created:</p></td><td style=\"width:157.5pt;\"><p>Oct 23, 2025</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Primary Actor:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>Resident</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Secondary Actors:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>City Administrator, Supervisor</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Description:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>A resident uses the mobile or web app to report a missed garbage collection, a blocked bin, or contamination. The report is processed, and relevant administrative and field staff are notified for follow-up and resolution.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Trigger:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>Resident selects “Report Issue” in the SWMRS app or web portal and submits incident details.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Preconditions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>PRE-1. Resident is authenticated in the system (app/web).</p><p>PRE-2. The current day’s collection schedule is available.</p><p>PRE-3. The system is online and able to receive incident submissions.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Postconditions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>POST-1. The issue report is logged and assigned a unique tracking ID.</p><p>POST-2. The City Administrator and relevant Supervisor are notified.</p><p>POST-3. Issue is visible to the resident in their app portal until resolution.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Normal Flow:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ol><li>Resident selects report type (missed pickup, blockage, contamination, etc.) in the app.</li><li>Resident describes the issue and optionally provides a photo.</li><li>Resident confirms location/address and submits the report.</li><li>System generates confirmation and issue tracking ID for resident.</li><li>System routes the issue to the appropriate administrator and supervisor for review.</li><li>Supervisor reviews and assigns field response or schedules corrective action.</li><li>Resident receives updates or resolution notice in-app/on web portal.</li></ol></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Alternative Flows:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ol><li>Resident is unable to submit a photo—system allows issue submission with only a text description.</li><li>If no collection was scheduled for reported date/address, system notifies resident of scheduling mismatch but still logs issue for review.</li></ol></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Exceptions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ol><li>Resident submits duplicate report—system checks for similar open issues and prompts resident to view status or confirm sharing new evidence.</li><li>System temporarily offline—system stores the report locally and submits automatically once connected; resident is informed of delayed submission.</li><li>Address cannot be matched—resident prompted to correct or select location manually.</li></ol></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Priority:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>&nbsp;High</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Business Rules:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>BR-05: Only authenticated residents can submit formal collection complaints.</p><p>BR-06: Supervisors must address missed pickup issues within defined SLA timeframe.</p></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Assumptions:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><ul><li>Residents have access to a smartphone or computer with internet connection.</li><li>Complaint submission workflow aligns with city escalation policy.</li></ul></td></tr><tr><td style=\"width:104.4pt;\"><p style=\"text-align:right;\">Other Information:</p></td><td colspan=\"3\" style=\"width:373.5pt;\"><p>Reports and updates are auditable. System auto-reminds supervisor if issue not addressed within SLA. Duplicate submissions help build history for persistent problems.</p></td></tr></tbody></table>",
+          "history": [
+            {
+              "affectedNodeId": "6",
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-24T05:09:36.943Z",
+              "docId": "URD",
+              "structureAction": "Create"
+            },
+            {
+              "attributesChanged": {
+                "heading": null
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-24T05:09:39.837Z"
+            },
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "ludhera17@mytru.ca",
+                "name": "Ajay Ludher"
+              },
+              "changedOn": "2025-10-24T05:11:02.483Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "guid": "7310af26-fe09-44a7-a4ea-3db3fdd36feb",
+      "heading": "Requirements Engineering Reflection ",
+      "text": "<ul><li><strong>Reflection 1:&nbsp;</strong>Early stakeholder interviews were essential for uncovering diverse user needs, highlighting the importance of engaging both direct and indirect users (residents, field workers, business partners) for holistic system definition.</li><li><strong>Reflection 2:&nbsp;</strong>System scope boundaries must be defined explicitly to avoid scope creep and ensure all user requirements map realistically to project constraints and city infrastructure.</li></ul>",
+      "history": [
+        {
+          "affectedNodeId": "#",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T02:20:54.442Z",
+          "docId": "URD",
+          "structureAction": "Create"
+        },
+        {
+          "attributesChanged": {
+            "heading": null
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T02:20:58.113Z"
+        },
+        {
+          "attributesChanged": {
+            "text": null
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "ludhera17@mytru.ca",
+            "name": "Ajay Ludher"
+          },
+          "changedOn": "2025-10-24T04:53:08.176Z"
+        }
+      ]
+    }
+  ],
   "attributes": {
   },
   "templateColumns": {
